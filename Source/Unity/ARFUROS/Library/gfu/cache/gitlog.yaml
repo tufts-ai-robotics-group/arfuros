@@ -12,9 +12,147 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-06-05T10:49:02.820-04:00
-  initializedAtString: 2018-06-05T10:37:53.818-04:00
+  lastUpdatedAtString: 2018-06-06T10:18:18.483-04:00
+  initializedAtString: 2018-06-06T10:18:18.483-04:00
   log:
+  - commitID: 7e10e665d1d1448810cfe3816c99828c421ea6f9
+    mergeA: 
+    mergeB: 
+    authorName: Faizan Muhammad
+    authorEmail: faizan.muhammad@tufts.edu
+    commitEmail: faizan.muhammad@tufts.edu
+    commitName: Faizan Muhammad
+    summary: Updated Settings
+    description: Updated Settings
+    timeString: 2018-06-05T10:51:54.000-04:00
+    commitTimeString: 2018-06-05T10:51:54.000-04:00
+    changes:
+    - path: README.md
+      fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\README.md
+      projectPath: ..\..\..\README.md
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Source\Unity\ARFUROS\Assets\Resources.meta
+      fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\Resources.meta
+      projectPath: Assets\Resources.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Source\Unity\ARFUROS\Assets\Resources\VuforiaConfiguration.asset
+      fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\Resources\VuforiaConfiguration.asset
+      projectPath: Assets\Resources\VuforiaConfiguration.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Source\Unity\ARFUROS\Assets\Resources\VuforiaConfiguration.asset.meta
+      fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\Resources\VuforiaConfiguration.asset.meta
+      projectPath: Assets\Resources\VuforiaConfiguration.asset.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Source\Unity\ARFUROS\Library\CurrentLayout.dwlt
+      fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Source\Unity\ARFUROS\Library\ProjectSettings.asset
+      fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\ProjectSettings.asset
+      projectPath: Library\ProjectSettings.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Source\Unity\ARFUROS\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+      fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+      projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Source\Unity\ARFUROS\Library\assetDatabase3
+      fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Source\Unity\ARFUROS\Library\expandedItems
+      fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\expandedItems
+      projectPath: Library\expandedItems
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Source\Unity\ARFUROS\Library\gfu\cache\branches.yaml
+      fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Source\Unity\ARFUROS\Library\gfu\cache\gitlog.yaml
+      fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Source\Unity\ARFUROS\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Source\Unity\ARFUROS\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Source\Unity\ARFUROS\Library\gfu\cache\gituser.yaml
+      fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\gfu\cache\gituser.yaml
+      projectPath: Library\gfu\cache\gituser.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Source\Unity\ARFUROS\Library\gfu\cache\repoinfo.yaml
+      fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Source\Unity\ARFUROS\Library\metadata\00\00000000000000004000000000000000
+      fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\00\00000000000000004000000000000000
+      projectPath: Library\metadata\00\00000000000000004000000000000000
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Source\Unity\ARFUROS\Library\metadata\50\507881507a8de984da5c673c01eed754
+      fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\50\507881507a8de984da5c673c01eed754
+      projectPath: Library\metadata\50\507881507a8de984da5c673c01eed754
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Source\Unity\ARFUROS\Library\metadata\50\507881507a8de984da5c673c01eed754.info
+      fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\50\507881507a8de984da5c673c01eed754.info
+      projectPath: Library\metadata\50\507881507a8de984da5c673c01eed754.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Source\Unity\ARFUROS\Library\metadata\f2\f20ae946d2b17e54f9d79e15ae0a0cb1
+      fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\f2\f20ae946d2b17e54f9d79e15ae0a0cb1
+      projectPath: Library\metadata\f2\f20ae946d2b17e54f9d79e15ae0a0cb1
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Source\Unity\ARFUROS\Library\metadata\f2\f20ae946d2b17e54f9d79e15ae0a0cb1.info
+      fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\f2\f20ae946d2b17e54f9d79e15ae0a0cb1.info
+      projectPath: Library\metadata\f2\f20ae946d2b17e54f9d79e15ae0a0cb1.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Source\Unity\ARFUROS\ProjectSettings\ProjectSettings.asset
+      fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: c652c0ac5dc481acc0198c55470be7bda0b6607b
     mergeA: 
     mergeB: 
