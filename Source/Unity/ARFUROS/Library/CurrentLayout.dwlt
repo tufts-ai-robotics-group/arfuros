@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 781
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -106,10 +106,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 681, y: 492}
+  m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 16035
+  controlID: 1145
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -130,10 +130,10 @@ MonoBehaviour:
     y: 0
     width: 1151
     height: 731
-  m_MinSize: {x: 404, y: 492}
+  m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 16036
+  controlID: 1146
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,10 +154,10 @@ MonoBehaviour:
     y: 0
     width: 1151
     height: 457
-  m_MinSize: {x: 404, y: 221}
-  m_MaxSize: {x: 8004, y: 4021}
+  m_MinSize: {x: 406, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 16037
+  controlID: 1147
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -176,8 +176,8 @@ MonoBehaviour:
     y: 0
     width: 374
     height: 457
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -203,13 +203,13 @@ MonoBehaviour:
     height: 457
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 14}
   - {fileID: 12}
   - {fileID: 15}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -306,7 +306,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 1
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoom: 0
@@ -318,7 +318,7 @@ MonoBehaviour:
       y: 17
       width: 773
       height: 419
-    m_Scale: {x: 0.54557294, y: 0.54557294}
+    m_Scale: {x: 0.52375, y: 0.52375}
     m_Translation: {x: 386.5, y: 209.5}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -326,12 +326,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -708.42957
-      y: -384
-      width: 1416.8591
-      height: 768
+      x: -737.9475
+      y: -400
+      width: 1475.895
+      height: 800
     m_MinimalGUI: 1
-  m_defaultScale: 0.54557294
+  m_defaultScale: 0.52375
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
   m_LastWindowPixelSize: {x: 773, y: 436}
@@ -367,7 +367,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0276f4ff9676f4ff2077f4ff4479f4ff4c79f4ff488bf4ffd88bf4ff648cf4ff888ef4ff908ef4ff9ecbf4ff56cdf5ff5ccdf5ff8872f6fff872f6ff6073f6ff8475f6ff8c75f6ff20fcfaffeefbfffff0fbffff000000001a2f0000222f0000282f0000302f0000522f0000702f00007a2f0000942f0000b42f0000e8340000f0340000f6340000223500004a3500001c3a00002a3a0000563a00007e3a0000903a000092580000
+    m_ExpandedIDs: 82f4ffff2af6ffff20fbffff00000000e42f0000003000000e30000060300000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -533,20 +533,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Graphics
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Graphics
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 702b0000
-    m_LastClickedID: 11120
-    m_ExpandedIDs: 00000000702b00007e2b00001c2d0000682d000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 8}
+    m_SelectedIDs: 702c0000
+    m_LastClickedID: 11376
+    m_ExpandedIDs: 00000000d62b0000e42b0000ce2d000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -574,7 +574,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000702b00007e2b00001c2d0000682d000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000d62b0000e42b0000ce2d000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -7130,13 +7130,13 @@ MonoBehaviour:
         gitFileStatus: 0
         lockedAt: 
     lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2018-06-06T19:44:46.006-04:00
       cacheType: 6
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2018-06-06T19:44:46.006-04:00
       cacheType: 6
     lastUserChangedEvent:
-      updatedTimeString: 2018-06-06T19:12:53.755-04:00
+      updatedTimeString: 2018-06-06T19:44:44.896-04:00
       cacheType: 7
     lockedFiles: []
     gitStatusEntries:

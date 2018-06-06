@@ -12,54 +12,210 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-06-06T19:22:27.204-04:00
-  initializedAtString: 2018-06-06T15:16:42.811-04:00
+  lastUpdatedAtString: 2018-06-06T19:44:59.864-04:00
+  initializedAtString: 2018-06-06T19:40:31.802-04:00
   entries:
-  - path: Builds\Android\arfuros.apk
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Builds\Android\arfuros.apk
-    projectPath: ..\..\..\Builds\Android\arfuros.apk
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Source\Unity\ARFUROS\.vs\ARFUROS\v15\.suo
     fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\.vs\ARFUROS\v15\.suo
     projectPath: .vs\ARFUROS\v15\.suo
     originalPath: 
     status: 3
     staged: 0
-  - path: Source\Unity\ARFUROS\.vs\ARFUROS\v15\Server\sqlite3\storage.ide
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\.vs\ARFUROS\v15\Server\sqlite3\storage.ide
-    projectPath: .vs\ARFUROS\v15\Server\sqlite3\storage.ide
+  - path: Source\Unity\ARFUROS\Assembly-CSharp.csproj
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
     originalPath: 
     status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\arview.unity
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\arview.unity
+    projectPath: Assets\arview.unity
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\arview.unity.meta
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\arview.unity.meta
+    projectPath: Assets\arview.unity.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\ButtonManager.cs
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\ButtonManager.cs
+    projectPath: Assets\ButtonManager.cs
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\ButtonManager.cs.meta
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\ButtonManager.cs.meta
+    projectPath: Assets\ButtonManager.cs.meta
+    originalPath: 
+    status: 5
     staged: 0
   - path: Source\Unity\ARFUROS\Assets\dark_mosaic.png
     fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\dark_mosaic.png
     projectPath: Assets\dark_mosaic.png
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: Source\Unity\ARFUROS\Assets\dark_mosaic.png.meta
     fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\dark_mosaic.png.meta
     projectPath: Assets\dark_mosaic.png.meta
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: Source\Unity\ARFUROS\Assets\dark_mosaic_@2X.png
     fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\dark_mosaic_@2X.png
     projectPath: Assets\dark_mosaic_@2X.png
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: Source\Unity\ARFUROS\Assets\dark_mosaic_@2X.png.meta
     fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\dark_mosaic_@2X.png.meta
     projectPath: Assets\dark_mosaic_@2X.png.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Editor.meta
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\Editor.meta
+    projectPath: Assets\Editor.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Graphics.meta
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\Graphics.meta
+    projectPath: Assets\Graphics.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Graphics\dark_mosaic.png
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\Graphics\dark_mosaic.png
+    projectPath: Assets\Graphics\dark_mosaic.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Graphics\dark_mosaic.png.meta
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\Graphics\dark_mosaic.png.meta
+    projectPath: Assets\Graphics\dark_mosaic.png.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Graphics\dark_mosaic_@2X.png
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\Graphics\dark_mosaic_@2X.png
+    projectPath: Assets\Graphics\dark_mosaic_@2X.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Graphics\dark_mosaic_@2X.png.meta
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\Graphics\dark_mosaic_@2X.png.meta
+    projectPath: Assets\Graphics\dark_mosaic_@2X.png.meta
     originalPath: 
     status: 1
     staged: 0
   - path: Source\Unity\ARFUROS\Assets\menu.unity
     fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\menu.unity
     projectPath: Assets\menu.unity
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\menu.unity.meta
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\menu.unity.meta
+    projectPath: Assets\menu.unity.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Plugins.meta
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\Plugins.meta
+    projectPath: Assets\Plugins.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Resources.meta
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\Resources.meta
+    projectPath: Assets\Resources.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Scenes.meta
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\Scenes.meta
+    projectPath: Assets\Scenes.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Scenes\arview.unity
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\Scenes\arview.unity
+    projectPath: Assets\Scenes\arview.unity
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Scenes\arview.unity.meta
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\Scenes\arview.unity.meta
+    projectPath: Assets\Scenes\arview.unity.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Scenes\menu.unity
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\Scenes\menu.unity
+    projectPath: Assets\Scenes\menu.unity
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Scenes\menu.unity.meta
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\Scenes\menu.unity.meta
+    projectPath: Assets\Scenes\menu.unity.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Scripts.meta
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\Scripts.meta
+    projectPath: Assets\Scripts.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Scripts\ButtonManager.cs
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\Scripts\ButtonManager.cs
+    projectPath: Assets\Scripts\ButtonManager.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Scripts\ButtonManager.cs.meta
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\Scripts\ButtonManager.cs.meta
+    projectPath: Assets\Scripts\ButtonManager.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Scripts\SettingsManager.cs
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\Scripts\SettingsManager.cs
+    projectPath: Assets\Scripts\SettingsManager.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Scripts\SettingsManager.cs.meta
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\Scripts\SettingsManager.cs.meta
+    projectPath: Assets\Scripts\SettingsManager.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\SettingsManager.cs
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\SettingsManager.cs
+    projectPath: Assets\SettingsManager.cs
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\SettingsManager.cs.meta
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\SettingsManager.cs.meta
+    projectPath: Assets\SettingsManager.cs.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\StreamingAssets.meta
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\StreamingAssets.meta
+    projectPath: Assets\StreamingAssets.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Vuforia.meta
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\Vuforia.meta
+    projectPath: Assets\Vuforia.meta
     originalPath: 
     status: 3
     staged: 0
@@ -85,13 +241,19 @@ MonoBehaviour:
     fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\CurrentMaximizeLayout.dwlt
     projectPath: Library\CurrentMaximizeLayout.dwlt
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Source\Unity\ARFUROS\Library\EditorInstance.json
     fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
     originalPath: 
     status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\expandedItems
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\expandedItems
+    projectPath: Library\expandedItems
+    originalPath: 
+    status: 3
     staged: 0
   - path: Source\Unity\ARFUROS\Library\gfu\cache\gitlocks.yaml
     fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\gfu\cache\gitlocks.yaml
@@ -123,83 +285,185 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Source\Unity\ARFUROS\Library\InspectorExpandedItems.asset
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
+  - path: Source\Unity\ARFUROS\Library\metadata\19\1924dc0482bd07946aac3c9244e390c8
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\19\1924dc0482bd07946aac3c9244e390c8
+    projectPath: Library\metadata\19\1924dc0482bd07946aac3c9244e390c8
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Source\Unity\ARFUROS\Library\LastBuild.buildreport
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\LastBuild.buildreport
-    projectPath: Library\LastBuild.buildreport
+  - path: Source\Unity\ARFUROS\Library\metadata\19\1924dc0482bd07946aac3c9244e390c8.info
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\19\1924dc0482bd07946aac3c9244e390c8.info
+    projectPath: Library\metadata\19\1924dc0482bd07946aac3c9244e390c8.info
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Source\Unity\ARFUROS\Library\LastSceneManagerSetup.txt
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\LastSceneManagerSetup.txt
-    projectPath: Library\LastSceneManagerSetup.txt
+  - path: Source\Unity\ARFUROS\Library\metadata\20\2011e38faf284d7478724c595436c434
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\20\2011e38faf284d7478724c595436c434
+    projectPath: Library\metadata\20\2011e38faf284d7478724c595436c434
     originalPath: 
-    status: 3
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\metadata\20\2011e38faf284d7478724c595436c434.info
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\20\2011e38faf284d7478724c595436c434.info
+    projectPath: Library\metadata\20\2011e38faf284d7478724c595436c434.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\metadata\4e\4e24837e571527c409e9bd7d5c3c7c2a
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\4e\4e24837e571527c409e9bd7d5c3c7c2a
+    projectPath: Library\metadata\4e\4e24837e571527c409e9bd7d5c3c7c2a
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\metadata\4e\4e24837e571527c409e9bd7d5c3c7c2a.info
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\4e\4e24837e571527c409e9bd7d5c3c7c2a.info
+    projectPath: Library\metadata\4e\4e24837e571527c409e9bd7d5c3c7c2a.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\metadata\58\58f65ab9846ae414da9be1074145f084
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\58\58f65ab9846ae414da9be1074145f084
+    projectPath: Library\metadata\58\58f65ab9846ae414da9be1074145f084
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\metadata\58\58f65ab9846ae414da9be1074145f084.info
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\58\58f65ab9846ae414da9be1074145f084.info
+    projectPath: Library\metadata\58\58f65ab9846ae414da9be1074145f084.info
+    originalPath: 
+    status: 5
     staged: 0
   - path: Source\Unity\ARFUROS\Library\metadata\69\69076708759345141841523eb95b7abf
     fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\69\69076708759345141841523eb95b7abf
     projectPath: Library\metadata\69\69076708759345141841523eb95b7abf
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: Source\Unity\ARFUROS\Library\metadata\69\69076708759345141841523eb95b7abf.info
     fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\69\69076708759345141841523eb95b7abf.info
     projectPath: Library\metadata\69\69076708759345141841523eb95b7abf.info
     originalPath: 
+    status: 5
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\metadata\8b\8b226973ee7b11f4db700a2824918f2e
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\8b\8b226973ee7b11f4db700a2824918f2e
+    projectPath: Library\metadata\8b\8b226973ee7b11f4db700a2824918f2e
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\metadata\8b\8b226973ee7b11f4db700a2824918f2e.info
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\8b\8b226973ee7b11f4db700a2824918f2e.info
+    projectPath: Library\metadata\8b\8b226973ee7b11f4db700a2824918f2e.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\metadata\8d\8de734db487faa5408c5494162ba0ebf
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\8d\8de734db487faa5408c5494162ba0ebf
+    projectPath: Library\metadata\8d\8de734db487faa5408c5494162ba0ebf
+    originalPath: 
     status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\metadata\8d\8de734db487faa5408c5494162ba0ebf.info
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\8d\8de734db487faa5408c5494162ba0ebf.info
+    projectPath: Library\metadata\8d\8de734db487faa5408c5494162ba0ebf.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\metadata\90\90a94e37f24757d47876ca00269808c8
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\90\90a94e37f24757d47876ca00269808c8
+    projectPath: Library\metadata\90\90a94e37f24757d47876ca00269808c8
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\metadata\90\90a94e37f24757d47876ca00269808c8.info
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\90\90a94e37f24757d47876ca00269808c8.info
+    projectPath: Library\metadata\90\90a94e37f24757d47876ca00269808c8.info
+    originalPath: 
+    status: 5
     staged: 0
   - path: Source\Unity\ARFUROS\Library\metadata\9c\9c132dc30ed3f6b48bfa2af28c3c6f17
     fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\9c\9c132dc30ed3f6b48bfa2af28c3c6f17
     projectPath: Library\metadata\9c\9c132dc30ed3f6b48bfa2af28c3c6f17
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: Source\Unity\ARFUROS\Library\metadata\9c\9c132dc30ed3f6b48bfa2af28c3c6f17.info
     fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\9c\9c132dc30ed3f6b48bfa2af28c3c6f17.info
     projectPath: Library\metadata\9c\9c132dc30ed3f6b48bfa2af28c3c6f17.info
     originalPath: 
+    status: 5
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\metadata\b3\b3011cf71400554458c12d6ed1c0f3a9
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\b3\b3011cf71400554458c12d6ed1c0f3a9
+    projectPath: Library\metadata\b3\b3011cf71400554458c12d6ed1c0f3a9
+    originalPath: 
     status: 1
     staged: 0
-  - path: Source\Unity\ARFUROS\Library\PlayerDataCache\Data\globalgamemanagers
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\PlayerDataCache\Data\globalgamemanagers
-    projectPath: Library\PlayerDataCache\Data\globalgamemanagers
+  - path: Source\Unity\ARFUROS\Library\metadata\b3\b3011cf71400554458c12d6ed1c0f3a9.info
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\b3\b3011cf71400554458c12d6ed1c0f3a9.info
+    projectPath: Library\metadata\b3\b3011cf71400554458c12d6ed1c0f3a9.info
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Source\Unity\ARFUROS\Library\PlayerDataCache\Data\level0
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\PlayerDataCache\Data\level0
-    projectPath: Library\PlayerDataCache\Data\level0
+  - path: Source\Unity\ARFUROS\Library\metadata\b3\b32a2a08f189a5045a088777204710b0
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\b3\b32a2a08f189a5045a088777204710b0
+    projectPath: Library\metadata\b3\b32a2a08f189a5045a088777204710b0
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Source\Unity\ARFUROS\Library\PlayerDataCache\Data\level1
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\PlayerDataCache\Data\level1
-    projectPath: Library\PlayerDataCache\Data\level1
+  - path: Source\Unity\ARFUROS\Library\metadata\b3\b32a2a08f189a5045a088777204710b0.info
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\b3\b32a2a08f189a5045a088777204710b0.info
+    projectPath: Library\metadata\b3\b32a2a08f189a5045a088777204710b0.info
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Source\Unity\ARFUROS\Library\PlayerDataCache\Data\sharedassets0.assets
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\PlayerDataCache\Data\sharedassets0.assets
-    projectPath: Library\PlayerDataCache\Data\sharedassets0.assets
+  - path: Source\Unity\ARFUROS\Library\metadata\de\de3207720e4b81c418bea93495939823
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\de\de3207720e4b81c418bea93495939823
+    projectPath: Library\metadata\de\de3207720e4b81c418bea93495939823
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Source\Unity\ARFUROS\Library\PlayerDataCache\Data\sharedassets1.assets
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\PlayerDataCache\Data\sharedassets1.assets
-    projectPath: Library\PlayerDataCache\Data\sharedassets1.assets
+  - path: Source\Unity\ARFUROS\Library\metadata\de\de3207720e4b81c418bea93495939823.info
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\de\de3207720e4b81c418bea93495939823.info
+    projectPath: Library\metadata\de\de3207720e4b81c418bea93495939823.info
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Source\Unity\ARFUROS\Library\PlayerDataCache\ScriptLayoutHashes.txt
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\PlayerDataCache\ScriptLayoutHashes.txt
-    projectPath: Library\PlayerDataCache\ScriptLayoutHashes.txt
+  - path: Source\Unity\ARFUROS\Library\metadata\f9\f928f7890cac5064ab61d87be0c688fe
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\f9\f928f7890cac5064ab61d87be0c688fe
+    projectPath: Library\metadata\f9\f928f7890cac5064ab61d87be0c688fe
     originalPath: 
-    status: 3
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\metadata\f9\f928f7890cac5064ab61d87be0c688fe.info
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\f9\f928f7890cac5064ab61d87be0c688fe.info
+    projectPath: Library\metadata\f9\f928f7890cac5064ab61d87be0c688fe.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\metadata\f9\f96eaf1b7cad8564dbc3406c0b03625b
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\f9\f96eaf1b7cad8564dbc3406c0b03625b
+    projectPath: Library\metadata\f9\f96eaf1b7cad8564dbc3406c0b03625b
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\metadata\f9\f96eaf1b7cad8564dbc3406c0b03625b.info
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\f9\f96eaf1b7cad8564dbc3406c0b03625b.info
+    projectPath: Library\metadata\f9\f96eaf1b7cad8564dbc3406c0b03625b.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\metadata\fd\fd1e60139152e64489d0ccb62e4d47c4
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\fd\fd1e60139152e64489d0ccb62e4d47c4
+    projectPath: Library\metadata\fd\fd1e60139152e64489d0ccb62e4d47c4
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\metadata\fd\fd1e60139152e64489d0ccb62e4d47c4.info
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\fd\fd1e60139152e64489d0ccb62e4d47c4.info
+    projectPath: Library\metadata\fd\fd1e60139152e64489d0ccb62e4d47c4.info
+    originalPath: 
+    status: 1
     staged: 0
   - path: Source\Unity\ARFUROS\Library\ProjectSettings.asset
     fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\ProjectSettings.asset
@@ -207,51 +471,15 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
+  - path: Source\Unity\ARFUROS\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Source\Unity\ARFUROS\Library\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Source\Unity\ARFUROS\Library\shadercompiler-UnityShaderCompiler.exe1.log
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\shadercompiler-UnityShaderCompiler.exe1.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Source\Unity\ARFUROS\Library\shadercompiler-UnityShaderCompiler.exe2.log
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\shadercompiler-UnityShaderCompiler.exe2.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Source\Unity\ARFUROS\Library\shadercompiler-UnityShaderCompiler.exe3.log
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\shadercompiler-UnityShaderCompiler.exe3.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Source\Unity\ARFUROS\Library\shadercompiler-UnityShaderCompiler.exe4.log
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\shadercompiler-UnityShaderCompiler.exe4.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe4.log
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Source\Unity\ARFUROS\Library\shadercompiler-UnityShaderCompiler.exe5.log
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\shadercompiler-UnityShaderCompiler.exe5.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe5.log
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Source\Unity\ARFUROS\Library\shadercompiler-UnityShaderCompiler.exe6.log
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\shadercompiler-UnityShaderCompiler.exe6.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe6.log
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Source\Unity\ARFUROS\Library\shadercompiler-UnityShaderCompiler.exe7.log
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\shadercompiler-UnityShaderCompiler.exe7.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe7.log
     originalPath: 
     status: 3
     staged: 0
@@ -285,2283 +513,9 @@ MonoBehaviour:
     originalPath: 
     status: 1
     staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\.gradle\4.0.1\fileChanges\last-build.bin
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\.gradle\4.0.1\fileChanges\last-build.bin
-    projectPath: Temp\gradleOut\.gradle\4.0.1\fileChanges\last-build.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\.gradle\4.0.1\fileContent\annotation-processors.bin
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\.gradle\4.0.1\fileContent\annotation-processors.bin
-    projectPath: Temp\gradleOut\.gradle\4.0.1\fileContent\annotation-processors.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\.gradle\4.0.1\fileContent\fileContent.lock
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\.gradle\4.0.1\fileContent\fileContent.lock
-    projectPath: Temp\gradleOut\.gradle\4.0.1\fileContent\fileContent.lock
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\.gradle\4.0.1\fileHashes\fileHashes.bin
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\.gradle\4.0.1\fileHashes\fileHashes.bin
-    projectPath: Temp\gradleOut\.gradle\4.0.1\fileHashes\fileHashes.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\.gradle\4.0.1\fileHashes\fileHashes.lock
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\.gradle\4.0.1\fileHashes\fileHashes.lock
-    projectPath: Temp\gradleOut\.gradle\4.0.1\fileHashes\fileHashes.lock
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\.gradle\4.0.1\fileHashes\resourceHashesCache.bin
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\.gradle\4.0.1\fileHashes\resourceHashesCache.bin
-    projectPath: Temp\gradleOut\.gradle\4.0.1\fileHashes\resourceHashesCache.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\.gradle\4.0.1\taskHistory\fileSnapshots.bin
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\.gradle\4.0.1\taskHistory\fileSnapshots.bin
-    projectPath: Temp\gradleOut\.gradle\4.0.1\taskHistory\fileSnapshots.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\.gradle\4.0.1\taskHistory\taskHistory.bin
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\.gradle\4.0.1\taskHistory\taskHistory.bin
-    projectPath: Temp\gradleOut\.gradle\4.0.1\taskHistory\taskHistory.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\.gradle\4.0.1\taskHistory\taskHistory.lock
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\.gradle\4.0.1\taskHistory\taskHistory.lock
-    projectPath: Temp\gradleOut\.gradle\4.0.1\taskHistory\taskHistory.lock
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\.gradle\buildOutputCleanup\built.bin
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\.gradle\buildOutputCleanup\built.bin
-    projectPath: Temp\gradleOut\.gradle\buildOutputCleanup\built.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\.gradle\buildOutputCleanup\cache.properties
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\.gradle\buildOutputCleanup\cache.properties
-    projectPath: Temp\gradleOut\.gradle\buildOutputCleanup\cache.properties
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\.gradle\buildOutputCleanup\cache.properties.lock
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\.gradle\buildOutputCleanup\cache.properties.lock
-    projectPath: Temp\gradleOut\.gradle\buildOutputCleanup\cache.properties.lock
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build.gradle
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build.gradle
-    projectPath: Temp\gradleOut\build.gradle
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\android-profile\profile-2018-06-06-18-42-32-191.rawproto
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\android-profile\profile-2018-06-06-18-42-32-191.rawproto
-    projectPath: Temp\gradleOut\build\android-profile\profile-2018-06-06-18-42-32-191.rawproto
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\android-profile\profile-2018-06-06-19-17-38-820.rawproto
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\android-profile\profile-2018-06-06-19-17-38-820.rawproto
-    projectPath: Temp\gradleOut\build\android-profile\profile-2018-06-06-19-17-38-820.rawproto
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\android-profile\profile-2018-06-06-19-20-27-972.rawproto
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\android-profile\profile-2018-06-06-19-20-27-972.rawproto
-    projectPath: Temp\gradleOut\build\android-profile\profile-2018-06-06-19-20-27-972.rawproto
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\generated\source\buildConfig\release\com\unity3d\player\BuildConfig.java
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\generated\source\buildConfig\release\com\unity3d\player\BuildConfig.java
-    projectPath: Temp\gradleOut\build\generated\source\buildConfig\release\com\unity3d\player\BuildConfig.java
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\generated\source\r\release\com\unity3d\player\R.java
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\generated\source\r\release\com\unity3d\player\R.java
-    projectPath: Temp\gradleOut\build\generated\source\r\release\com\unity3d\player\R.java
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\generated\source\r\release\com\vuforia\engine\ext\R.java
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\generated\source\r\release\com\vuforia\engine\ext\R.java
-    projectPath: Temp\gradleOut\build\generated\source\r\release\com\vuforia\engine\ext\R.java
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\boot.config
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\boot.config
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\boot.config
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\f20ae946d2b17e54f9d79e15ae0a0cb1
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\f20ae946d2b17e54f9d79e15ae0a0cb1
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\f20ae946d2b17e54f9d79e15ae0a0cb1
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\globalgamemanagers
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\globalgamemanagers
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\globalgamemanagers
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\globalgamemanagers.assets
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\globalgamemanagers.assets
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\globalgamemanagers.assets
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\level0
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\level0
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\level0
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\level1
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\level1
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\level1
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\Assembly-CSharp.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\Assembly-CSharp.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\Assembly-CSharp.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\Mono.Security.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\Mono.Security.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\Mono.Security.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\mscorlib.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\mscorlib.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\mscorlib.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\System.Core.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\System.Core.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\System.Core.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\System.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\System.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\System.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.AccessibilityModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.AccessibilityModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.AccessibilityModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.AIModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.AIModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.AIModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.AnimationModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.AnimationModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.AnimationModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.ARModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.ARModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.ARModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.AssetBundleModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.AssetBundleModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.AssetBundleModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.AudioModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.AudioModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.AudioModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.BaselibModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.BaselibModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.BaselibModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.ClothModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.ClothModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.ClothModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.CloudWebServicesModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.CloudWebServicesModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.CloudWebServicesModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.CoreModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.CoreModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.CoreModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.CrashReportingModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.CrashReportingModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.CrashReportingModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.DirectorModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.DirectorModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.DirectorModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.FacebookModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.FacebookModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.FacebookModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.GameCenterModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.GameCenterModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.GameCenterModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.GridModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.GridModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.GridModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.HotReloadModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.HotReloadModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.HotReloadModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.ImageConversionModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.ImageConversionModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.ImageConversionModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.IMGUIModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.IMGUIModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.IMGUIModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.InputModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.InputModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.InputModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.JSONSerializeModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.JSONSerializeModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.JSONSerializeModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.Networking.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.Networking.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.Networking.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.ParticlesLegacyModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.ParticlesLegacyModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.ParticlesLegacyModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.ParticleSystemModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.ParticleSystemModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.ParticleSystemModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.PerformanceReportingModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.PerformanceReportingModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.PerformanceReportingModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.Physics2DModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.Physics2DModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.Physics2DModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.PhysicsModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.PhysicsModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.PhysicsModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.ScreenCaptureModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.ScreenCaptureModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.ScreenCaptureModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.SharedInternalsModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.SharedInternalsModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.SharedInternalsModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.SpatialTracking.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.SpatialTracking.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.SpatialTracking.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.SpatialTrackingModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.SpatialTrackingModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.SpatialTrackingModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.SpriteMaskModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.SpriteMaskModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.SpriteMaskModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.SpriteShapeModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.SpriteShapeModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.SpriteShapeModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.StyleSheetsModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.StyleSheetsModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.StyleSheetsModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.SubstanceModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.SubstanceModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.SubstanceModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.TerrainModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.TerrainModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.TerrainModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.TerrainPhysicsModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.TerrainPhysicsModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.TerrainPhysicsModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.TextRenderingModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.TextRenderingModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.TextRenderingModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.TilemapModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.TilemapModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.TilemapModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.Timeline.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.Timeline.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.Timeline.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.TimelineModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.TimelineModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.TimelineModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.TLSModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.TLSModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.TLSModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.UI.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.UI.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.UI.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.UIElementsModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.UIElementsModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.UIElementsModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.UIModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.UIModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.UIModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.UmbraModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.UmbraModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.UmbraModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.UNETModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.UNETModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.UNETModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.UnityAnalyticsModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.UnityAnalyticsModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.UnityAnalyticsModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.UnityConnectModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.UnityConnectModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.UnityConnectModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.UnityWebRequestModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.UnityWebRequestModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.UnityWebRequestModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.VehiclesModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.VehiclesModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.VehiclesModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.VideoModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.VideoModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.VideoModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.VRModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.VRModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.VRModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.WebModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.WebModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.WebModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.WindModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.WindModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.WindModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.XRModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.XRModule.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\UnityEngine.XRModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\Vuforia.UnityExtensions.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\Vuforia.UnityExtensions.dll
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Managed\Vuforia.UnityExtensions.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Resources\unity_builtin_extra
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\Resources\unity_builtin_extra
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\Resources\unity_builtin_extra
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\sharedassets0.assets.split0
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\sharedassets0.assets.split0
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\sharedassets0.assets.split0
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\sharedassets0.assets.split1
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\sharedassets0.assets.split1
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\sharedassets0.assets.split1
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\sharedassets1.assets
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\sharedassets1.assets
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\sharedassets1.assets
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\unity
-      default resources
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\bin\Data\unity
-      default resources
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\bin\Data\unity
-      default resources
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\Vuforia\VuforiaMars_Images.dat
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\Vuforia\VuforiaMars_Images.dat
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\Vuforia\VuforiaMars_Images.dat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\Vuforia\VuforiaMars_Images.xml
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\Vuforia\VuforiaMars_Images.xml
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\Vuforia\VuforiaMars_Images.xml
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\Vuforia\VuforiaMars_ModelTarget.dat
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\Vuforia\VuforiaMars_ModelTarget.dat
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\Vuforia\VuforiaMars_ModelTarget.dat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\Vuforia\VuforiaMars_ModelTarget.xml
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\Vuforia\VuforiaMars_ModelTarget.xml
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\Vuforia\VuforiaMars_ModelTarget.xml
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\Vuforia\VuforiaMars_Object_OT.dat
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\Vuforia\VuforiaMars_Object_OT.dat
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\Vuforia\VuforiaMars_Object_OT.dat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\Vuforia\VuforiaMars_Object_OT.xml
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\Vuforia\VuforiaMars_Object_OT.xml
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\Vuforia\VuforiaMars_Object_OT.xml
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\Vuforia\VuforiaMars_VuMark.dat
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\Vuforia\VuforiaMars_VuMark.dat
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\Vuforia\VuforiaMars_VuMark.dat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\Vuforia\VuforiaMars_VuMark.xml
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\assets\release\Vuforia\VuforiaMars_VuMark.xml
-    projectPath: Temp\gradleOut\build\intermediates\assets\release\Vuforia\VuforiaMars_VuMark.xml
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\blame\res\release\multi\values.json
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\blame\res\release\multi\values.json
-    projectPath: Temp\gradleOut\build\intermediates\blame\res\release\multi\values.json
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\blame\res\release\multi\values-v21.json
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\blame\res\release\multi\values-v21.json
-    projectPath: Temp\gradleOut\build\intermediates\blame\res\release\multi\values-v21.json
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\blame\res\release\single\drawable-mdpi.json
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\blame\res\release\single\drawable-mdpi.json
-    projectPath: Temp\gradleOut\build\intermediates\blame\res\release\single\drawable-mdpi.json
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\blame\res\release\single\drawable-xhdpi.json
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\blame\res\release\single\drawable-xhdpi.json
-    projectPath: Temp\gradleOut\build\intermediates\blame\res\release\single\drawable-xhdpi.json
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\classes\release\com\unity3d\player\BuildConfig.class
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\classes\release\com\unity3d\player\BuildConfig.class
-    projectPath: Temp\gradleOut\build\intermediates\classes\release\com\unity3d\player\BuildConfig.class
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\classes\release\com\unity3d\player\R$attr.class
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\classes\release\com\unity3d\player\R$attr.class
-    projectPath: Temp\gradleOut\build\intermediates\classes\release\com\unity3d\player\R$attr.class
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\classes\release\com\unity3d\player\R$drawable.class
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\classes\release\com\unity3d\player\R$drawable.class
-    projectPath: Temp\gradleOut\build\intermediates\classes\release\com\unity3d\player\R$drawable.class
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\classes\release\com\unity3d\player\R$string.class
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\classes\release\com\unity3d\player\R$string.class
-    projectPath: Temp\gradleOut\build\intermediates\classes\release\com\unity3d\player\R$string.class
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\classes\release\com\unity3d\player\R$style.class
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\classes\release\com\unity3d\player\R$style.class
-    projectPath: Temp\gradleOut\build\intermediates\classes\release\com\unity3d\player\R$style.class
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\classes\release\com\unity3d\player\R.class
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\classes\release\com\unity3d\player\R.class
-    projectPath: Temp\gradleOut\build\intermediates\classes\release\com\unity3d\player\R.class
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\classes\release\com\vuforia\engine\ext\R.class
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\classes\release\com\vuforia\engine\ext\R.class
-    projectPath: Temp\gradleOut\build\intermediates\classes\release\com\vuforia\engine\ext\R.class
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\dex-cache\cache.xml
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\dex-cache\cache.xml
-    projectPath: Temp\gradleOut\build\intermediates\dex-cache\cache.xml
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\incremental\compileReleaseAidl\dependency.store
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\incremental\compileReleaseAidl\dependency.store
-    projectPath: Temp\gradleOut\build\intermediates\incremental\compileReleaseAidl\dependency.store
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\incremental\mergeReleaseAssets\merger.xml
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\incremental\mergeReleaseAssets\merger.xml
-    projectPath: Temp\gradleOut\build\intermediates\incremental\mergeReleaseAssets\merger.xml
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\incremental\mergeReleaseJniLibFolders\merger.xml
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\incremental\mergeReleaseJniLibFolders\merger.xml
-    projectPath: Temp\gradleOut\build\intermediates\incremental\mergeReleaseJniLibFolders\merger.xml
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\incremental\mergeReleaseResources\compile-file-map.properties
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\incremental\mergeReleaseResources\compile-file-map.properties
-    projectPath: Temp\gradleOut\build\intermediates\incremental\mergeReleaseResources\compile-file-map.properties
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\incremental\mergeReleaseResources\merged.dir\values\values.xml
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\incremental\mergeReleaseResources\merged.dir\values\values.xml
-    projectPath: Temp\gradleOut\build\intermediates\incremental\mergeReleaseResources\merged.dir\values\values.xml
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\incremental\mergeReleaseResources\merged.dir\values-v21\values-v21.xml
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\incremental\mergeReleaseResources\merged.dir\values-v21\values-v21.xml
-    projectPath: Temp\gradleOut\build\intermediates\incremental\mergeReleaseResources\merged.dir\values-v21\values-v21.xml
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\incremental\mergeReleaseResources\merger.xml
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\incremental\mergeReleaseResources\merger.xml
-    projectPath: Temp\gradleOut\build\intermediates\incremental\mergeReleaseResources\merger.xml
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\incremental\mergeReleaseShaders\merger.xml
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\incremental\mergeReleaseShaders\merger.xml
-    projectPath: Temp\gradleOut\build\intermediates\incremental\mergeReleaseShaders\merger.xml
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\incremental\packageRelease\dex-renamer-state.txt
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\incremental\packageRelease\dex-renamer-state.txt
-    projectPath: Temp\gradleOut\build\intermediates\incremental\packageRelease\dex-renamer-state.txt
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\incremental\packageRelease\file-input-save-data.txt
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\incremental\packageRelease\file-input-save-data.txt
-    projectPath: Temp\gradleOut\build\intermediates\incremental\packageRelease\file-input-save-data.txt
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\incremental\packageRelease\zip-cache\2Pu_nBmAxXUtfbS0TuYZUQAB0tk=
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\incremental\packageRelease\zip-cache\2Pu_nBmAxXUtfbS0TuYZUQAB0tk=
-    projectPath: Temp\gradleOut\build\intermediates\incremental\packageRelease\zip-cache\2Pu_nBmAxXUtfbS0TuYZUQAB0tk=
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\incremental-safeguard\release\tag.txt
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\incremental-safeguard\release\tag.txt
-    projectPath: Temp\gradleOut\build\intermediates\incremental-safeguard\release\tag.txt
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\jniLibs\release\armeabi-v7a\libmain.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\jniLibs\release\armeabi-v7a\libmain.so
-    projectPath: Temp\gradleOut\build\intermediates\jniLibs\release\armeabi-v7a\libmain.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\jniLibs\release\armeabi-v7a\libmono.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\jniLibs\release\armeabi-v7a\libmono.so
-    projectPath: Temp\gradleOut\build\intermediates\jniLibs\release\armeabi-v7a\libmono.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\jniLibs\release\armeabi-v7a\libunity.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\jniLibs\release\armeabi-v7a\libunity.so
-    projectPath: Temp\gradleOut\build\intermediates\jniLibs\release\armeabi-v7a\libunity.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\jniLibs\release\x86\libmain.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\jniLibs\release\x86\libmain.so
-    projectPath: Temp\gradleOut\build\intermediates\jniLibs\release\x86\libmain.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\jniLibs\release\x86\libmono.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\jniLibs\release\x86\libmono.so
-    projectPath: Temp\gradleOut\build\intermediates\jniLibs\release\x86\libmono.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\jniLibs\release\x86\libunity.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\jniLibs\release\x86\libunity.so
-    projectPath: Temp\gradleOut\build\intermediates\jniLibs\release\x86\libunity.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\manifests\full\release\AndroidManifest.xml
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\manifests\full\release\AndroidManifest.xml
-    projectPath: Temp\gradleOut\build\intermediates\manifests\full\release\AndroidManifest.xml
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\pre-dexed\release\classes_27dd2465bf42bcf51e53dfd3419cca97ced148fe.jar
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\pre-dexed\release\classes_27dd2465bf42bcf51e53dfd3419cca97ced148fe.jar
-    projectPath: Temp\gradleOut\build\intermediates\pre-dexed\release\classes_27dd2465bf42bcf51e53dfd3419cca97ced148fe.jar
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\pre-dexed\release\release_b856aedfe78da1bff1bbde0fed411019577dabb5.jar
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\pre-dexed\release\release_b856aedfe78da1bff1bbde0fed411019577dabb5.jar
-    projectPath: Temp\gradleOut\build\intermediates\pre-dexed\release\release_b856aedfe78da1bff1bbde0fed411019577dabb5.jar
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\pre-dexed\release\unity-classes_50c4aa439f81a030c26c82eb3b8891f2ae2b9b41.jar
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\pre-dexed\release\unity-classes_50c4aa439f81a030c26c82eb3b8891f2ae2b9b41.jar
-    projectPath: Temp\gradleOut\build\intermediates\pre-dexed\release\unity-classes_50c4aa439f81a030c26c82eb3b8891f2ae2b9b41.jar
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\pre-dexed\release\Vuforia_bf789efa2816c1ddd713037ffa7e3aacfa434fc3.jar
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\pre-dexed\release\Vuforia_bf789efa2816c1ddd713037ffa7e3aacfa434fc3.jar
-    projectPath: Temp\gradleOut\build\intermediates\pre-dexed\release\Vuforia_bf789efa2816c1ddd713037ffa7e3aacfa434fc3.jar
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\pre-dexed\release\VuforiaUnityPlayer_3a112567236f6df34b4179e839962a9f6f3693b9.jar
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\pre-dexed\release\VuforiaUnityPlayer_3a112567236f6df34b4179e839962a9f6f3693b9.jar
-    projectPath: Temp\gradleOut\build\intermediates\pre-dexed\release\VuforiaUnityPlayer_3a112567236f6df34b4179e839962a9f6f3693b9.jar
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\res\merged\release\drawable-mdpi\app_icon.png
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\res\merged\release\drawable-mdpi\app_icon.png
-    projectPath: Temp\gradleOut\build\intermediates\res\merged\release\drawable-mdpi\app_icon.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\res\merged\release\drawable-xhdpi\app_banner.png
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\res\merged\release\drawable-xhdpi\app_banner.png
-    projectPath: Temp\gradleOut\build\intermediates\res\merged\release\drawable-xhdpi\app_banner.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\res\merged\release\values\values.xml
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\res\merged\release\values\values.xml
-    projectPath: Temp\gradleOut\build\intermediates\res\merged\release\values\values.xml
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\res\merged\release\values-v21\values-v21.xml
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\res\merged\release\values-v21\values-v21.xml
-    projectPath: Temp\gradleOut\build\intermediates\res\merged\release\values-v21\values-v21.xml
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\res\resources-release.ap_
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\res\resources-release.ap_
-    projectPath: Temp\gradleOut\build\intermediates\res\resources-release.ap_
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\symbols\release\R.txt
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\symbols\release\R.txt
-    projectPath: Temp\gradleOut\build\intermediates\symbols\release\R.txt
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\dex\release\folders\1000\1f\main\classes.dex
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\dex\release\folders\1000\1f\main\classes.dex
-    projectPath: Temp\gradleOut\build\intermediates\transforms\dex\release\folders\1000\1f\main\classes.dex
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\mergeJniLibs\release\folders\2000\1f\main\lib\armeabi-v7a\libmain.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\mergeJniLibs\release\folders\2000\1f\main\lib\armeabi-v7a\libmain.so
-    projectPath: Temp\gradleOut\build\intermediates\transforms\mergeJniLibs\release\folders\2000\1f\main\lib\armeabi-v7a\libmain.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\mergeJniLibs\release\folders\2000\1f\main\lib\armeabi-v7a\libmono.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\mergeJniLibs\release\folders\2000\1f\main\lib\armeabi-v7a\libmono.so
-    projectPath: Temp\gradleOut\build\intermediates\transforms\mergeJniLibs\release\folders\2000\1f\main\lib\armeabi-v7a\libmono.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\mergeJniLibs\release\folders\2000\1f\main\lib\armeabi-v7a\libunity.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\mergeJniLibs\release\folders\2000\1f\main\lib\armeabi-v7a\libunity.so
-    projectPath: Temp\gradleOut\build\intermediates\transforms\mergeJniLibs\release\folders\2000\1f\main\lib\armeabi-v7a\libunity.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\mergeJniLibs\release\folders\2000\1f\main\lib\armeabi-v7a\libVuforia.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\mergeJniLibs\release\folders\2000\1f\main\lib\armeabi-v7a\libVuforia.so
-    projectPath: Temp\gradleOut\build\intermediates\transforms\mergeJniLibs\release\folders\2000\1f\main\lib\armeabi-v7a\libVuforia.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\mergeJniLibs\release\folders\2000\1f\main\lib\armeabi-v7a\libVuforiaUnityPlayer.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\mergeJniLibs\release\folders\2000\1f\main\lib\armeabi-v7a\libVuforiaUnityPlayer.so
-    projectPath: Temp\gradleOut\build\intermediates\transforms\mergeJniLibs\release\folders\2000\1f\main\lib\armeabi-v7a\libVuforiaUnityPlayer.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\mergeJniLibs\release\folders\2000\1f\main\lib\armeabi-v7a\libVuforiaWrapper.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\mergeJniLibs\release\folders\2000\1f\main\lib\armeabi-v7a\libVuforiaWrapper.so
-    projectPath: Temp\gradleOut\build\intermediates\transforms\mergeJniLibs\release\folders\2000\1f\main\lib\armeabi-v7a\libVuforiaWrapper.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\mergeJniLibs\release\folders\2000\1f\main\lib\x86\libmain.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\mergeJniLibs\release\folders\2000\1f\main\lib\x86\libmain.so
-    projectPath: Temp\gradleOut\build\intermediates\transforms\mergeJniLibs\release\folders\2000\1f\main\lib\x86\libmain.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\mergeJniLibs\release\folders\2000\1f\main\lib\x86\libmono.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\mergeJniLibs\release\folders\2000\1f\main\lib\x86\libmono.so
-    projectPath: Temp\gradleOut\build\intermediates\transforms\mergeJniLibs\release\folders\2000\1f\main\lib\x86\libmono.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\mergeJniLibs\release\folders\2000\1f\main\lib\x86\libunity.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\mergeJniLibs\release\folders\2000\1f\main\lib\x86\libunity.so
-    projectPath: Temp\gradleOut\build\intermediates\transforms\mergeJniLibs\release\folders\2000\1f\main\lib\x86\libunity.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\mergeJniLibs\release\folders\2000\1f\main\lib\x86\libVuforia.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\mergeJniLibs\release\folders\2000\1f\main\lib\x86\libVuforia.so
-    projectPath: Temp\gradleOut\build\intermediates\transforms\mergeJniLibs\release\folders\2000\1f\main\lib\x86\libVuforia.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\mergeJniLibs\release\folders\2000\1f\main\lib\x86\libVuforiaUnityPlayer.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\mergeJniLibs\release\folders\2000\1f\main\lib\x86\libVuforiaUnityPlayer.so
-    projectPath: Temp\gradleOut\build\intermediates\transforms\mergeJniLibs\release\folders\2000\1f\main\lib\x86\libVuforiaUnityPlayer.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\mergeJniLibs\release\folders\2000\1f\main\lib\x86\libVuforiaWrapper.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\mergeJniLibs\release\folders\2000\1f\main\lib\x86\libVuforiaWrapper.so
-    projectPath: Temp\gradleOut\build\intermediates\transforms\mergeJniLibs\release\folders\2000\1f\main\lib\x86\libVuforiaWrapper.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\stripDebugSymbol\release\folders\2000\1f\main\lib\armeabi-v7a\libmain.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\stripDebugSymbol\release\folders\2000\1f\main\lib\armeabi-v7a\libmain.so
-    projectPath: Temp\gradleOut\build\intermediates\transforms\stripDebugSymbol\release\folders\2000\1f\main\lib\armeabi-v7a\libmain.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\stripDebugSymbol\release\folders\2000\1f\main\lib\armeabi-v7a\libmono.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\stripDebugSymbol\release\folders\2000\1f\main\lib\armeabi-v7a\libmono.so
-    projectPath: Temp\gradleOut\build\intermediates\transforms\stripDebugSymbol\release\folders\2000\1f\main\lib\armeabi-v7a\libmono.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\stripDebugSymbol\release\folders\2000\1f\main\lib\armeabi-v7a\libunity.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\stripDebugSymbol\release\folders\2000\1f\main\lib\armeabi-v7a\libunity.so
-    projectPath: Temp\gradleOut\build\intermediates\transforms\stripDebugSymbol\release\folders\2000\1f\main\lib\armeabi-v7a\libunity.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\stripDebugSymbol\release\folders\2000\1f\main\lib\armeabi-v7a\libVuforia.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\stripDebugSymbol\release\folders\2000\1f\main\lib\armeabi-v7a\libVuforia.so
-    projectPath: Temp\gradleOut\build\intermediates\transforms\stripDebugSymbol\release\folders\2000\1f\main\lib\armeabi-v7a\libVuforia.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\stripDebugSymbol\release\folders\2000\1f\main\lib\armeabi-v7a\libVuforiaUnityPlayer.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\stripDebugSymbol\release\folders\2000\1f\main\lib\armeabi-v7a\libVuforiaUnityPlayer.so
-    projectPath: Temp\gradleOut\build\intermediates\transforms\stripDebugSymbol\release\folders\2000\1f\main\lib\armeabi-v7a\libVuforiaUnityPlayer.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\stripDebugSymbol\release\folders\2000\1f\main\lib\armeabi-v7a\libVuforiaWrapper.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\stripDebugSymbol\release\folders\2000\1f\main\lib\armeabi-v7a\libVuforiaWrapper.so
-    projectPath: Temp\gradleOut\build\intermediates\transforms\stripDebugSymbol\release\folders\2000\1f\main\lib\armeabi-v7a\libVuforiaWrapper.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\stripDebugSymbol\release\folders\2000\1f\main\lib\x86\libmain.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\stripDebugSymbol\release\folders\2000\1f\main\lib\x86\libmain.so
-    projectPath: Temp\gradleOut\build\intermediates\transforms\stripDebugSymbol\release\folders\2000\1f\main\lib\x86\libmain.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\stripDebugSymbol\release\folders\2000\1f\main\lib\x86\libmono.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\stripDebugSymbol\release\folders\2000\1f\main\lib\x86\libmono.so
-    projectPath: Temp\gradleOut\build\intermediates\transforms\stripDebugSymbol\release\folders\2000\1f\main\lib\x86\libmono.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\stripDebugSymbol\release\folders\2000\1f\main\lib\x86\libunity.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\stripDebugSymbol\release\folders\2000\1f\main\lib\x86\libunity.so
-    projectPath: Temp\gradleOut\build\intermediates\transforms\stripDebugSymbol\release\folders\2000\1f\main\lib\x86\libunity.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\stripDebugSymbol\release\folders\2000\1f\main\lib\x86\libVuforia.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\stripDebugSymbol\release\folders\2000\1f\main\lib\x86\libVuforia.so
-    projectPath: Temp\gradleOut\build\intermediates\transforms\stripDebugSymbol\release\folders\2000\1f\main\lib\x86\libVuforia.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\stripDebugSymbol\release\folders\2000\1f\main\lib\x86\libVuforiaUnityPlayer.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\stripDebugSymbol\release\folders\2000\1f\main\lib\x86\libVuforiaUnityPlayer.so
-    projectPath: Temp\gradleOut\build\intermediates\transforms\stripDebugSymbol\release\folders\2000\1f\main\lib\x86\libVuforiaUnityPlayer.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\stripDebugSymbol\release\folders\2000\1f\main\lib\x86\libVuforiaWrapper.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\intermediates\transforms\stripDebugSymbol\release\folders\2000\1f\main\lib\x86\libVuforiaWrapper.so
-    projectPath: Temp\gradleOut\build\intermediates\transforms\stripDebugSymbol\release\folders\2000\1f\main\lib\x86\libVuforiaWrapper.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\outputs\logs\manifest-merger-release-report.txt
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\outputs\logs\manifest-merger-release-report.txt
-    projectPath: Temp\gradleOut\build\outputs\logs\manifest-merger-release-report.txt
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\reports\lint-results-release-fatal.html
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\reports\lint-results-release-fatal.html
-    projectPath: Temp\gradleOut\build\reports\lint-results-release-fatal.html
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\build\reports\lint-results-release-fatal.xml
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\build\reports\lint-results-release-fatal.xml
-    projectPath: Temp\gradleOut\build\reports\lint-results-release-fatal.xml
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\gradle.properties
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\gradle.properties
-    projectPath: Temp\gradleOut\gradle.properties
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\libs\unity-classes.jar
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\libs\unity-classes.jar
-    projectPath: Temp\gradleOut\libs\unity-classes.jar
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\libs\VuforiaWrapper.aar
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\libs\VuforiaWrapper.aar
-    projectPath: Temp\gradleOut\libs\VuforiaWrapper.aar
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\local.properties
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\local.properties
-    projectPath: Temp\gradleOut\local.properties
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\proguard-unity.txt
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\proguard-unity.txt
-    projectPath: Temp\gradleOut\proguard-unity.txt
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\AndroidManifest.xml
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\AndroidManifest.xml
-    projectPath: Temp\gradleOut\src\main\AndroidManifest.xml
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\boot.config
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\boot.config
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\boot.config
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\f20ae946d2b17e54f9d79e15ae0a0cb1
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\f20ae946d2b17e54f9d79e15ae0a0cb1
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\f20ae946d2b17e54f9d79e15ae0a0cb1
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\globalgamemanagers
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\globalgamemanagers
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\globalgamemanagers
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\globalgamemanagers.assets
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\globalgamemanagers.assets
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\globalgamemanagers.assets
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\level0
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\level0
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\level0
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\level1
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\level1
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\level1
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\Assembly-CSharp.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\Assembly-CSharp.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\Assembly-CSharp.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\Mono.Security.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\Mono.Security.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\Mono.Security.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\mscorlib.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\mscorlib.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\mscorlib.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\System.Core.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\System.Core.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\System.Core.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\System.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\System.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\System.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.AccessibilityModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.AccessibilityModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.AccessibilityModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.AIModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.AIModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.AIModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.AnimationModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.AnimationModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.AnimationModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.ARModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.ARModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.ARModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.AssetBundleModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.AssetBundleModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.AssetBundleModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.AudioModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.AudioModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.AudioModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.BaselibModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.BaselibModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.BaselibModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.ClothModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.ClothModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.ClothModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.CloudWebServicesModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.CloudWebServicesModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.CloudWebServicesModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.CoreModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.CoreModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.CoreModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.CrashReportingModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.CrashReportingModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.CrashReportingModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.DirectorModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.DirectorModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.DirectorModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.FacebookModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.FacebookModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.FacebookModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.GameCenterModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.GameCenterModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.GameCenterModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.GridModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.GridModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.GridModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.HotReloadModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.HotReloadModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.HotReloadModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.ImageConversionModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.ImageConversionModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.ImageConversionModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.IMGUIModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.IMGUIModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.IMGUIModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.InputModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.InputModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.InputModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.JSONSerializeModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.JSONSerializeModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.JSONSerializeModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.Networking.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.Networking.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.Networking.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.ParticlesLegacyModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.ParticlesLegacyModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.ParticlesLegacyModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.ParticleSystemModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.ParticleSystemModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.ParticleSystemModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.PerformanceReportingModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.PerformanceReportingModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.PerformanceReportingModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.Physics2DModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.Physics2DModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.Physics2DModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.PhysicsModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.PhysicsModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.PhysicsModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.ScreenCaptureModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.ScreenCaptureModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.ScreenCaptureModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.SharedInternalsModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.SharedInternalsModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.SharedInternalsModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.SpatialTracking.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.SpatialTracking.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.SpatialTracking.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.SpatialTrackingModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.SpatialTrackingModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.SpatialTrackingModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.SpriteMaskModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.SpriteMaskModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.SpriteMaskModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.SpriteShapeModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.SpriteShapeModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.SpriteShapeModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.StyleSheetsModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.StyleSheetsModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.StyleSheetsModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.SubstanceModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.SubstanceModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.SubstanceModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.TerrainModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.TerrainModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.TerrainModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.TerrainPhysicsModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.TerrainPhysicsModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.TerrainPhysicsModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.TextRenderingModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.TextRenderingModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.TextRenderingModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.TilemapModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.TilemapModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.TilemapModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.Timeline.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.Timeline.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.Timeline.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.TimelineModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.TimelineModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.TimelineModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.TLSModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.TLSModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.TLSModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.UI.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.UI.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.UI.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.UIElementsModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.UIElementsModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.UIElementsModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.UIModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.UIModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.UIModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.UmbraModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.UmbraModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.UmbraModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.UNETModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.UNETModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.UNETModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.UnityAnalyticsModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.UnityAnalyticsModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.UnityAnalyticsModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.UnityConnectModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.UnityConnectModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.UnityConnectModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.UnityWebRequestModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.UnityWebRequestModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.UnityWebRequestModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.VehiclesModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.VehiclesModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.VehiclesModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.VideoModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.VideoModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.VideoModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.VRModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.VRModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.VRModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.WebModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.WebModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.WebModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.WindModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.WindModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.WindModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.XRModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.XRModule.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\UnityEngine.XRModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\Vuforia.UnityExtensions.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Managed\Vuforia.UnityExtensions.dll
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Managed\Vuforia.UnityExtensions.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Resources\unity_builtin_extra
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\Resources\unity_builtin_extra
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\Resources\unity_builtin_extra
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\sharedassets0.assets.split0
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\sharedassets0.assets.split0
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\sharedassets0.assets.split0
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\sharedassets0.assets.split1
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\sharedassets0.assets.split1
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\sharedassets0.assets.split1
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\sharedassets1.assets
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\sharedassets1.assets
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\sharedassets1.assets
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\unity default
-      resources
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\bin\Data\unity
-      default resources
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\unity default resources
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\Vuforia\VuforiaMars_Images.dat
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\Vuforia\VuforiaMars_Images.dat
-    projectPath: Temp\gradleOut\src\main\assets\Vuforia\VuforiaMars_Images.dat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\Vuforia\VuforiaMars_Images.xml
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\Vuforia\VuforiaMars_Images.xml
-    projectPath: Temp\gradleOut\src\main\assets\Vuforia\VuforiaMars_Images.xml
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\Vuforia\VuforiaMars_ModelTarget.dat
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\Vuforia\VuforiaMars_ModelTarget.dat
-    projectPath: Temp\gradleOut\src\main\assets\Vuforia\VuforiaMars_ModelTarget.dat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\Vuforia\VuforiaMars_ModelTarget.xml
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\Vuforia\VuforiaMars_ModelTarget.xml
-    projectPath: Temp\gradleOut\src\main\assets\Vuforia\VuforiaMars_ModelTarget.xml
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\Vuforia\VuforiaMars_Object_OT.dat
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\Vuforia\VuforiaMars_Object_OT.dat
-    projectPath: Temp\gradleOut\src\main\assets\Vuforia\VuforiaMars_Object_OT.dat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\Vuforia\VuforiaMars_Object_OT.xml
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\Vuforia\VuforiaMars_Object_OT.xml
-    projectPath: Temp\gradleOut\src\main\assets\Vuforia\VuforiaMars_Object_OT.xml
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\Vuforia\VuforiaMars_VuMark.dat
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\Vuforia\VuforiaMars_VuMark.dat
-    projectPath: Temp\gradleOut\src\main\assets\Vuforia\VuforiaMars_VuMark.dat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\Vuforia\VuforiaMars_VuMark.xml
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\assets\Vuforia\VuforiaMars_VuMark.xml
-    projectPath: Temp\gradleOut\src\main\assets\Vuforia\VuforiaMars_VuMark.xml
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\jniLibs\armeabi-v7a\libmain.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\jniLibs\armeabi-v7a\libmain.so
-    projectPath: Temp\gradleOut\src\main\jniLibs\armeabi-v7a\libmain.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\jniLibs\armeabi-v7a\libmono.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\jniLibs\armeabi-v7a\libmono.so
-    projectPath: Temp\gradleOut\src\main\jniLibs\armeabi-v7a\libmono.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\jniLibs\armeabi-v7a\libunity.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\jniLibs\armeabi-v7a\libunity.so
-    projectPath: Temp\gradleOut\src\main\jniLibs\armeabi-v7a\libunity.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\jniLibs\x86\libmain.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\jniLibs\x86\libmain.so
-    projectPath: Temp\gradleOut\src\main\jniLibs\x86\libmain.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\jniLibs\x86\libmono.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\jniLibs\x86\libmono.so
-    projectPath: Temp\gradleOut\src\main\jniLibs\x86\libmono.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\jniLibs\x86\libunity.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\jniLibs\x86\libunity.so
-    projectPath: Temp\gradleOut\src\main\jniLibs\x86\libunity.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\res\drawable-mdpi\app_icon.png
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\res\drawable-mdpi\app_icon.png
-    projectPath: Temp\gradleOut\src\main\res\drawable-mdpi\app_icon.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\res\drawable-xhdpi\app_banner.png
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\res\drawable-xhdpi\app_banner.png
-    projectPath: Temp\gradleOut\src\main\res\drawable-xhdpi\app_banner.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\res\values\strings.xml
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\res\values\strings.xml
-    projectPath: Temp\gradleOut\src\main\res\values\strings.xml
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\res\values\styles.xml
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\res\values\styles.xml
-    projectPath: Temp\gradleOut\src\main\res\values\styles.xml
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\gradleOut\src\main\res\values-v21\styles.xml
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\gradleOut\src\main\res\values-v21\styles.xml
-    projectPath: Temp\gradleOut\src\main\res\values-v21\styles.xml
-    originalPath: 
-    status: 1
-    staged: 0
   - path: Source\Unity\ARFUROS\Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
     fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
     projectPath: Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\aar\VuforiaWrapper.aar
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\aar\VuforiaWrapper.aar
-    projectPath: Temp\StagingArea\aar\VuforiaWrapper.aar
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\AndroidManifest.xml
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\AndroidManifest.xml
-    projectPath: Temp\StagingArea\AndroidManifest.xml
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\AndroidManifest-main.xml
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\AndroidManifest-main.xml
-    projectPath: Temp\StagingArea\AndroidManifest-main.xml
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\boot.config
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\boot.config
-    projectPath: Temp\StagingArea\assets\bin\Data\boot.config
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\f20ae946d2b17e54f9d79e15ae0a0cb1
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\f20ae946d2b17e54f9d79e15ae0a0cb1
-    projectPath: Temp\StagingArea\assets\bin\Data\f20ae946d2b17e54f9d79e15ae0a0cb1
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\globalgamemanagers
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\globalgamemanagers
-    projectPath: Temp\StagingArea\assets\bin\Data\globalgamemanagers
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\globalgamemanagers.assets
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\globalgamemanagers.assets
-    projectPath: Temp\StagingArea\assets\bin\Data\globalgamemanagers.assets
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\level0
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\level0
-    projectPath: Temp\StagingArea\assets\bin\Data\level0
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\level1
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\level1
-    projectPath: Temp\StagingArea\assets\bin\Data\level1
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\Assembly-CSharp.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\Assembly-CSharp.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\Assembly-CSharp.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\Mono.Security.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\Mono.Security.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\Mono.Security.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\mscorlib.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\mscorlib.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\mscorlib.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\System.Core.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\System.Core.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\System.Core.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\System.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\System.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\System.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.AccessibilityModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.AccessibilityModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.AccessibilityModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.AIModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.AIModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.AIModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.AnimationModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.AnimationModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.AnimationModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.ARModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.ARModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.ARModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.AssetBundleModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.AssetBundleModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.AssetBundleModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.AudioModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.AudioModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.AudioModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.BaselibModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.BaselibModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.BaselibModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.ClothModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.ClothModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.ClothModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.CloudWebServicesModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.CloudWebServicesModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.CloudWebServicesModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.CoreModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.CoreModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.CoreModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.CrashReportingModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.CrashReportingModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.CrashReportingModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.DirectorModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.DirectorModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.DirectorModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.FacebookModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.FacebookModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.FacebookModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.GameCenterModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.GameCenterModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.GameCenterModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.GridModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.GridModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.GridModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.HotReloadModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.HotReloadModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.HotReloadModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.ImageConversionModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.ImageConversionModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.ImageConversionModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.IMGUIModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.IMGUIModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.IMGUIModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.InputModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.InputModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.InputModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.JSONSerializeModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.JSONSerializeModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.JSONSerializeModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.Networking.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.Networking.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.Networking.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.ParticlesLegacyModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.ParticlesLegacyModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.ParticlesLegacyModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.ParticleSystemModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.ParticleSystemModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.ParticleSystemModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.PerformanceReportingModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.PerformanceReportingModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.PerformanceReportingModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.Physics2DModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.Physics2DModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.Physics2DModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.PhysicsModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.PhysicsModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.PhysicsModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.ScreenCaptureModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.ScreenCaptureModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.ScreenCaptureModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.SharedInternalsModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.SharedInternalsModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.SharedInternalsModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.SpatialTracking.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.SpatialTracking.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.SpatialTracking.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.SpatialTrackingModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.SpatialTrackingModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.SpatialTrackingModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.SpriteMaskModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.SpriteMaskModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.SpriteMaskModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.SpriteShapeModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.SpriteShapeModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.SpriteShapeModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.StyleSheetsModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.StyleSheetsModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.StyleSheetsModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.SubstanceModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.SubstanceModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.SubstanceModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.TerrainModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.TerrainModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.TerrainModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.TerrainPhysicsModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.TerrainPhysicsModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.TerrainPhysicsModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.TextRenderingModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.TextRenderingModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.TextRenderingModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.TilemapModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.TilemapModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.TilemapModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.Timeline.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.Timeline.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.Timeline.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.TimelineModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.TimelineModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.TimelineModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.TLSModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.TLSModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.TLSModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UI.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UI.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UI.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UIElementsModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UIElementsModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UIElementsModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UIModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UIModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UIModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UmbraModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UmbraModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UmbraModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UNETModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UNETModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UNETModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UnityAnalyticsModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UnityAnalyticsModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UnityAnalyticsModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UnityConnectModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UnityConnectModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UnityConnectModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UnityWebRequestModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UnityWebRequestModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UnityWebRequestModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.VehiclesModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.VehiclesModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.VehiclesModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.VideoModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.VideoModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.VideoModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.VRModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.VRModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.VRModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.WebModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.WebModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.WebModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.WindModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.WindModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.WindModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.XRModule.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.XRModule.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.XRModule.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\Vuforia.UnityExtensions.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Managed\Vuforia.UnityExtensions.dll
-    projectPath: Temp\StagingArea\assets\bin\Data\Managed\Vuforia.UnityExtensions.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Resources\unity_builtin_extra
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\Resources\unity_builtin_extra
-    projectPath: Temp\StagingArea\assets\bin\Data\Resources\unity_builtin_extra
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\sharedassets0.assets.split0
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\sharedassets0.assets.split0
-    projectPath: Temp\StagingArea\assets\bin\Data\sharedassets0.assets.split0
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\sharedassets0.assets.split1
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\sharedassets0.assets.split1
-    projectPath: Temp\StagingArea\assets\bin\Data\sharedassets0.assets.split1
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\sharedassets1.assets
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\sharedassets1.assets
-    projectPath: Temp\StagingArea\assets\bin\Data\sharedassets1.assets
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\unity default resources
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\assets\bin\Data\unity
-      default resources
-    projectPath: Temp\StagingArea\assets\bin\Data\unity default resources
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\libs\armeabi-v7a\libmain.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\libs\armeabi-v7a\libmain.so
-    projectPath: Temp\StagingArea\libs\armeabi-v7a\libmain.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\libs\armeabi-v7a\libmono.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\libs\armeabi-v7a\libmono.so
-    projectPath: Temp\StagingArea\libs\armeabi-v7a\libmono.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\libs\armeabi-v7a\libunity.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\libs\armeabi-v7a\libunity.so
-    projectPath: Temp\StagingArea\libs\armeabi-v7a\libunity.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\libs\x86\libmain.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\libs\x86\libmain.so
-    projectPath: Temp\StagingArea\libs\x86\libmain.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\libs\x86\libmono.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\libs\x86\libmono.so
-    projectPath: Temp\StagingArea\libs\x86\libmono.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\libs\x86\libunity.so
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\libs\x86\libunity.so
-    projectPath: Temp\StagingArea\libs\x86\libunity.so
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\raw\Vuforia\VuforiaMars_Images.dat
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\raw\Vuforia\VuforiaMars_Images.dat
-    projectPath: Temp\StagingArea\raw\Vuforia\VuforiaMars_Images.dat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\raw\Vuforia\VuforiaMars_Images.xml
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\raw\Vuforia\VuforiaMars_Images.xml
-    projectPath: Temp\StagingArea\raw\Vuforia\VuforiaMars_Images.xml
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\raw\Vuforia\VuforiaMars_ModelTarget.dat
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\raw\Vuforia\VuforiaMars_ModelTarget.dat
-    projectPath: Temp\StagingArea\raw\Vuforia\VuforiaMars_ModelTarget.dat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\raw\Vuforia\VuforiaMars_ModelTarget.xml
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\raw\Vuforia\VuforiaMars_ModelTarget.xml
-    projectPath: Temp\StagingArea\raw\Vuforia\VuforiaMars_ModelTarget.xml
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\raw\Vuforia\VuforiaMars_Object_OT.dat
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\raw\Vuforia\VuforiaMars_Object_OT.dat
-    projectPath: Temp\StagingArea\raw\Vuforia\VuforiaMars_Object_OT.dat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\raw\Vuforia\VuforiaMars_Object_OT.xml
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\raw\Vuforia\VuforiaMars_Object_OT.xml
-    projectPath: Temp\StagingArea\raw\Vuforia\VuforiaMars_Object_OT.xml
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\raw\Vuforia\VuforiaMars_VuMark.dat
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\raw\Vuforia\VuforiaMars_VuMark.dat
-    projectPath: Temp\StagingArea\raw\Vuforia\VuforiaMars_VuMark.dat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\raw\Vuforia\VuforiaMars_VuMark.xml
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\raw\Vuforia\VuforiaMars_VuMark.xml
-    projectPath: Temp\StagingArea\raw\Vuforia\VuforiaMars_VuMark.xml
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\res\drawable-mdpi\app_icon.png
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\res\drawable-mdpi\app_icon.png
-    projectPath: Temp\StagingArea\res\drawable-mdpi\app_icon.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\res\drawable-xhdpi\app_banner.png
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\res\drawable-xhdpi\app_banner.png
-    projectPath: Temp\StagingArea\res\drawable-xhdpi\app_banner.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\res\values\strings.xml
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\res\values\strings.xml
-    projectPath: Temp\StagingArea\res\values\strings.xml
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\res\values\styles.xml
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\res\values\styles.xml
-    projectPath: Temp\StagingArea\res\values\styles.xml
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\StagingArea\res\values-v21\styles.xml
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\StagingArea\res\values-v21\styles.xml
-    projectPath: Temp\StagingArea\res\values-v21\styles.xml
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\tempFile.res
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\tempFile.res
-    projectPath: Temp\tempFile.res
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\tempFile.resG
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\tempFile.resG
-    projectPath: Temp\tempFile.resG
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\tempFile.resS
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\tempFile.resS
-    projectPath: Temp\tempFile.resS
     originalPath: 
     status: 1
     staged: 0
@@ -2571,147 +525,39 @@ MonoBehaviour:
     originalPath: 
     status: 1
     staged: 0
-  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-0ef8be5056c6f3c489e6a35ec692cd7e
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-0ef8be5056c6f3c489e6a35ec692cd7e
-    projectPath: Temp\UnityTempFile-0ef8be5056c6f3c489e6a35ec692cd7e
+  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-1ad1a79a77d98684aa6c92dab08c0f7a
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-1ad1a79a77d98684aa6c92dab08c0f7a
+    projectPath: Temp\UnityTempFile-1ad1a79a77d98684aa6c92dab08c0f7a
     originalPath: 
     status: 1
     staged: 0
-  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-121f4fb56333eb04ca05aecaacd0558f
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-121f4fb56333eb04ca05aecaacd0558f
-    projectPath: Temp\UnityTempFile-121f4fb56333eb04ca05aecaacd0558f
+  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-63d532188312c1e40b5a39cdaba54e4c
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-63d532188312c1e40b5a39cdaba54e4c
+    projectPath: Temp\UnityTempFile-63d532188312c1e40b5a39cdaba54e4c
     originalPath: 
     status: 1
     staged: 0
-  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-155a2a3a0cddcba42ad2414f44785405
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-155a2a3a0cddcba42ad2414f44785405
-    projectPath: Temp\UnityTempFile-155a2a3a0cddcba42ad2414f44785405
+  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-a218c6833df078341871427737427651
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-a218c6833df078341871427737427651
+    projectPath: Temp\UnityTempFile-a218c6833df078341871427737427651
     originalPath: 
     status: 1
     staged: 0
-  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-1638baa9ee0afd24f87b4d2b26297c22
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-1638baa9ee0afd24f87b4d2b26297c22
-    projectPath: Temp\UnityTempFile-1638baa9ee0afd24f87b4d2b26297c22
+  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-a9372f0266f751f4b800885d18b99787
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-a9372f0266f751f4b800885d18b99787
+    projectPath: Temp\UnityTempFile-a9372f0266f751f4b800885d18b99787
     originalPath: 
     status: 1
     staged: 0
-  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-1e90606aecce651499722d63c29f6128
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-1e90606aecce651499722d63c29f6128
-    projectPath: Temp\UnityTempFile-1e90606aecce651499722d63c29f6128
+  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-ce9b648d74fd16048a5d358137c99046
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-ce9b648d74fd16048a5d358137c99046
+    projectPath: Temp\UnityTempFile-ce9b648d74fd16048a5d358137c99046
     originalPath: 
     status: 1
     staged: 0
-  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-2a8617854ac54eb49a3308dc4a1a4dff
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-2a8617854ac54eb49a3308dc4a1a4dff
-    projectPath: Temp\UnityTempFile-2a8617854ac54eb49a3308dc4a1a4dff
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-43973622925b1984da519913fc82d4a3
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-43973622925b1984da519913fc82d4a3
-    projectPath: Temp\UnityTempFile-43973622925b1984da519913fc82d4a3
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-47d245618be8b6148915dbff01230a60
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-47d245618be8b6148915dbff01230a60
-    projectPath: Temp\UnityTempFile-47d245618be8b6148915dbff01230a60
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-4e92bb49d1872034b9457308b8445660
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-4e92bb49d1872034b9457308b8445660
-    projectPath: Temp\UnityTempFile-4e92bb49d1872034b9457308b8445660
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-5e623e2f8986bec4ab5db99c4f44de3f
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-5e623e2f8986bec4ab5db99c4f44de3f
-    projectPath: Temp\UnityTempFile-5e623e2f8986bec4ab5db99c4f44de3f
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-5fbbe03c96fca0e479fc2acb159719ba
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-5fbbe03c96fca0e479fc2acb159719ba
-    projectPath: Temp\UnityTempFile-5fbbe03c96fca0e479fc2acb159719ba
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-63b6967fe369ca34dbbe63bc000f91ef
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-63b6967fe369ca34dbbe63bc000f91ef
-    projectPath: Temp\UnityTempFile-63b6967fe369ca34dbbe63bc000f91ef
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-8fed93a83d4a7964e8fc3b42dd36932a
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-8fed93a83d4a7964e8fc3b42dd36932a
-    projectPath: Temp\UnityTempFile-8fed93a83d4a7964e8fc3b42dd36932a
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-91f1c5bba09021d429fd218c091bd28a
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-91f1c5bba09021d429fd218c091bd28a
-    projectPath: Temp\UnityTempFile-91f1c5bba09021d429fd218c091bd28a
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-94e7f59cbb532bd4cb184d47d3b90c91
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-94e7f59cbb532bd4cb184d47d3b90c91
-    projectPath: Temp\UnityTempFile-94e7f59cbb532bd4cb184d47d3b90c91
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-a307b2706d1e0524bae1654fe05bf4d0
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-a307b2706d1e0524bae1654fe05bf4d0
-    projectPath: Temp\UnityTempFile-a307b2706d1e0524bae1654fe05bf4d0
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-aa4533423b8e2d44fadc63b800585a8a
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-aa4533423b8e2d44fadc63b800585a8a
-    projectPath: Temp\UnityTempFile-aa4533423b8e2d44fadc63b800585a8a
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-aa77b011f5cde984a93254946817348f
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-aa77b011f5cde984a93254946817348f
-    projectPath: Temp\UnityTempFile-aa77b011f5cde984a93254946817348f
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-cbfc2feb1571f3742af60b5523332b52
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-cbfc2feb1571f3742af60b5523332b52
-    projectPath: Temp\UnityTempFile-cbfc2feb1571f3742af60b5523332b52
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-e38527132c0af374f810e810f6bb8967
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-e38527132c0af374f810e810f6bb8967
-    projectPath: Temp\UnityTempFile-e38527132c0af374f810e810f6bb8967
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-e57c06f99e7a20b48979183ca84ccbba
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-e57c06f99e7a20b48979183ca84ccbba
-    projectPath: Temp\UnityTempFile-e57c06f99e7a20b48979183ca84ccbba
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-e86a2bba958bf6742a3e5117c8a40288
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-e86a2bba958bf6742a3e5117c8a40288
-    projectPath: Temp\UnityTempFile-e86a2bba958bf6742a3e5117c8a40288
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-f7372718e1232004fb54e8a291a643a0
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-f7372718e1232004fb54e8a291a643a0
-    projectPath: Temp\UnityTempFile-f7372718e1232004fb54e8a291a643a0
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-f73e58dbd462f0848a305a602fc9b7ee
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-f73e58dbd462f0848a305a602fc9b7ee
-    projectPath: Temp\UnityTempFile-f73e58dbd462f0848a305a602fc9b7ee
+  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-fd62bbe008d47824b91234bfd23d811e
+    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-fd62bbe008d47824b91234bfd23d811e
+    projectPath: Temp\UnityTempFile-fd62bbe008d47824b91234bfd23d811e
     originalPath: 
     status: 1
     staged: 0
