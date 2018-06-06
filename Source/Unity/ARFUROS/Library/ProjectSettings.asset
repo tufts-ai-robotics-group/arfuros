@@ -150,7 +150,8 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.AIRLAB.ARFUROS
+    Android: com.AIRLab.HyperCube
+    iOS: com.AIRLab.HyperCube
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 16
