@@ -27,5 +27,10 @@ public class SettingsManager : MonoBehaviour {
         SceneManager.LoadScene("arview");
     }
 
+    private void Awake()
+    {
+       // Load in the values
+    }
+
 }
 
