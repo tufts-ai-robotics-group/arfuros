@@ -12,138 +12,1884 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-06-07T10:24:57.962-04:00
-  initializedAtString: 2018-06-07T10:08:00.554-04:00
+  lastUpdatedAtString: 2018-06-07T13:46:25.444-04:00
+  initializedAtString: 2018-06-07T10:50:12.326-04:00
   entries:
-  - path: Source\Unity\ARFUROS\.vs\ARFUROS\v15\.suo
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\.vs\ARFUROS\v15\.suo
-    projectPath: .vs\ARFUROS\v15\.suo
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Source\Unity\ARFUROS\.vs\ARFUROS\v15\Server\sqlite3\storage.ide
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\.vs\ARFUROS\v15\Server\sqlite3\storage.ide
-    projectPath: .vs\ARFUROS\v15\Server\sqlite3\storage.ide
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Source\Unity\ARFUROS\.vs\ARFUROS\v15\Server\sqlite3\storage.ide-shm
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\.vs\ARFUROS\v15\Server\sqlite3\storage.ide-shm
-    projectPath: .vs\ARFUROS\v15\Server\sqlite3\storage.ide-shm
+  - path: Source/Unity/ARFUROS/.vs/ARFUROS/xs/UserPrefs.xml
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/.vs/ARFUROS/xs/UserPrefs.xml
+    projectPath: .vs/ARFUROS/xs/UserPrefs.xml
     originalPath: 
     status: 1
     staged: 0
-  - path: Source\Unity\ARFUROS\.vs\ARFUROS\v15\Server\sqlite3\storage.ide-wal
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\.vs\ARFUROS\v15\Server\sqlite3\storage.ide-wal
-    projectPath: .vs\ARFUROS\v15\Server\sqlite3\storage.ide-wal
+  - path: Source/Unity/ARFUROS/ARFUROS.sln
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/ARFUROS.sln
+    projectPath: ARFUROS.sln
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Assembly-CSharp.csproj
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Assembly-CSharp-Editor.csproj
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Assembly-CSharp-Editor.csproj
+    projectPath: Assembly-CSharp-Editor.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Assets/Graphics/backgrounds/geometric.jpeg
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Assets/Graphics/backgrounds/geometric.jpeg
+    projectPath: Assets/Graphics/backgrounds/geometric.jpeg
     originalPath: 
     status: 1
     staged: 0
-  - path: Source\Unity\ARFUROS\Assets\Scenes\menu.unity
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\Scenes\menu.unity
-    projectPath: Assets\Scenes\menu.unity
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Source\Unity\ARFUROS\Assets\Scripts\SettingsManager.cs
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\Scripts\SettingsManager.cs
-    projectPath: Assets\Scripts\SettingsManager.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Source\Unity\ARFUROS\Library\assetDatabase3
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\assetDatabase3
-    projectPath: Library\assetDatabase3
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Source\Unity\ARFUROS\Library\CurrentLayout.dwlt
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\CurrentLayout.dwlt
-    projectPath: Library\CurrentLayout.dwlt
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Source\Unity\ARFUROS\Library\CurrentMaximizeLayout.dwlt
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\CurrentMaximizeLayout.dwlt
-    projectPath: Library\CurrentMaximizeLayout.dwlt
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Source\Unity\ARFUROS\Library\EditorInstance.json
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\EditorInstance.json
-    projectPath: Library\EditorInstance.json
+  - path: Source/Unity/ARFUROS/Assets/Graphics/backgrounds/geometric.jpeg.meta
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Assets/Graphics/backgrounds/geometric.jpeg.meta
+    projectPath: Assets/Graphics/backgrounds/geometric.jpeg.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Source\Unity\ARFUROS\Library\gfu\cache\gitlocks.yaml
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\gfu\cache\gitlocks.yaml
-    projectPath: Library\gfu\cache\gitlocks.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Source\Unity\ARFUROS\Library\gfu\cache\gitstatusentries.yaml
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\gfu\cache\gitstatusentries.yaml
-    projectPath: Library\gfu\cache\gitstatusentries.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Source\Unity\ARFUROS\Library\gfu\cache\gittrackingstatus.yaml
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\gfu\cache\gittrackingstatus.yaml
-    projectPath: Library\gfu\cache\gittrackingstatus.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Source\Unity\ARFUROS\Library\gfu\cache\gituser.yaml
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\gfu\cache\gituser.yaml
-    projectPath: Library\gfu\cache\gituser.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Source\Unity\ARFUROS\Library\gfu\cache\repoinfo.yaml
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\gfu\cache\repoinfo.yaml
-    projectPath: Library\gfu\cache\repoinfo.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Source\Unity\ARFUROS\Library\metadata\8d\8de734db487faa5408c5494162ba0ebf
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\8d\8de734db487faa5408c5494162ba0ebf
-    projectPath: Library\metadata\8d\8de734db487faa5408c5494162ba0ebf
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Source\Unity\ARFUROS\Library\ScriptAssemblies\Assembly-CSharp.dll
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\ScriptAssemblies\Assembly-CSharp.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Source\Unity\ARFUROS\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Source\Unity\ARFUROS\Library\shadercompiler-UnityShaderCompiler.exe0.log
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\shadercompiler-UnityShaderCompiler.exe0.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Source\Unity\ARFUROS\Temp\__Backupscenes\0.backup
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\__Backupscenes\0.backup
-    projectPath: Temp\__Backupscenes\0.backup
+  - path: Source/Unity/ARFUROS/Assets/Graphics/backgrounds/stars.jpg
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Assets/Graphics/backgrounds/stars.jpg
+    projectPath: Assets/Graphics/backgrounds/stars.jpg
     originalPath: 
     status: 1
     staged: 0
-  - path: Source\Unity\ARFUROS\Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
-    projectPath: Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+  - path: Source/Unity/ARFUROS/Assets/Graphics/backgrounds/stars.jpg.meta
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Assets/Graphics/backgrounds/stars.jpg.meta
+    projectPath: Assets/Graphics/backgrounds/stars.jpg.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Source\Unity\ARFUROS\Temp\UnityLockfile
-    fullPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityLockfile
-    projectPath: Temp\UnityLockfile
+  - path: Source/Unity/ARFUROS/Assets/Graphics/fonts.meta
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Assets/Graphics/fonts.meta
+    projectPath: Assets/Graphics/fonts.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Source/Unity/ARFUROS/Assets/Models/VuforiaMars_ModelTarget/ddcf29fe83b64ee984697b36afc5e823/Model.prefab
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Assets/Models/VuforiaMars_ModelTarget/ddcf29fe83b64ee984697b36afc5e823/Model.prefab
+    projectPath: Assets/Models/VuforiaMars_ModelTarget/ddcf29fe83b64ee984697b36afc5e823/Model.prefab
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Assets/Scenes/menu.unity
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Assets/Scenes/menu.unity
+    projectPath: Assets/Scenes/menu.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Assets/Scripts/scroll.cs
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Assets/Scripts/scroll.cs
+    projectPath: Assets/Scripts/scroll.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Assets/Scripts/scroll.cs.meta
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Assets/Scripts/scroll.cs.meta
+    projectPath: Assets/Scripts/scroll.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Assets/Scripts/SettingsManager.cs
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Assets/Scripts/SettingsManager.cs
+    projectPath: Assets/Scripts/SettingsManager.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/assetDatabase3
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/assetDatabase3
+    projectPath: Library/assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/CrashedAssetImports.txt
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/CrashedAssetImports.txt
+    projectPath: Library/CrashedAssetImports.txt
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/CurrentLayout.dwlt
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/CurrentLayout.dwlt
+    projectPath: Library/CurrentLayout.dwlt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/CurrentMaximizeLayout.dwlt
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/CurrentMaximizeLayout.dwlt
+    projectPath: Library/CurrentMaximizeLayout.dwlt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/EditorInstance.json
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/EditorInstance.json
+    projectPath: Library/EditorInstance.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/gfu/cache/branches.yaml
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/gfu/cache/branches.yaml
+    projectPath: Library/gfu/cache/branches.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/gfu/cache/gitlocks.yaml
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/gfu/cache/gitlocks.yaml
+    projectPath: Library/gfu/cache/gitlocks.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/gfu/cache/gitlog.yaml
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/gfu/cache/gitlog.yaml
+    projectPath: Library/gfu/cache/gitlog.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/gfu/cache/gitstatusentries.yaml
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/gfu/cache/gitstatusentries.yaml
+    projectPath: Library/gfu/cache/gitstatusentries.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/gfu/cache/gittrackingstatus.yaml
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/gfu/cache/gittrackingstatus.yaml
+    projectPath: Library/gfu/cache/gittrackingstatus.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/gfu/cache/gituser.yaml
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/gfu/cache/gituser.yaml
+    projectPath: Library/gfu/cache/gituser.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/gfu/cache/repoinfo.yaml
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/gfu/cache/repoinfo.yaml
+    projectPath: Library/gfu/cache/repoinfo.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/InspectorExpandedItems.asset
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/InspectorExpandedItems.asset
+    projectPath: Library/InspectorExpandedItems.asset
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/00/00000000000000002000000000000000
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/00/00000000000000002000000000000000
+    projectPath: Library/metadata/00/00000000000000002000000000000000
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/00/00000000000000003000000000000000
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/00/00000000000000003000000000000000
+    projectPath: Library/metadata/00/00000000000000003000000000000000
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/00/00000000000000004100000000000000
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/00/00000000000000004100000000000000
+    projectPath: Library/metadata/00/00000000000000004100000000000000
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/00/00000000000000005000000000000000
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/00/00000000000000005000000000000000
+    projectPath: Library/metadata/00/00000000000000005000000000000000
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/00/00000000000000005100000000000000
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/00/00000000000000005100000000000000
+    projectPath: Library/metadata/00/00000000000000005100000000000000
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/00/00000000000000006000000000000000
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/00/00000000000000006000000000000000
+    projectPath: Library/metadata/00/00000000000000006000000000000000
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/00/00000000000000007000000000000000
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/00/00000000000000007000000000000000
+    projectPath: Library/metadata/00/00000000000000007000000000000000
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/00/00000000000000007100000000000000
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/00/00000000000000007100000000000000
+    projectPath: Library/metadata/00/00000000000000007100000000000000
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/00/00000000000000008000000000000000
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/00/00000000000000008000000000000000
+    projectPath: Library/metadata/00/00000000000000008000000000000000
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/00/00000000000000009000000000000000
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/00/00000000000000009000000000000000
+    projectPath: Library/metadata/00/00000000000000009000000000000000
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/00/0000000000000000a000000000000000
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/00/0000000000000000a000000000000000
+    projectPath: Library/metadata/00/0000000000000000a000000000000000
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/00/0000000000000000a100000000000000
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/00/0000000000000000a100000000000000
+    projectPath: Library/metadata/00/0000000000000000a100000000000000
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/00/0000000000000000c000000000000000
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/00/0000000000000000c000000000000000
+    projectPath: Library/metadata/00/0000000000000000c000000000000000
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/06/065e06be0bcd1674aae18b01b730945c.info
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/06/065e06be0bcd1674aae18b01b730945c.info
+    projectPath: Library/metadata/06/065e06be0bcd1674aae18b01b730945c.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/0d/0d3bb855445e36e479c85976fc88383a
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/0d/0d3bb855445e36e479c85976fc88383a
+    projectPath: Library/metadata/0d/0d3bb855445e36e479c85976fc88383a
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/12/12fd8a0055b84bb59e84c9835a37e333
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/12/12fd8a0055b84bb59e84c9835a37e333
+    projectPath: Library/metadata/12/12fd8a0055b84bb59e84c9835a37e333
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/15/15e327f750b786c46a9ec3995f60c81f
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/15/15e327f750b786c46a9ec3995f60c81f
+    projectPath: Library/metadata/15/15e327f750b786c46a9ec3995f60c81f
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/19/1924dc0482bd07946aac3c9244e390c8
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/19/1924dc0482bd07946aac3c9244e390c8
+    projectPath: Library/metadata/19/1924dc0482bd07946aac3c9244e390c8
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/19/19e5a138c07e971438b2b18c8e716479
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/19/19e5a138c07e971438b2b18c8e716479
+    projectPath: Library/metadata/19/19e5a138c07e971438b2b18c8e716479
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/1a/1a890b01c666b2a4dbdfe1eb6a476078
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/1a/1a890b01c666b2a4dbdfe1eb6a476078
+    projectPath: Library/metadata/1a/1a890b01c666b2a4dbdfe1eb6a476078
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/1b/1b355da31ea043feba0c03e35dd4bc62
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/1b/1b355da31ea043feba0c03e35dd4bc62
+    projectPath: Library/metadata/1b/1b355da31ea043feba0c03e35dd4bc62
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/1c/1c04f7573da766349b5829fc7ac2554f
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/1c/1c04f7573da766349b5829fc7ac2554f
+    projectPath: Library/metadata/1c/1c04f7573da766349b5829fc7ac2554f
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/1c/1c6d1fbb51834b64847b1b73a75bfc77
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/1c/1c6d1fbb51834b64847b1b73a75bfc77
+    projectPath: Library/metadata/1c/1c6d1fbb51834b64847b1b73a75bfc77
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/1e/1e108ae5f2133934f948edded555f03e
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/1e/1e108ae5f2133934f948edded555f03e
+    projectPath: Library/metadata/1e/1e108ae5f2133934f948edded555f03e
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/1f/1f983694d4741459cb91b9b15812b12a
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/1f/1f983694d4741459cb91b9b15812b12a
+    projectPath: Library/metadata/1f/1f983694d4741459cb91b9b15812b12a
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/1f/1f983694d4741459cb91b9b15812b12a.info
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/1f/1f983694d4741459cb91b9b15812b12a.info
+    projectPath: Library/metadata/1f/1f983694d4741459cb91b9b15812b12a.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/21/21eff446d50eaf44a85985cd4c0b6fa1
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/21/21eff446d50eaf44a85985cd4c0b6fa1
+    projectPath: Library/metadata/21/21eff446d50eaf44a85985cd4c0b6fa1
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/26/2682a692a2be7e14e901a738c7806da0
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/26/2682a692a2be7e14e901a738c7806da0
+    projectPath: Library/metadata/26/2682a692a2be7e14e901a738c7806da0
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/29/296168e8d7d28cf4baa05651a50a5201.info
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/29/296168e8d7d28cf4baa05651a50a5201.info
+    projectPath: Library/metadata/29/296168e8d7d28cf4baa05651a50a5201.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/2f/2f02b8764d7e3d0478249c300d6b8b6f
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/2f/2f02b8764d7e3d0478249c300d6b8b6f
+    projectPath: Library/metadata/2f/2f02b8764d7e3d0478249c300d6b8b6f
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/2f/2fe3476eabbbb6c448e6b55a2cc471f5
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/2f/2fe3476eabbbb6c448e6b55a2cc471f5
+    projectPath: Library/metadata/2f/2fe3476eabbbb6c448e6b55a2cc471f5
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/2f/2fe3476eabbbb6c448e6b55a2cc471f5.info
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/2f/2fe3476eabbbb6c448e6b55a2cc471f5.info
+    projectPath: Library/metadata/2f/2fe3476eabbbb6c448e6b55a2cc471f5.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/32/32188fd89022c154c81befa2f0e00be0
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/32/32188fd89022c154c81befa2f0e00be0
+    projectPath: Library/metadata/32/32188fd89022c154c81befa2f0e00be0
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/32/328cc881519068e4eb7db4bb907ad2d9
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/32/328cc881519068e4eb7db4bb907ad2d9
+    projectPath: Library/metadata/32/328cc881519068e4eb7db4bb907ad2d9
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/38/38c8faf1788024c02930a0c68a6e0edc
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/38/38c8faf1788024c02930a0c68a6e0edc
+    projectPath: Library/metadata/38/38c8faf1788024c02930a0c68a6e0edc
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/3a/3a84de5cd0624681b6b6dcd8921d912a
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/3a/3a84de5cd0624681b6b6dcd8921d912a
+    projectPath: Library/metadata/3a/3a84de5cd0624681b6b6dcd8921d912a
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/3b/3bb0254b9671413d9d08a855c5090237
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/3b/3bb0254b9671413d9d08a855c5090237
+    projectPath: Library/metadata/3b/3bb0254b9671413d9d08a855c5090237
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/3e/3e9a2175e0404f7ea30b2b694850bae0
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/3e/3e9a2175e0404f7ea30b2b694850bae0
+    projectPath: Library/metadata/3e/3e9a2175e0404f7ea30b2b694850bae0
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/40/405b9b51bb344a128608d968297df79c
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/40/405b9b51bb344a128608d968297df79c
+    projectPath: Library/metadata/40/405b9b51bb344a128608d968297df79c
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/40/40c0b1ac77831462ab0f27d9bd64dc7d
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/40/40c0b1ac77831462ab0f27d9bd64dc7d
+    projectPath: Library/metadata/40/40c0b1ac77831462ab0f27d9bd64dc7d
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/41/4113173d5e95493ab8765d7b08371de4
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/41/4113173d5e95493ab8765d7b08371de4
+    projectPath: Library/metadata/41/4113173d5e95493ab8765d7b08371de4
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/46/46098a81a64a45c5b756320e10a22f13
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/46/46098a81a64a45c5b756320e10a22f13
+    projectPath: Library/metadata/46/46098a81a64a45c5b756320e10a22f13
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/49/49f5766d0d4954f44b85d4bbd7131677
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/49/49f5766d0d4954f44b85d4bbd7131677
+    projectPath: Library/metadata/49/49f5766d0d4954f44b85d4bbd7131677
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/49/49f5766d0d4954f44b85d4bbd7131677.info
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/49/49f5766d0d4954f44b85d4bbd7131677.info
+    projectPath: Library/metadata/49/49f5766d0d4954f44b85d4bbd7131677.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/4a/4a3ecb1425d14502837abea459cf2b70
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/4a/4a3ecb1425d14502837abea459cf2b70
+    projectPath: Library/metadata/4a/4a3ecb1425d14502837abea459cf2b70
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/4a/4ab313fc05ce86544a005e3ae3f48979.info
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/4a/4ab313fc05ce86544a005e3ae3f48979.info
+    projectPath: Library/metadata/4a/4ab313fc05ce86544a005e3ae3f48979.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/4b/4b3fa4bde7f1451a8218c03ee6a8ded8
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/4b/4b3fa4bde7f1451a8218c03ee6a8ded8
+    projectPath: Library/metadata/4b/4b3fa4bde7f1451a8218c03ee6a8ded8
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f
+    projectPath: Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/50/507881507a8de984da5c673c01eed754
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/50/507881507a8de984da5c673c01eed754
+    projectPath: Library/metadata/50/507881507a8de984da5c673c01eed754
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/51/517af1b5b81b93b43b9745d58f017562
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/51/517af1b5b81b93b43b9745d58f017562
+    projectPath: Library/metadata/51/517af1b5b81b93b43b9745d58f017562
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/53/53ebcfaa2e1e4e2dbc85882cd5a73fa1
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/53/53ebcfaa2e1e4e2dbc85882cd5a73fa1
+    projectPath: Library/metadata/53/53ebcfaa2e1e4e2dbc85882cd5a73fa1
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/57/5782f9e9e6e0bb94bac99aeea24814fc
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/57/5782f9e9e6e0bb94bac99aeea24814fc
+    projectPath: Library/metadata/57/5782f9e9e6e0bb94bac99aeea24814fc
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/5a/5a4b354a3393911459ca2025410b0c02
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/5a/5a4b354a3393911459ca2025410b0c02
+    projectPath: Library/metadata/5a/5a4b354a3393911459ca2025410b0c02
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/5c/5cf4c801504d952978318f23f193b7e6.info
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/5c/5cf4c801504d952978318f23f193b7e6.info
+    projectPath: Library/metadata/5c/5cf4c801504d952978318f23f193b7e6.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7
+    projectPath: Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/69/6981461fe431401459211818212a29cf
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/69/6981461fe431401459211818212a29cf
+    projectPath: Library/metadata/69/6981461fe431401459211818212a29cf
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/69/6981461fe431401459211818212a29cf.info
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/69/6981461fe431401459211818212a29cf.info
+    projectPath: Library/metadata/69/6981461fe431401459211818212a29cf.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/6a/6a10b2909283487f913b00d94cd3faf5
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/6a/6a10b2909283487f913b00d94cd3faf5
+    projectPath: Library/metadata/6a/6a10b2909283487f913b00d94cd3faf5
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/6a/6a6b6bef66b30cf4da56a85e98aa9524
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/6a/6a6b6bef66b30cf4da56a85e98aa9524
+    projectPath: Library/metadata/6a/6a6b6bef66b30cf4da56a85e98aa9524
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/6b/6b036350a32eac84e82c708b054b6bc4
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/6b/6b036350a32eac84e82c708b054b6bc4
+    projectPath: Library/metadata/6b/6b036350a32eac84e82c708b054b6bc4
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/6e/6e2d432c5ea14e75aa3a79f90f704442
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/6e/6e2d432c5ea14e75aa3a79f90f704442
+    projectPath: Library/metadata/6e/6e2d432c5ea14e75aa3a79f90f704442
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/6e/6e86519b2ed7ece4cae901fc31de93cd
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/6e/6e86519b2ed7ece4cae901fc31de93cd
+    projectPath: Library/metadata/6e/6e86519b2ed7ece4cae901fc31de93cd
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/6f/6fe576b47d8b47688ec5d02bccd15cf9
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/6f/6fe576b47d8b47688ec5d02bccd15cf9
+    projectPath: Library/metadata/6f/6fe576b47d8b47688ec5d02bccd15cf9
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/71/710f298e6b03b4675b7af26a1765cc88
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/71/710f298e6b03b4675b7af26a1765cc88
+    projectPath: Library/metadata/71/710f298e6b03b4675b7af26a1765cc88
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/74/74749c8c6352384459d81255dc2bcc0e.info
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/74/74749c8c6352384459d81255dc2bcc0e.info
+    projectPath: Library/metadata/74/74749c8c6352384459d81255dc2bcc0e.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/75/75799de484ac4f4cadc268d2cbea830a
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/75/75799de484ac4f4cadc268d2cbea830a
+    projectPath: Library/metadata/75/75799de484ac4f4cadc268d2cbea830a
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/76/7668179ede524d6396c8b7d84461ea29
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/76/7668179ede524d6396c8b7d84461ea29
+    projectPath: Library/metadata/76/7668179ede524d6396c8b7d84461ea29
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/7e/7e6d3c0df88f3ab458512f8282e449af
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/7e/7e6d3c0df88f3ab458512f8282e449af
+    projectPath: Library/metadata/7e/7e6d3c0df88f3ab458512f8282e449af
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f
+    projectPath: Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/84/844f815391db42d49455cbf1a7bfc434
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/84/844f815391db42d49455cbf1a7bfc434
+    projectPath: Library/metadata/84/844f815391db42d49455cbf1a7bfc434
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/84/84ca94c19f25ae14d83aa41bb3654390
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/84/84ca94c19f25ae14d83aa41bb3654390
+    projectPath: Library/metadata/84/84ca94c19f25ae14d83aa41bb3654390
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/84/84ca94c19f25ae14d83aa41bb3654390.info
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/84/84ca94c19f25ae14d83aa41bb3654390.info
+    projectPath: Library/metadata/84/84ca94c19f25ae14d83aa41bb3654390.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/85/858b7542787a1a44d917d8b76b6a9b47
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/85/858b7542787a1a44d917d8b76b6a9b47
+    projectPath: Library/metadata/85/858b7542787a1a44d917d8b76b6a9b47
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/86/86a3e6c6d17054f4e9802c62e03a5b36
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/86/86a3e6c6d17054f4e9802c62e03a5b36
+    projectPath: Library/metadata/86/86a3e6c6d17054f4e9802c62e03a5b36
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/86/86a3e6c6d17054f4e9802c62e03a5b36.info
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/86/86a3e6c6d17054f4e9802c62e03a5b36.info
+    projectPath: Library/metadata/86/86a3e6c6d17054f4e9802c62e03a5b36.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/87/870353891bb340e2b2a9c8707e7419ba
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/87/870353891bb340e2b2a9c8707e7419ba
+    projectPath: Library/metadata/87/870353891bb340e2b2a9c8707e7419ba
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/8a/8a9a760f95896c34689febc965510927
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/8a/8a9a760f95896c34689febc965510927
+    projectPath: Library/metadata/8a/8a9a760f95896c34689febc965510927
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/8d/8de734db487faa5408c5494162ba0ebf
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/8d/8de734db487faa5408c5494162ba0ebf
+    projectPath: Library/metadata/8d/8de734db487faa5408c5494162ba0ebf
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/8e/8e60d9f62b99c4a719cee93ab9c39374
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/8e/8e60d9f62b99c4a719cee93ab9c39374
+    projectPath: Library/metadata/8e/8e60d9f62b99c4a719cee93ab9c39374
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/8e/8e7066e382b0fc749b25dbb1a3004dfe
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/8e/8e7066e382b0fc749b25dbb1a3004dfe
+    projectPath: Library/metadata/8e/8e7066e382b0fc749b25dbb1a3004dfe
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/90/9078b7128e594410d9b89e5b24cffd01
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/90/9078b7128e594410d9b89e5b24cffd01
+    projectPath: Library/metadata/90/9078b7128e594410d9b89e5b24cffd01
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/99/99b48d4d4f6a66340ab06bd487d70a45
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/99/99b48d4d4f6a66340ab06bd487d70a45
+    projectPath: Library/metadata/99/99b48d4d4f6a66340ab06bd487d70a45
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/a0/a0ded7adcc817ce489fec07977f16d13
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/a0/a0ded7adcc817ce489fec07977f16d13
+    projectPath: Library/metadata/a0/a0ded7adcc817ce489fec07977f16d13
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/a7/a77cd76073c7444179779ec6271ad5e1
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/a7/a77cd76073c7444179779ec6271ad5e1
+    projectPath: Library/metadata/a7/a77cd76073c7444179779ec6271ad5e1
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/a8/a81568144a775094bb6b92c7df9fcebe
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/a8/a81568144a775094bb6b92c7df9fcebe
+    projectPath: Library/metadata/a8/a81568144a775094bb6b92c7df9fcebe
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/a9/a928fab3c0d6d40ceb92121cd87ee8ef
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/a9/a928fab3c0d6d40ceb92121cd87ee8ef
+    projectPath: Library/metadata/a9/a928fab3c0d6d40ceb92121cd87ee8ef
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/a9/a928fab3c0d6d40ceb92121cd87ee8ef.info
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/a9/a928fab3c0d6d40ceb92121cd87ee8ef.info
+    projectPath: Library/metadata/a9/a928fab3c0d6d40ceb92121cd87ee8ef.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/aa/aa7c27f0b40989d91acb65067c2cf3d0
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/aa/aa7c27f0b40989d91acb65067c2cf3d0
+    projectPath: Library/metadata/aa/aa7c27f0b40989d91acb65067c2cf3d0
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/ab/abf1884d0e1cb114e80199e8f085106f
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/ab/abf1884d0e1cb114e80199e8f085106f
+    projectPath: Library/metadata/ab/abf1884d0e1cb114e80199e8f085106f
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/ab/abf1884d0e1cb114e80199e8f085106f.info
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/ab/abf1884d0e1cb114e80199e8f085106f.info
+    projectPath: Library/metadata/ab/abf1884d0e1cb114e80199e8f085106f.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f
+    projectPath: Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/b2/b2b693dffac3a4433b3114fea0b7fd4e
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/b2/b2b693dffac3a4433b3114fea0b7fd4e
+    projectPath: Library/metadata/b2/b2b693dffac3a4433b3114fea0b7fd4e
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/b2/b2bead50dbf86924f8e51f03ddbebf70
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/b2/b2bead50dbf86924f8e51f03ddbebf70
+    projectPath: Library/metadata/b2/b2bead50dbf86924f8e51f03ddbebf70
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/b5/b5da970776034f77a070d99423d68791
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/b5/b5da970776034f77a070d99423d68791
+    projectPath: Library/metadata/b5/b5da970776034f77a070d99423d68791
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/b8/b8a0574e92bd43a59e19d6c3c6ae54c7
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/b8/b8a0574e92bd43a59e19d6c3c6ae54c7
+    projectPath: Library/metadata/b8/b8a0574e92bd43a59e19d6c3c6ae54c7
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/b9/b95ab00277ee47c687d710a3bb623d0a
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/b9/b95ab00277ee47c687d710a3bb623d0a
+    projectPath: Library/metadata/b9/b95ab00277ee47c687d710a3bb623d0a
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/ba/ba1fdeca76274e843a3d78b1bc348126
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/ba/ba1fdeca76274e843a3d78b1bc348126
+    projectPath: Library/metadata/ba/ba1fdeca76274e843a3d78b1bc348126
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/ba/bab6fa851cf5a1a4bba3cec5f191cb8e
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/ba/bab6fa851cf5a1a4bba3cec5f191cb8e
+    projectPath: Library/metadata/ba/bab6fa851cf5a1a4bba3cec5f191cb8e
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/c1/c1ded68d068051d4f92650fcddaae5c7
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/c1/c1ded68d068051d4f92650fcddaae5c7
+    projectPath: Library/metadata/c1/c1ded68d068051d4f92650fcddaae5c7
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/c7/c768acbc9cf24d398488bb4c93b91288
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/c7/c768acbc9cf24d398488bb4c93b91288
+    projectPath: Library/metadata/c7/c768acbc9cf24d398488bb4c93b91288
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/ca/cad92998c5182496e8b989b406d9f156
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/ca/cad92998c5182496e8b989b406d9f156
+    projectPath: Library/metadata/ca/cad92998c5182496e8b989b406d9f156
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/d0/d05b96cee66e14240838de167097537a
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/d0/d05b96cee66e14240838de167097537a
+    projectPath: Library/metadata/d0/d05b96cee66e14240838de167097537a
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/d0/d05b96cee66e14240838de167097537a.info
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/d0/d05b96cee66e14240838de167097537a.info
+    projectPath: Library/metadata/d0/d05b96cee66e14240838de167097537a.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/d2/d2170503dc57f492481ebe9334c68fcc
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/d2/d2170503dc57f492481ebe9334c68fcc
+    projectPath: Library/metadata/d2/d2170503dc57f492481ebe9334c68fcc
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/d3/d33d54853fd0f48e0ac8a63ea91e6626
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/d3/d33d54853fd0f48e0ac8a63ea91e6626
+    projectPath: Library/metadata/d3/d33d54853fd0f48e0ac8a63ea91e6626
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/d9/d91035c548f23744c9bfb107348ed1c0
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/d9/d91035c548f23744c9bfb107348ed1c0
+    projectPath: Library/metadata/d9/d91035c548f23744c9bfb107348ed1c0
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/dc/dc443db3e92b4983b9738c1131f555cb
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/dc/dc443db3e92b4983b9738c1131f555cb
+    projectPath: Library/metadata/dc/dc443db3e92b4983b9738c1131f555cb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/e1/e1007cd261c84053beb0c3537782908d
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/e1/e1007cd261c84053beb0c3537782908d
+    projectPath: Library/metadata/e1/e1007cd261c84053beb0c3537782908d
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/e4/e4bfeabebc5114952a57d908ff706b7e
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/e4/e4bfeabebc5114952a57d908ff706b7e
+    projectPath: Library/metadata/e4/e4bfeabebc5114952a57d908ff706b7e
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/e4/e4f4cf1b9b434137a499903a7a1d651a
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/e4/e4f4cf1b9b434137a499903a7a1d651a
+    projectPath: Library/metadata/e4/e4f4cf1b9b434137a499903a7a1d651a
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/ea/ead147da21254ff9a0a936bdd75e1680
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/ea/ead147da21254ff9a0a936bdd75e1680
+    projectPath: Library/metadata/ea/ead147da21254ff9a0a936bdd75e1680
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/ed/ed7343f30e3843b3afda8f8b02669cea
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/ed/ed7343f30e3843b3afda8f8b02669cea
+    projectPath: Library/metadata/ed/ed7343f30e3843b3afda8f8b02669cea
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/f2/f20ae946d2b17e54f9d79e15ae0a0cb1
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/f2/f20ae946d2b17e54f9d79e15ae0a0cb1
+    projectPath: Library/metadata/f2/f20ae946d2b17e54f9d79e15ae0a0cb1
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8
+    projectPath: Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/f7/f70555f144d8491a825f0804e09c671c
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/f7/f70555f144d8491a825f0804e09c671c
+    projectPath: Library/metadata/f7/f70555f144d8491a825f0804e09c671c
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/f7/f735d317ca9afb6468c5c5ca06d9e39a
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/f7/f735d317ca9afb6468c5c5ca06d9e39a
+    projectPath: Library/metadata/f7/f735d317ca9afb6468c5c5ca06d9e39a
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/metadata/f7/f7b54ff4a43d4fcf81b4538b678e0bcc
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/metadata/f7/f7b54ff4a43d4fcf81b4538b678e0bcc
+    projectPath: Library/metadata/f7/f7b54ff4a43d4fcf81b4538b678e0bcc
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ScriptAssemblies/Assembly-CSharp.dll
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ScriptAssemblies/Assembly-CSharp.dll
+    projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+    projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+    projectPath: Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb
+    projectPath: Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ScriptAssemblies/BuiltinAssemblies.stamp
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ScriptAssemblies/BuiltinAssemblies.stamp
+    projectPath: Library/ScriptAssemblies/BuiltinAssemblies.stamp
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+    projectPath: Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll.mdb
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll.mdb
+    projectPath: Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll
+    projectPath: Library/ScriptAssemblies/UnityEditor.StandardEvents.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll.mdb
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll.mdb
+    projectPath: Library/ScriptAssemblies/UnityEditor.StandardEvents.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/0/01566d42e43605ced051fd7fe1a569d4.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/0/01566d42e43605ced051fd7fe1a569d4.bin
+    projectPath: Library/ShaderCache/0/01566d42e43605ced051fd7fe1a569d4.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/0/01a2f5bc0e639badb7d3517a3f65c45f.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/0/01a2f5bc0e639badb7d3517a3f65c45f.bin
+    projectPath: Library/ShaderCache/0/01a2f5bc0e639badb7d3517a3f65c45f.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/0/089ed5eb9797516360f1256252b8c540.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/0/089ed5eb9797516360f1256252b8c540.bin
+    projectPath: Library/ShaderCache/0/089ed5eb9797516360f1256252b8c540.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/0/0ce6eb479d971484fe016dbff4fc9c66.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/0/0ce6eb479d971484fe016dbff4fc9c66.bin
+    projectPath: Library/ShaderCache/0/0ce6eb479d971484fe016dbff4fc9c66.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/0/0e346919e1f44f9e4597464988978c9d.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/0/0e346919e1f44f9e4597464988978c9d.bin
+    projectPath: Library/ShaderCache/0/0e346919e1f44f9e4597464988978c9d.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/0/0f52f9362fc6338c02c0bf7cb9005e3f.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/0/0f52f9362fc6338c02c0bf7cb9005e3f.bin
+    projectPath: Library/ShaderCache/0/0f52f9362fc6338c02c0bf7cb9005e3f.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/1/18f95faf44cf9b4993e6254eee743929.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/1/18f95faf44cf9b4993e6254eee743929.bin
+    projectPath: Library/ShaderCache/1/18f95faf44cf9b4993e6254eee743929.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/1/1cdaeff87a7745f590722bf5fcf7aa7e.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/1/1cdaeff87a7745f590722bf5fcf7aa7e.bin
+    projectPath: Library/ShaderCache/1/1cdaeff87a7745f590722bf5fcf7aa7e.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/3/3c122ab4768a79c93103d58bab6e07ef.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/3/3c122ab4768a79c93103d58bab6e07ef.bin
+    projectPath: Library/ShaderCache/3/3c122ab4768a79c93103d58bab6e07ef.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/3/3c2b4d38ac51fc63a133c0c9c04c155a.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/3/3c2b4d38ac51fc63a133c0c9c04c155a.bin
+    projectPath: Library/ShaderCache/3/3c2b4d38ac51fc63a133c0c9c04c155a.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/4/4ee8bf07c01aa7291652fcd8ea8afe16.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/4/4ee8bf07c01aa7291652fcd8ea8afe16.bin
+    projectPath: Library/ShaderCache/4/4ee8bf07c01aa7291652fcd8ea8afe16.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/5/531a1e687d782d7086769f4e3b14db08.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/5/531a1e687d782d7086769f4e3b14db08.bin
+    projectPath: Library/ShaderCache/5/531a1e687d782d7086769f4e3b14db08.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/5/5e7209649693843c239b444b343beb69.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/5/5e7209649693843c239b444b343beb69.bin
+    projectPath: Library/ShaderCache/5/5e7209649693843c239b444b343beb69.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/6/604e976880cc2a50ffcd78ce2dcac827.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/6/604e976880cc2a50ffcd78ce2dcac827.bin
+    projectPath: Library/ShaderCache/6/604e976880cc2a50ffcd78ce2dcac827.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/6/60cf9f3c510ff6b10ab2d9cb5ed3cc0c.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/6/60cf9f3c510ff6b10ab2d9cb5ed3cc0c.bin
+    projectPath: Library/ShaderCache/6/60cf9f3c510ff6b10ab2d9cb5ed3cc0c.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/6/6ba674a1d680fbb2989850a9b8c29d8d.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/6/6ba674a1d680fbb2989850a9b8c29d8d.bin
+    projectPath: Library/ShaderCache/6/6ba674a1d680fbb2989850a9b8c29d8d.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/7/7116ed60211d9c85a3622641ffbb33ba.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/7/7116ed60211d9c85a3622641ffbb33ba.bin
+    projectPath: Library/ShaderCache/7/7116ed60211d9c85a3622641ffbb33ba.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/7/732baa7d8831ba1891eed0ee9a7dbd1e.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/7/732baa7d8831ba1891eed0ee9a7dbd1e.bin
+    projectPath: Library/ShaderCache/7/732baa7d8831ba1891eed0ee9a7dbd1e.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/7/79ce005827d9308f6cc62e9911bbcbf6.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/7/79ce005827d9308f6cc62e9911bbcbf6.bin
+    projectPath: Library/ShaderCache/7/79ce005827d9308f6cc62e9911bbcbf6.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/8/86045e1ad7cec685341730359e000d6c.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/8/86045e1ad7cec685341730359e000d6c.bin
+    projectPath: Library/ShaderCache/8/86045e1ad7cec685341730359e000d6c.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/8/8a46814e51cf2ea669f7ea6a6cb6cbc3.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/8/8a46814e51cf2ea669f7ea6a6cb6cbc3.bin
+    projectPath: Library/ShaderCache/8/8a46814e51cf2ea669f7ea6a6cb6cbc3.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/8/8b2140dd136fbda54a156507811ed029.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/8/8b2140dd136fbda54a156507811ed029.bin
+    projectPath: Library/ShaderCache/8/8b2140dd136fbda54a156507811ed029.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/9/943f7fc36e5b34ae670b923078119762.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/9/943f7fc36e5b34ae670b923078119762.bin
+    projectPath: Library/ShaderCache/9/943f7fc36e5b34ae670b923078119762.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/9/953b2bf118e2bea3d4884bf346224a20.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/9/953b2bf118e2bea3d4884bf346224a20.bin
+    projectPath: Library/ShaderCache/9/953b2bf118e2bea3d4884bf346224a20.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/a/a0c51f380490c6793343521fb12f0bd6.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/a/a0c51f380490c6793343521fb12f0bd6.bin
+    projectPath: Library/ShaderCache/a/a0c51f380490c6793343521fb12f0bd6.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/a/a5d2f65eb31ff2d043c26d28ce134690.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/a/a5d2f65eb31ff2d043c26d28ce134690.bin
+    projectPath: Library/ShaderCache/a/a5d2f65eb31ff2d043c26d28ce134690.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/a/acc1e0815c3e09f14a9b4e68e737ebe8.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/a/acc1e0815c3e09f14a9b4e68e737ebe8.bin
+    projectPath: Library/ShaderCache/a/acc1e0815c3e09f14a9b4e68e737ebe8.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/b/b050aef1fc3e6e6b1793114033683b26.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/b/b050aef1fc3e6e6b1793114033683b26.bin
+    projectPath: Library/ShaderCache/b/b050aef1fc3e6e6b1793114033683b26.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/b/b794ec92236d0ce2080ba1804851d55e.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/b/b794ec92236d0ce2080ba1804851d55e.bin
+    projectPath: Library/ShaderCache/b/b794ec92236d0ce2080ba1804851d55e.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/b/b8220067e921494b321cfa3e84f5c3a2.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/b/b8220067e921494b321cfa3e84f5c3a2.bin
+    projectPath: Library/ShaderCache/b/b8220067e921494b321cfa3e84f5c3a2.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/c/c45eccf5230bd0199f9319bacd39746d.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/c/c45eccf5230bd0199f9319bacd39746d.bin
+    projectPath: Library/ShaderCache/c/c45eccf5230bd0199f9319bacd39746d.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/c/ce3c366d66221079f254868b2323a1e4.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/c/ce3c366d66221079f254868b2323a1e4.bin
+    projectPath: Library/ShaderCache/c/ce3c366d66221079f254868b2323a1e4.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/d/d877f5e965f2219a0eb5371bc40c0be7.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/d/d877f5e965f2219a0eb5371bc40c0be7.bin
+    projectPath: Library/ShaderCache/d/d877f5e965f2219a0eb5371bc40c0be7.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/d/dcf4d3d53fd6f9dc7958d7745d6046b2.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/d/dcf4d3d53fd6f9dc7958d7745d6046b2.bin
+    projectPath: Library/ShaderCache/d/dcf4d3d53fd6f9dc7958d7745d6046b2.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/e/e410900bac72e918a0a9c0997a46bfa6.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/e/e410900bac72e918a0a9c0997a46bfa6.bin
+    projectPath: Library/ShaderCache/e/e410900bac72e918a0a9c0997a46bfa6.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/e/e73bc961b8f7a79b387bfc1fccd0356c.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/e/e73bc961b8f7a79b387bfc1fccd0356c.bin
+    projectPath: Library/ShaderCache/e/e73bc961b8f7a79b387bfc1fccd0356c.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/e/edbe762df8ae3ec6856999e2e1becb27.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/e/edbe762df8ae3ec6856999e2e1becb27.bin
+    projectPath: Library/ShaderCache/e/edbe762df8ae3ec6856999e2e1becb27.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderCache/f/f009c7a0b50d1422261bf52126597849.bin
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/f/f009c7a0b50d1422261bf52126597849.bin
+    projectPath: Library/ShaderCache/f/f009c7a0b50d1422261bf52126597849.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/shadercompiler-UnityShaderCompiler0.log
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/shadercompiler-UnityShaderCompiler0.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/ShaderIncludePaths
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ShaderIncludePaths
+    projectPath: Library/ShaderIncludePaths
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/QCAR/somedata16
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/QCAR/somedata16
+    projectPath: QCAR/somedata16
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/__Backupscenes/0.backup
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/__Backupscenes/0.backup
+    projectPath: Temp/__Backupscenes/0.backup
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+    projectPath: Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityLockfile
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityLockfile
+    projectPath: Temp/UnityLockfile
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-02bfef13403d64a05a0c3defa77e9113
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-02bfef13403d64a05a0c3defa77e9113
+    projectPath: Temp/UnityTempFile-02bfef13403d64a05a0c3defa77e9113
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-064c8305eb9f74a278f402127bcdb7f1
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-064c8305eb9f74a278f402127bcdb7f1
+    projectPath: Temp/UnityTempFile-064c8305eb9f74a278f402127bcdb7f1
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-0aa3540ec3cfb41679382917e1283dda
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-0aa3540ec3cfb41679382917e1283dda
+    projectPath: Temp/UnityTempFile-0aa3540ec3cfb41679382917e1283dda
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-0c8f8d5682976434a978109874b17e11
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-0c8f8d5682976434a978109874b17e11
+    projectPath: Temp/UnityTempFile-0c8f8d5682976434a978109874b17e11
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-0ec748695c56047569d376e43ba18075
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-0ec748695c56047569d376e43ba18075
+    projectPath: Temp/UnityTempFile-0ec748695c56047569d376e43ba18075
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-10a5838b92b86485787d171a9f75ef3c
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-10a5838b92b86485787d171a9f75ef3c
+    projectPath: Temp/UnityTempFile-10a5838b92b86485787d171a9f75ef3c
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-10be92a1268844164ab020a878916557
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-10be92a1268844164ab020a878916557
+    projectPath: Temp/UnityTempFile-10be92a1268844164ab020a878916557
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-10e60f089c7764619a170421b79019f3
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-10e60f089c7764619a170421b79019f3
+    projectPath: Temp/UnityTempFile-10e60f089c7764619a170421b79019f3
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-115d723f457344791b3730c6aadd7223
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-115d723f457344791b3730c6aadd7223
+    projectPath: Temp/UnityTempFile-115d723f457344791b3730c6aadd7223
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-15e5f980305154b2ebba7ea81f10c3df
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-15e5f980305154b2ebba7ea81f10c3df
+    projectPath: Temp/UnityTempFile-15e5f980305154b2ebba7ea81f10c3df
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-1e858c54612b44f5ebe049c46da0eebd
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-1e858c54612b44f5ebe049c46da0eebd
+    projectPath: Temp/UnityTempFile-1e858c54612b44f5ebe049c46da0eebd
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-210297f1baeaf47ea9dd8a2044d9a27f
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-210297f1baeaf47ea9dd8a2044d9a27f
+    projectPath: Temp/UnityTempFile-210297f1baeaf47ea9dd8a2044d9a27f
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-26689802b8aa440c0bcf175e26ff6649
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-26689802b8aa440c0bcf175e26ff6649
+    projectPath: Temp/UnityTempFile-26689802b8aa440c0bcf175e26ff6649
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-2827255f04f254c10bd11d1f5f4d18fc
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-2827255f04f254c10bd11d1f5f4d18fc
+    projectPath: Temp/UnityTempFile-2827255f04f254c10bd11d1f5f4d18fc
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-2932001d4a680464f9ca600acb02bd03
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-2932001d4a680464f9ca600acb02bd03
+    projectPath: Temp/UnityTempFile-2932001d4a680464f9ca600acb02bd03
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-2a77b17b22f9146139466f95286c730d
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-2a77b17b22f9146139466f95286c730d
+    projectPath: Temp/UnityTempFile-2a77b17b22f9146139466f95286c730d
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-2cb8d6160e35848c0a366cdea7ca58fb
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-2cb8d6160e35848c0a366cdea7ca58fb
+    projectPath: Temp/UnityTempFile-2cb8d6160e35848c0a366cdea7ca58fb
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-2d697f3fe64c14b06b61e4ca5bde21f5
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-2d697f3fe64c14b06b61e4ca5bde21f5
+    projectPath: Temp/UnityTempFile-2d697f3fe64c14b06b61e4ca5bde21f5
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-30aad730164de493d8b244e1d7d49b43
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-30aad730164de493d8b244e1d7d49b43
+    projectPath: Temp/UnityTempFile-30aad730164de493d8b244e1d7d49b43
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-32cf493d6ce5a4ab6b143c90529becb7
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-32cf493d6ce5a4ab6b143c90529becb7
+    projectPath: Temp/UnityTempFile-32cf493d6ce5a4ab6b143c90529becb7
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-3acf201b8f75047b993b9ac2254c2b7a
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-3acf201b8f75047b993b9ac2254c2b7a
+    projectPath: Temp/UnityTempFile-3acf201b8f75047b993b9ac2254c2b7a
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-3bb0b5eb8681e46d399e82584b09c255
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-3bb0b5eb8681e46d399e82584b09c255
+    projectPath: Temp/UnityTempFile-3bb0b5eb8681e46d399e82584b09c255
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-407711cbc733c4c2da641d5ca463cc06
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-407711cbc733c4c2da641d5ca463cc06
+    projectPath: Temp/UnityTempFile-407711cbc733c4c2da641d5ca463cc06
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-4110c7bb9fb604a68954507d1135a8af
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-4110c7bb9fb604a68954507d1135a8af
+    projectPath: Temp/UnityTempFile-4110c7bb9fb604a68954507d1135a8af
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-45f5ff125c7304e1da92469cb4987e43
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-45f5ff125c7304e1da92469cb4987e43
+    projectPath: Temp/UnityTempFile-45f5ff125c7304e1da92469cb4987e43
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-47dba5bac7df749a5b70df6cab8f71b1
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-47dba5bac7df749a5b70df6cab8f71b1
+    projectPath: Temp/UnityTempFile-47dba5bac7df749a5b70df6cab8f71b1
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-49b2116c1e1704a04b815371a9a56a64
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-49b2116c1e1704a04b815371a9a56a64
+    projectPath: Temp/UnityTempFile-49b2116c1e1704a04b815371a9a56a64
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-4de50bd776ca84fb2931d889f6d825e4
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-4de50bd776ca84fb2931d889f6d825e4
+    projectPath: Temp/UnityTempFile-4de50bd776ca84fb2931d889f6d825e4
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-4f8b892427e3a45f997a64f7ba297a4d
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-4f8b892427e3a45f997a64f7ba297a4d
+    projectPath: Temp/UnityTempFile-4f8b892427e3a45f997a64f7ba297a4d
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-5162aacadff0049e897f9998ff7bacdc
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-5162aacadff0049e897f9998ff7bacdc
+    projectPath: Temp/UnityTempFile-5162aacadff0049e897f9998ff7bacdc
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-527d0badc8ff945a9949b332f12d2b29
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-527d0badc8ff945a9949b332f12d2b29
+    projectPath: Temp/UnityTempFile-527d0badc8ff945a9949b332f12d2b29
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-539a93c1613544b2483e301fbb94d4ac
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-539a93c1613544b2483e301fbb94d4ac
+    projectPath: Temp/UnityTempFile-539a93c1613544b2483e301fbb94d4ac
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-55ceb63090f014dc181d8552fe63396e
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-55ceb63090f014dc181d8552fe63396e
+    projectPath: Temp/UnityTempFile-55ceb63090f014dc181d8552fe63396e
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-57d2f4caa6c9a4ff597d8863db265e80
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-57d2f4caa6c9a4ff597d8863db265e80
+    projectPath: Temp/UnityTempFile-57d2f4caa6c9a4ff597d8863db265e80
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-59bf64dfe533946ee97e62bfac190dfc
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-59bf64dfe533946ee97e62bfac190dfc
+    projectPath: Temp/UnityTempFile-59bf64dfe533946ee97e62bfac190dfc
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-5c32590bfe1704e1cad3ec9d16233645
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-5c32590bfe1704e1cad3ec9d16233645
+    projectPath: Temp/UnityTempFile-5c32590bfe1704e1cad3ec9d16233645
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-5cb5586e4def84df4b950d21c35afe70
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-5cb5586e4def84df4b950d21c35afe70
+    projectPath: Temp/UnityTempFile-5cb5586e4def84df4b950d21c35afe70
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-5dabed7006d664dc8bb7cb0313215836
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-5dabed7006d664dc8bb7cb0313215836
+    projectPath: Temp/UnityTempFile-5dabed7006d664dc8bb7cb0313215836
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-5e5c0cdc22cc74be3b6d7341346b5eaf
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-5e5c0cdc22cc74be3b6d7341346b5eaf
+    projectPath: Temp/UnityTempFile-5e5c0cdc22cc74be3b6d7341346b5eaf
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-5eb4ba471bfa54c87b7eec53c4777f18
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-5eb4ba471bfa54c87b7eec53c4777f18
+    projectPath: Temp/UnityTempFile-5eb4ba471bfa54c87b7eec53c4777f18
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-5f3791998e186486aa3c59813e6e3520
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-5f3791998e186486aa3c59813e6e3520
+    projectPath: Temp/UnityTempFile-5f3791998e186486aa3c59813e6e3520
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-5fa6b70c9c9ec4d13b44230e3d9c1e73
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-5fa6b70c9c9ec4d13b44230e3d9c1e73
+    projectPath: Temp/UnityTempFile-5fa6b70c9c9ec4d13b44230e3d9c1e73
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-5fd68b553cc654ee8a89288b7d04730b
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-5fd68b553cc654ee8a89288b7d04730b
+    projectPath: Temp/UnityTempFile-5fd68b553cc654ee8a89288b7d04730b
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-6285d40b0303e4793bed2d8f198ae2e9
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-6285d40b0303e4793bed2d8f198ae2e9
+    projectPath: Temp/UnityTempFile-6285d40b0303e4793bed2d8f198ae2e9
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-6642ee157b6a142d7aad775c7315acce
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-6642ee157b6a142d7aad775c7315acce
+    projectPath: Temp/UnityTempFile-6642ee157b6a142d7aad775c7315acce
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-66b2f52f3fb13410891442b0df532959
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-66b2f52f3fb13410891442b0df532959
+    projectPath: Temp/UnityTempFile-66b2f52f3fb13410891442b0df532959
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-688e07704339f45d3bd9ab709533d6c0
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-688e07704339f45d3bd9ab709533d6c0
+    projectPath: Temp/UnityTempFile-688e07704339f45d3bd9ab709533d6c0
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-6d69335431d4247ccaaa2871c5fd5e70
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-6d69335431d4247ccaaa2871c5fd5e70
+    projectPath: Temp/UnityTempFile-6d69335431d4247ccaaa2871c5fd5e70
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-71f0711a81524423cab9611639755956
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-71f0711a81524423cab9611639755956
+    projectPath: Temp/UnityTempFile-71f0711a81524423cab9611639755956
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-72785393c12224dab88012ef6abe01df
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-72785393c12224dab88012ef6abe01df
+    projectPath: Temp/UnityTempFile-72785393c12224dab88012ef6abe01df
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-729239bb0760f4a38a0290f0b32b2e73
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-729239bb0760f4a38a0290f0b32b2e73
+    projectPath: Temp/UnityTempFile-729239bb0760f4a38a0290f0b32b2e73
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-7340be6429f284a1081f5a936b8927c8
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-7340be6429f284a1081f5a936b8927c8
+    projectPath: Temp/UnityTempFile-7340be6429f284a1081f5a936b8927c8
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-76d5c3446381348b7b46a52b086539d9
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-76d5c3446381348b7b46a52b086539d9
+    projectPath: Temp/UnityTempFile-76d5c3446381348b7b46a52b086539d9
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-779b3a229a428496a9491ebd53284e8b
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-779b3a229a428496a9491ebd53284e8b
+    projectPath: Temp/UnityTempFile-779b3a229a428496a9491ebd53284e8b
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-79442031ea54c495997ffb9be94aac1d
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-79442031ea54c495997ffb9be94aac1d
+    projectPath: Temp/UnityTempFile-79442031ea54c495997ffb9be94aac1d
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-7c6acd4464547437abbb280c59293a24
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-7c6acd4464547437abbb280c59293a24
+    projectPath: Temp/UnityTempFile-7c6acd4464547437abbb280c59293a24
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-7e0d25c994ab94accb49c53ad7ad54dd
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-7e0d25c994ab94accb49c53ad7ad54dd
+    projectPath: Temp/UnityTempFile-7e0d25c994ab94accb49c53ad7ad54dd
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-80779dfeda5e44ad980184f56bbb0cdf
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-80779dfeda5e44ad980184f56bbb0cdf
+    projectPath: Temp/UnityTempFile-80779dfeda5e44ad980184f56bbb0cdf
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-818ac43eb52c24b86955f251bc410e95
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-818ac43eb52c24b86955f251bc410e95
+    projectPath: Temp/UnityTempFile-818ac43eb52c24b86955f251bc410e95
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-8561447cc632d442892d853676cdb49e
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-8561447cc632d442892d853676cdb49e
+    projectPath: Temp/UnityTempFile-8561447cc632d442892d853676cdb49e
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-861cabd587c464a4fa14f3b16f1f6b51
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-861cabd587c464a4fa14f3b16f1f6b51
+    projectPath: Temp/UnityTempFile-861cabd587c464a4fa14f3b16f1f6b51
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-8867ec656731a444c859b6b73bd5e222
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-8867ec656731a444c859b6b73bd5e222
+    projectPath: Temp/UnityTempFile-8867ec656731a444c859b6b73bd5e222
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-8e689f4451bb44146b108b291d8a0f1d
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-8e689f4451bb44146b108b291d8a0f1d
+    projectPath: Temp/UnityTempFile-8e689f4451bb44146b108b291d8a0f1d
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-8ee3de2b5e86447089e47a767a095d99
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-8ee3de2b5e86447089e47a767a095d99
+    projectPath: Temp/UnityTempFile-8ee3de2b5e86447089e47a767a095d99
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-8ee5612c30f394541b7d45ac2e74378c
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-8ee5612c30f394541b7d45ac2e74378c
+    projectPath: Temp/UnityTempFile-8ee5612c30f394541b7d45ac2e74378c
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-8fa5127626d4c4ea9a23322e5a1d69ac
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-8fa5127626d4c4ea9a23322e5a1d69ac
+    projectPath: Temp/UnityTempFile-8fa5127626d4c4ea9a23322e5a1d69ac
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-91809645f8c0e400b9e4cda19daae131
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-91809645f8c0e400b9e4cda19daae131
+    projectPath: Temp/UnityTempFile-91809645f8c0e400b9e4cda19daae131
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-9516f858cb7274758b388f71e8bb48c5
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-9516f858cb7274758b388f71e8bb48c5
+    projectPath: Temp/UnityTempFile-9516f858cb7274758b388f71e8bb48c5
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-96ae2ac0d7d9a48489ebb3266d115c65
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-96ae2ac0d7d9a48489ebb3266d115c65
+    projectPath: Temp/UnityTempFile-96ae2ac0d7d9a48489ebb3266d115c65
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-975fc7bb147194ab08b93f19d57b4afd
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-975fc7bb147194ab08b93f19d57b4afd
+    projectPath: Temp/UnityTempFile-975fc7bb147194ab08b93f19d57b4afd
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-976dd123ea12941a4b8eb5bfcfa44f80
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-976dd123ea12941a4b8eb5bfcfa44f80
+    projectPath: Temp/UnityTempFile-976dd123ea12941a4b8eb5bfcfa44f80
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-9c51a95ebb00f48b3b56abdd3b673c91
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-9c51a95ebb00f48b3b56abdd3b673c91
+    projectPath: Temp/UnityTempFile-9c51a95ebb00f48b3b56abdd3b673c91
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-9da97d2977d8342e3856f04e83bf1cb2
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-9da97d2977d8342e3856f04e83bf1cb2
+    projectPath: Temp/UnityTempFile-9da97d2977d8342e3856f04e83bf1cb2
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-9db568cb170c847348555ed751fe6132
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-9db568cb170c847348555ed751fe6132
+    projectPath: Temp/UnityTempFile-9db568cb170c847348555ed751fe6132
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-a1d411e4388ea44e5a211b712f76b25b
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-a1d411e4388ea44e5a211b712f76b25b
+    projectPath: Temp/UnityTempFile-a1d411e4388ea44e5a211b712f76b25b
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-a3870831856e4458a99e6030bc34ba0f
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-a3870831856e4458a99e6030bc34ba0f
+    projectPath: Temp/UnityTempFile-a3870831856e4458a99e6030bc34ba0f
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-a5745fbd40ca846799490714a54791c7
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-a5745fbd40ca846799490714a54791c7
+    projectPath: Temp/UnityTempFile-a5745fbd40ca846799490714a54791c7
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-a79b61eff96d643e0a81659d7107e3b9
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-a79b61eff96d643e0a81659d7107e3b9
+    projectPath: Temp/UnityTempFile-a79b61eff96d643e0a81659d7107e3b9
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-abc162a93916c4c40be9be43c921a52d
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-abc162a93916c4c40be9be43c921a52d
+    projectPath: Temp/UnityTempFile-abc162a93916c4c40be9be43c921a52d
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-ace70cf7fea154b12aaa04d03a277729
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-ace70cf7fea154b12aaa04d03a277729
+    projectPath: Temp/UnityTempFile-ace70cf7fea154b12aaa04d03a277729
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-ad7b5c93b546f421183ea3c6978ee571
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-ad7b5c93b546f421183ea3c6978ee571
+    projectPath: Temp/UnityTempFile-ad7b5c93b546f421183ea3c6978ee571
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-ae469dccacf4346c58bfd1b58e679bd5
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-ae469dccacf4346c58bfd1b58e679bd5
+    projectPath: Temp/UnityTempFile-ae469dccacf4346c58bfd1b58e679bd5
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-aed67ac66dd6244f0b30b2dae1d54e65
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-aed67ac66dd6244f0b30b2dae1d54e65
+    projectPath: Temp/UnityTempFile-aed67ac66dd6244f0b30b2dae1d54e65
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-b0a44cbe9ed4e440caa06abaf41fcb97
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-b0a44cbe9ed4e440caa06abaf41fcb97
+    projectPath: Temp/UnityTempFile-b0a44cbe9ed4e440caa06abaf41fcb97
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-b187a63b4087e4f7196718cf33931d1e
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-b187a63b4087e4f7196718cf33931d1e
+    projectPath: Temp/UnityTempFile-b187a63b4087e4f7196718cf33931d1e
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-b579c0bacb5c54b7aa4a36d9e6c67ceb
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-b579c0bacb5c54b7aa4a36d9e6c67ceb
+    projectPath: Temp/UnityTempFile-b579c0bacb5c54b7aa4a36d9e6c67ceb
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-b7a1f05809e904502a29ac327c07aec4
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-b7a1f05809e904502a29ac327c07aec4
+    projectPath: Temp/UnityTempFile-b7a1f05809e904502a29ac327c07aec4
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-b8f05cdf70a9348479751a7c09df6771
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-b8f05cdf70a9348479751a7c09df6771
+    projectPath: Temp/UnityTempFile-b8f05cdf70a9348479751a7c09df6771
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-bb3761a65847a4e7fb21780416e64580
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-bb3761a65847a4e7fb21780416e64580
+    projectPath: Temp/UnityTempFile-bb3761a65847a4e7fb21780416e64580
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-c082f6a6433b7416bbc020f1f248c5c6
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-c082f6a6433b7416bbc020f1f248c5c6
+    projectPath: Temp/UnityTempFile-c082f6a6433b7416bbc020f1f248c5c6
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-c313a8a726f904ee4b48b1f966b85757
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-c313a8a726f904ee4b48b1f966b85757
+    projectPath: Temp/UnityTempFile-c313a8a726f904ee4b48b1f966b85757
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-c338a3bbb413d4aafb27dddf712afc2e
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-c338a3bbb413d4aafb27dddf712afc2e
+    projectPath: Temp/UnityTempFile-c338a3bbb413d4aafb27dddf712afc2e
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-c42a2ab1c0eca4e1db76b9adc7eb4a08
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-c42a2ab1c0eca4e1db76b9adc7eb4a08
+    projectPath: Temp/UnityTempFile-c42a2ab1c0eca4e1db76b9adc7eb4a08
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-c65da99258a7647e7879f52eb423c53e
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-c65da99258a7647e7879f52eb423c53e
+    projectPath: Temp/UnityTempFile-c65da99258a7647e7879f52eb423c53e
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-c791f6c29583f4643bc487547867c2ea
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-c791f6c29583f4643bc487547867c2ea
+    projectPath: Temp/UnityTempFile-c791f6c29583f4643bc487547867c2ea
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-d0eb76147da31431ba8138706d092fdf
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-d0eb76147da31431ba8138706d092fdf
+    projectPath: Temp/UnityTempFile-d0eb76147da31431ba8138706d092fdf
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-d2b94d7bb458f4fc4a5cb65f0daba9eb
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-d2b94d7bb458f4fc4a5cb65f0daba9eb
+    projectPath: Temp/UnityTempFile-d2b94d7bb458f4fc4a5cb65f0daba9eb
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-d4ee8981fc3b84445bc416342717445a
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-d4ee8981fc3b84445bc416342717445a
+    projectPath: Temp/UnityTempFile-d4ee8981fc3b84445bc416342717445a
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-db85b93384a5441948afb2a6d29cfa58
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-db85b93384a5441948afb2a6d29cfa58
+    projectPath: Temp/UnityTempFile-db85b93384a5441948afb2a6d29cfa58
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-dd31ed81da5fc4ccfbd030affa5e84db
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-dd31ed81da5fc4ccfbd030affa5e84db
+    projectPath: Temp/UnityTempFile-dd31ed81da5fc4ccfbd030affa5e84db
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-e199cbf257f7848dcb09894aa02745d2
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-e199cbf257f7848dcb09894aa02745d2
+    projectPath: Temp/UnityTempFile-e199cbf257f7848dcb09894aa02745d2
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-e70222f985e0c47b4bca253855a7dcc3
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-e70222f985e0c47b4bca253855a7dcc3
+    projectPath: Temp/UnityTempFile-e70222f985e0c47b4bca253855a7dcc3
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-e7768fbd1a568472eb6171a70043e3a6
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-e7768fbd1a568472eb6171a70043e3a6
+    projectPath: Temp/UnityTempFile-e7768fbd1a568472eb6171a70043e3a6
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-e7ab9c1e675db4397a00619cbdf93578
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-e7ab9c1e675db4397a00619cbdf93578
+    projectPath: Temp/UnityTempFile-e7ab9c1e675db4397a00619cbdf93578
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-eac08e6622b1a4e73b1c340866b7b772
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-eac08e6622b1a4e73b1c340866b7b772
+    projectPath: Temp/UnityTempFile-eac08e6622b1a4e73b1c340866b7b772
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-ececb8b112cea4619be8394a0e950dea
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-ececb8b112cea4619be8394a0e950dea
+    projectPath: Temp/UnityTempFile-ececb8b112cea4619be8394a0e950dea
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-ee91daf20aad34d0abc55b1fbd55bea5
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-ee91daf20aad34d0abc55b1fbd55bea5
+    projectPath: Temp/UnityTempFile-ee91daf20aad34d0abc55b1fbd55bea5
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-f045b95896743492ab1540529316dcba
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-f045b95896743492ab1540529316dcba
+    projectPath: Temp/UnityTempFile-f045b95896743492ab1540529316dcba
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-f430019a25d544f4283c0d776692e8a7
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-f430019a25d544f4283c0d776692e8a7
+    projectPath: Temp/UnityTempFile-f430019a25d544f4283c0d776692e8a7
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-f48e2220610b8442897b8a1c58abebed
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-f48e2220610b8442897b8a1c58abebed
+    projectPath: Temp/UnityTempFile-f48e2220610b8442897b8a1c58abebed
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-f60e098749b314b4b8ec780ac2fbd990
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-f60e098749b314b4b8ec780ac2fbd990
+    projectPath: Temp/UnityTempFile-f60e098749b314b4b8ec780ac2fbd990
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-f912398eb6f7041f4a93806eecf2752b
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-f912398eb6f7041f4a93806eecf2752b
+    projectPath: Temp/UnityTempFile-f912398eb6f7041f4a93806eecf2752b
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-f97570a39c25a405f82d1b824e6f2c89
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-f97570a39c25a405f82d1b824e6f2c89
+    projectPath: Temp/UnityTempFile-f97570a39c25a405f82d1b824e6f2c89
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-f98c0fe66cc214ab58726d1bb554da31
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-f98c0fe66cc214ab58726d1bb554da31
+    projectPath: Temp/UnityTempFile-f98c0fe66cc214ab58726d1bb554da31
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-faec86f62662a476da16cb218d9ffba9
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-faec86f62662a476da16cb218d9ffba9
+    projectPath: Temp/UnityTempFile-faec86f62662a476da16cb218d9ffba9
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-fe74c7617b20f4e319a7fc29c247d4c8
+    fullPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-fe74c7617b20f4e319a7fc29c247d4c8
+    projectPath: Temp/UnityTempFile-fe74c7617b20f4e319a7fc29c247d4c8
     originalPath: 
     status: 1
     staged: 0

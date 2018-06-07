@@ -2,8 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class SettingsManager : MonoBehaviour {
+
+    public InputField IPAddress;
+    public Toggle LaserScan;
+    public Toggle Path;
 
 	public void updateIP(string newstring)
     {
@@ -27,10 +32,26 @@ public class SettingsManager : MonoBehaviour {
         SceneManager.LoadScene("arview");
     }
 
-    private void Awake()
+    public void Awake()
     {
-       // Load in the values
-    }
+        // Load in the values
+        // if items in player pref are not null, set values
 
+        if (PlayerPrefs.GetString("IP") != "")
+        {
+            IPAddress.text = PlayerPrefs.GetString("IP");
+        }
+        
+        if (PlayerPrefs.GetInt("LaserScan") == 1)
+            LaserScan.isOn = true;
+        else 
+        	LaserScan.isOn = false;
+
+
+        if (PlayerPrefs.GetInt("Path") == 1)
+            Path.isOn = true;
+        else 
+        	Path.isOn = false;
+    }
 }
 

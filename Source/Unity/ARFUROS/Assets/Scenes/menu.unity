@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -490,7 +490,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 670235587}
   m_TextComponent: {fileID: 1016961060}
-  m_Placeholder: {fileID: 1982502917}
+  m_Placeholder: {fileID: 0}
   m_ContentType: 0
   m_InputType: 0
   m_AsteriskChar: 42
@@ -1025,6 +1025,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de734db487faa5408c5494162ba0ebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IPAddress: {fileID: 670235586}
+  LaserScan: {fileID: 388737754}
+  Path: {fileID: 2024580488}
 --- !u!4 &1154941219
 Transform:
   m_ObjectHideFlags: 0
@@ -1613,6 +1616,7 @@ GameObject:
   - component: {fileID: 1982502916}
   - component: {fileID: 1982502918}
   - component: {fileID: 1982502917}
+  - component: {fileID: 1982502919}
   m_Layer: 0
   m_Name: Placeholder
   m_TagString: Untagged
@@ -1670,13 +1674,25 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 192.168.1.1
+  m_Text: 
 --- !u!222 &1982502918
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1982502915}
+--- !u!114 &1982502919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1982502915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3826506ffb43644d69015ff944388153, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IP: {fileID: 0}
 --- !u!1 &2024580486
 GameObject:
   m_ObjectHideFlags: 0
