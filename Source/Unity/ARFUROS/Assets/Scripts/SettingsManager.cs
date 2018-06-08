@@ -9,6 +9,7 @@ public class SettingsManager : MonoBehaviour {
     public InputField IPAddress;
     public Toggle LaserScan;
     public Toggle Path;
+    public Toggle ExtendedTracking;
 
 	public void updateIP(string newstring)
     {
@@ -27,6 +28,11 @@ public class SettingsManager : MonoBehaviour {
         PlayerPrefs.SetInt("Path", val);
     }
 
+    public void updateExtendedTracking(bool newbool) {
+        int val = newbool ? 1 : 0;
+        PlayerPrefs.SetInt("ExtendedTracking", val);
+    }
+
     public void onApply()
     {
         SceneManager.LoadScene("arview");
@@ -35,23 +41,24 @@ public class SettingsManager : MonoBehaviour {
     public void Awake()
     {
         // Load in the values
-        // if items in player pref are not null, set values
-
-        if (PlayerPrefs.GetString("IP") != "")
-        {
-            IPAddress.text = PlayerPrefs.GetString("IP");
-        }
+        // if keys in player pref are not present, set default values
+        IPAddress.text = PlayerPrefs.GetString("IP", "192.168.1.1");
         
-        if (PlayerPrefs.GetInt("LaserScan") == 1)
+        if (PlayerPrefs.GetInt("LaserScan", 1) == 1)
             LaserScan.isOn = true;
         else 
         	LaserScan.isOn = false;
 
 
-        if (PlayerPrefs.GetInt("Path") == 1)
+        if (PlayerPrefs.GetInt("Path", 1) == 1)
             Path.isOn = true;
         else 
         	Path.isOn = false;
+
+        if (PlayerPrefs.GetInt("ExtendedTracking", 1) == 1)
+            ExtendedTracking.isOn = true;
+        else
+            ExtendedTracking.isOn = false;
     }
 }
 

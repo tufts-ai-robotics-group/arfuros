@@ -60,8 +60,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ButtonManager.cs" />
+    <Compile Include="Assets\Scripts\HyperCubeTrackableEventHandler.cs" />
     <Compile Include="Assets\Scripts\scroll.cs" />
     <Compile Include="Assets\Scripts\SettingsManager.cs" />
+    <Compile Include="Assets\Scripts\StatusManager.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
     <None Include="Assets\StreamingAssets\Vuforia\CubeMarks.xml" />
