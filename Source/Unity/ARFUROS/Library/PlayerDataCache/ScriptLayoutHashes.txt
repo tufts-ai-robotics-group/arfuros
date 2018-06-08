@@ -1,6 +1,6 @@
-iOS
+Android
 PlayerPath?
-/Users/amelhassan/Documents/Summer Research 2018/arfuros/Builds/iOS/test2
+D:/AIRLab/Tufts Summer Scholars 2018/arfuros/Builds/Android/HyperCube.apk
 SceneListBegin?
 Assets/Scenes/menu.unity
 Assets/Scenes/arview.unity
