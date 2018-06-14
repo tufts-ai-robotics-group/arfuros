@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using RosSharp.RosBridgeClient;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -10,17 +11,22 @@ public class StatusManager : MonoBehaviour {
     public Text statusText;
     public HyperCubeTrackableEventHandler TrackerCube;
     public MultiTargetBehaviour TrackerCubeBehaviour;
-
+    public RosConnector rosConnection;
+    public LaserScanReceiver laserScan;
+    public PathReceiver localPlan;
+    public PathReceiver globalPlan;
 
 	// Use this for initialization
-	void Start () {
+	void Awake () {
         statusText.text = "Initializing...";
+        rosConnection.RosBridgeServerUrl = "ws://" + PlayerPrefs.GetString("IP", "192.168.1.1") + ":9090";
     }
 
     // Update is called once per frame
     void Update () {
         checkTracker();
         controlExtendedTracking();
+        implementPreferences();
 	}
 
     void displayStatus (string message)
@@ -51,5 +57,25 @@ public class StatusManager : MonoBehaviour {
         {
             displayStatus("HyperCube Not Found");
         }
+    }
+
+    void implementPreferences()
+    {
+        if (PlayerPrefs.GetInt("LaserScan", 1) == 1)
+            laserScan.enabled = true;
+        else
+            laserScan.enabled = false;
+
+        if (PlayerPrefs.GetInt("Path", 1) == 1)
+        {
+            localPlan.enabled = true;
+            globalPlan.enabled = true;
+        }
+        else
+        {
+            localPlan.enabled = false;
+            globalPlan.enabled = false;
+        }
+
     }
 }

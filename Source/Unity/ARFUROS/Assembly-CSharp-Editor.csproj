@@ -369,6 +369,24 @@
     <Reference Include="System.Threading">
       <HintPath>D:/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/Plugins/GitHub/Editor/System.Threading.dll</HintPath>
     </Reference>
+    <Reference Include="MathNet.Numerics">
+      <HintPath>D:/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/Scripts/RosSharp/Plugins/MathNet.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>D:/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/Scripts/RosSharp/Plugins/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="RosBridgeClient">
+      <HintPath>D:/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/Scripts/RosSharp/Plugins/RosBridgeClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>D:/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/Scripts/RosSharp/Plugins/System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="UrdfImporter">
+      <HintPath>D:/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/Scripts/RosSharp/Plugins/UrdfImporter.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>D:/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/Scripts/RosSharp/Plugins/websocket-sharp.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Users/faiza/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.7/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
@@ -389,24 +407,6 @@
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
-    </Reference>
-    <Reference Include="websocket-sharp">
-      <HintPath>D:/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/Scripts/RosSharp/Plugins/websocket-sharp.dll</HintPath>
-    </Reference>
-    <Reference Include="RosBridgeClient">
-      <HintPath>D:/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/Scripts/RosSharp/Plugins/RosBridgeClient.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading">
-      <HintPath>D:/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/Scripts/RosSharp/Plugins/System.Threading.dll</HintPath>
-    </Reference>
-    <Reference Include="MathNet.Numerics">
-      <HintPath>D:/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/Scripts/RosSharp/Plugins/MathNet.Numerics.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>D:/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/Scripts/RosSharp/Plugins/Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="UrdfImporter">
-      <HintPath>D:/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/Scripts/RosSharp/Plugins/UrdfImporter.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
