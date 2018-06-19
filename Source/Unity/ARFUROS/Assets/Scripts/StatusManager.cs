@@ -12,9 +12,9 @@ public class StatusManager : MonoBehaviour {
     public HyperCubeTrackableEventHandler TrackerCube;
     public MultiTargetBehaviour TrackerCubeBehaviour;
     public RosConnector rosConnection;
-    public LaserScanReceiver laserScan;
-    public PathReceiver localPlan;
-    public PathReceiver globalPlan;
+    public GameObject laserScan;
+    public GameObject localPlan;
+    public GameObject globalPlan;
 
 	// Use this for initialization
 	void Awake () {
@@ -62,19 +62,19 @@ public class StatusManager : MonoBehaviour {
     void implementPreferences()
     {
         if (PlayerPrefs.GetInt("LaserScan", 1) == 1)
-            laserScan.enabled = true;
+            laserScan.SetActive(true); 
         else
-            laserScan.enabled = false;
+            laserScan.SetActive(false);
 
         if (PlayerPrefs.GetInt("Path", 1) == 1)
         {
-            localPlan.enabled = true;
-            globalPlan.enabled = true;
+            localPlan.SetActive(true);
+            globalPlan.SetActive(true);
         }
         else
         {
-            localPlan.enabled = false;
-            globalPlan.enabled = false;
+            localPlan.SetActive(false);
+            globalPlan.SetActive(false);
         }
 
     }

@@ -16,6 +16,7 @@ namespace RosSharp.RosBridgeClient
         private void ReceiveMessage(object sender, MessageEventArgs e)
         {
             message = (LaserScan)e.Message;
+            Debug.Log("Recieved message");
         }
     }
 }

@@ -45,7 +45,7 @@ public class SettingsManager : MonoBehaviour {
         IPAddress.text = PlayerPrefs.GetString("IP", "192.168.1.1");
         
         if (PlayerPrefs.GetInt("LaserScan", 1) == 1)
-            LaserScan.isOn = true;
+            LaserScan.isOn = true ;
         else 
         	LaserScan.isOn = false;
 
