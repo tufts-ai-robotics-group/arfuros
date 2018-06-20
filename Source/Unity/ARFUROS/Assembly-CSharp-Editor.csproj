@@ -59,27 +59,27 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\RosSharp\Editor\CustomEditor\JointLimitsManagerEditor.cs" />
-    <Compile Include="Assets\Scripts\RosSharp\Editor\CustomEditor\RigidbodyEditor.cs" />
-    <Compile Include="Assets\Scripts\RosSharp\Editor\CustomEditor\RigidbodyUrdfDataManagerEditor.cs" />
-    <Compile Include="Assets\Scripts\RosSharp\Editor\CustomEditor\RosSharpAssetPackageExporter.cs" />
-    <Compile Include="Assets\Scripts\RosSharp\Editor\CustomEditor\UrdfGeneratorEditorWindow.cs" />
-    <Compile Include="Assets\Scripts\RosSharp\Editor\CustomEditor\UrdfImporterEditorWindow.cs" />
-    <Compile Include="Assets\Scripts\RosSharp\Editor\CustomEditor\UrdfPatcherEditor.cs" />
-    <Compile Include="Assets\Scripts\RosSharp\Editor\MeshImporter\ColladaAssetPostProcessor.cs" />
-    <Compile Include="Assets\Scripts\RosSharp\Editor\MeshImporter\StlAssetPostProcessor.cs" />
-    <Compile Include="Assets\Scripts\RosSharp\Editor\MeshImporter\StlImporter.cs" />
-    <Compile Include="Assets\Scripts\RosSharp\Editor\UrdfImporter\UrdfAssetDatabase.cs" />
-    <Compile Include="Assets\Scripts\RosSharp\Editor\UrdfImporter\UrdfJointExtensions.cs" />
-    <Compile Include="Assets\Scripts\RosSharp\Editor\UrdfImporter\UrdfLinkExtensions.cs" />
-    <Compile Include="Assets\Scripts\RosSharp\Editor\UrdfImporter\UrdfLinkGeometryBoxExtensions.cs" />
-    <Compile Include="Assets\Scripts\RosSharp\Editor\UrdfImporter\UrdfLinkGeometryCylinderExtensions.cs" />
-    <Compile Include="Assets\Scripts\RosSharp\Editor\UrdfImporter\UrdfLinkGeometryExtensions.cs" />
-    <Compile Include="Assets\Scripts\RosSharp\Editor\UrdfImporter\UrdfLinkGeometryMeshExtensions.cs" />
-    <Compile Include="Assets\Scripts\RosSharp\Editor\UrdfImporter\UrdfLinkGeometrySphereExtensions.cs" />
-    <Compile Include="Assets\Scripts\RosSharp\Editor\UrdfImporter\UrdfLinkInertialInertiaExtensions.cs" />
-    <Compile Include="Assets\Scripts\RosSharp\Editor\UrdfImporter\UrdfOriginExtensions.cs" />
-    <Compile Include="Assets\Scripts\RosSharp\Editor\UrdfImporter\UrdfRobotExtensions.cs" />
+    <Compile Include="Assets\RosSharp\Editor\CustomEditor\JointLimitsManagerEditor.cs" />
+    <Compile Include="Assets\RosSharp\Editor\CustomEditor\RigidbodyEditor.cs" />
+    <Compile Include="Assets\RosSharp\Editor\CustomEditor\RigidbodyUrdfDataManagerEditor.cs" />
+    <Compile Include="Assets\RosSharp\Editor\CustomEditor\RosSharpAssetPackageExporter.cs" />
+    <Compile Include="Assets\RosSharp\Editor\CustomEditor\UrdfGeneratorEditorWindow.cs" />
+    <Compile Include="Assets\RosSharp\Editor\CustomEditor\UrdfImporterEditorWindow.cs" />
+    <Compile Include="Assets\RosSharp\Editor\CustomEditor\UrdfPatcherEditor.cs" />
+    <Compile Include="Assets\RosSharp\Editor\MeshImporter\ColladaAssetPostProcessor.cs" />
+    <Compile Include="Assets\RosSharp\Editor\MeshImporter\StlAssetPostProcessor.cs" />
+    <Compile Include="Assets\RosSharp\Editor\MeshImporter\StlImporter.cs" />
+    <Compile Include="Assets\RosSharp\Editor\UrdfImporter\UrdfAssetDatabase.cs" />
+    <Compile Include="Assets\RosSharp\Editor\UrdfImporter\UrdfJointExtensions.cs" />
+    <Compile Include="Assets\RosSharp\Editor\UrdfImporter\UrdfLinkExtensions.cs" />
+    <Compile Include="Assets\RosSharp\Editor\UrdfImporter\UrdfLinkGeometryBoxExtensions.cs" />
+    <Compile Include="Assets\RosSharp\Editor\UrdfImporter\UrdfLinkGeometryCylinderExtensions.cs" />
+    <Compile Include="Assets\RosSharp\Editor\UrdfImporter\UrdfLinkGeometryExtensions.cs" />
+    <Compile Include="Assets\RosSharp\Editor\UrdfImporter\UrdfLinkGeometryMeshExtensions.cs" />
+    <Compile Include="Assets\RosSharp\Editor\UrdfImporter\UrdfLinkGeometrySphereExtensions.cs" />
+    <Compile Include="Assets\RosSharp\Editor\UrdfImporter\UrdfLinkInertialInertiaExtensions.cs" />
+    <Compile Include="Assets\RosSharp\Editor\UrdfImporter\UrdfOriginExtensions.cs" />
+    <Compile Include="Assets\RosSharp\Editor\UrdfImporter\UrdfRobotExtensions.cs" />
     <Compile Include="Assets\Vuforia\Editor\Scripts\OpenSourceInitializer.cs" />
     <None Include="Assets\Editor\Vuforia\VuforiaMars_ModelTarget\authoringinfo.xml" />
     <None Include="Assets\Editor\Vuforia\VuforiaMars_VuMark\authoringinfo.xml" />
@@ -370,22 +370,22 @@
       <HintPath>D:/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/Plugins/GitHub/Editor/System.Threading.dll</HintPath>
     </Reference>
     <Reference Include="MathNet.Numerics">
-      <HintPath>D:/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/Scripts/RosSharp/Plugins/MathNet.Numerics.dll</HintPath>
+      <HintPath>D:/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/RosSharp/Plugins/MathNet.Numerics.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>D:/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/Scripts/RosSharp/Plugins/Newtonsoft.Json.dll</HintPath>
+      <HintPath>D:/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/RosSharp/Plugins/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="RosBridgeClient">
-      <HintPath>D:/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/Scripts/RosSharp/Plugins/RosBridgeClient.dll</HintPath>
+      <HintPath>D:/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/RosSharp/Plugins/RosBridgeClient.dll</HintPath>
     </Reference>
     <Reference Include="System.Threading">
-      <HintPath>D:/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/Scripts/RosSharp/Plugins/System.Threading.dll</HintPath>
+      <HintPath>D:/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/RosSharp/Plugins/System.Threading.dll</HintPath>
     </Reference>
     <Reference Include="UrdfImporter">
-      <HintPath>D:/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/Scripts/RosSharp/Plugins/UrdfImporter.dll</HintPath>
+      <HintPath>D:/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/RosSharp/Plugins/UrdfImporter.dll</HintPath>
     </Reference>
     <Reference Include="websocket-sharp">
-      <HintPath>D:/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/Scripts/RosSharp/Plugins/websocket-sharp.dll</HintPath>
+      <HintPath>D:/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/RosSharp/Plugins/websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Users/faiza/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.7/Editor/UnityEditor.Advertisements.dll</HintPath>

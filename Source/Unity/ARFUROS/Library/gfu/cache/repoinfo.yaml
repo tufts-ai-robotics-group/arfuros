@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2018-06-19T11:00:40.487-04:00
-  initializedAtString: 2018-06-19T11:00:40.487-04:00
+  lastUpdatedAtString: 2018-06-19T21:25:02.673-04:00
+  initializedAtString: 2018-06-19T21:25:02.673-04:00
   currentGitRemote:
     name: origin
     url: https://github.com/faizan-m/arfuros.git
@@ -34,4 +34,4 @@ MonoBehaviour:
   currentConfigRemote:
     name: origin
     url: https://github.com/faizan-m/arfuros.git
-  currentHead: 6943b2a
+  currentHead: 4beac05
