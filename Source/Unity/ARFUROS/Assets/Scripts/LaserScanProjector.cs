@@ -7,7 +7,7 @@ using System;
 
 public class LaserScanProjector : MonoBehaviour {
 
-	public LaserScanReceiver receiver;
+	/* public LaserScanReceiver receiver;
 	private LaserScan message;
 
 	private ParticleSystem mySystem;
@@ -18,7 +18,7 @@ public class LaserScanProjector : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Debug.Log("Got to laser scan start");
+//		Debug.Log("Got to laser scan start");
 		mySystem = GetComponent<ParticleSystem> ();
 		zpos = 0;
 	}
@@ -26,9 +26,9 @@ public class LaserScanProjector : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		Debug.Log("Got to laser scan update");
+//		Debug.Log("Got to laser scan update");
 		message = receiver.message; 
-		Debug.Log("The message: " + message);
+//		Debug.Log("The message: " + message);
 
 		if(message != null)
 		{
@@ -81,5 +81,5 @@ public class LaserScanProjector : MonoBehaviour {
 
      	  	mySystem.SetParticles(particles, particles.Length);
 	}
-
+    */
 }
