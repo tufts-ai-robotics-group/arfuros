@@ -143,7 +143,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 419180964}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!199 &7828190
 ParticleSystemRenderer:
   serializedVersion: 5
@@ -4742,7 +4742,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b90d38467d17a40dbb6ecaabdb5c182b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  receiver: {fileID: 419180963}
+  message: {fileID: 419180963}
 --- !u!1 &34955379
 GameObject:
   m_ObjectHideFlags: 0
@@ -9385,7 +9385,7 @@ GameObject:
   - component: {fileID: 37624845}
   - component: {fileID: 37624844}
   m_Layer: 0
-  m_Name: TheHyperCube.Back
+  m_Name: TheCube.Back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9398,8 +9398,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 37624842}
   m_LocalRotation: {x: -0, y: 0, z: -1, w: -0.00000004371139}
-  m_LocalPosition: {x: 0, y: -0.1015, z: 0}
-  m_LocalScale: {x: 0.203, y: 1, z: 0.203}
+  m_LocalPosition: {x: 0, y: -0.1, z: 0}
+  m_LocalScale: {x: 0.2, y: 1, z: 0.2}
   m_Children: []
   m_Father: {fileID: 1368489428}
   m_RootOrder: 3
@@ -9438,7 +9438,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 1905076790}
+  - {fileID: 1745466614}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9470,7 +9470,7 @@ GameObject:
   - component: {fileID: 112803737}
   - component: {fileID: 112803736}
   m_Layer: 0
-  m_Name: TheHyperCube.Top
+  m_Name: TheCube.Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9483,8 +9483,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 112803734}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0.1015}
-  m_LocalScale: {x: 0.203, y: 1, z: 0.203}
+  m_LocalPosition: {x: 0, y: 0, z: 0.1}
+  m_LocalScale: {x: 0.2, y: 1, z: 0.2}
   m_Children: []
   m_Father: {fileID: 1368489428}
   m_RootOrder: 4
@@ -9523,7 +9523,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 1828361574}
+  - {fileID: 1940878265}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9664,6 +9664,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &367961161
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 'TheCube.Right_scaledMaterial
+
+    17720'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 22a3ff35c77c419f9d09e31867767402, type: 3}
+        m_Scale: {x: -1, y: -1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &419180962
 GameObject:
   m_ObjectHideFlags: 0
@@ -9691,19 +9718,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf1989ba9b8c7a34097e87fd8975197c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  angle_min: 0
+  angle_max: 0
+  angle_increment: 0
+  range_min: 0
+  range_max: 0
+  range_size: 0
+  ranges: []
 --- !u!4 &419180964
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 419180962}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 575.368, y: 114.450485, z: -2.4644012}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7828189}
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 2117958853}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &447112251
 GameObject:
@@ -9779,6 +9813,33 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 447112251}
+--- !u!21 &492056566
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 'TheCube.Left_scaledMaterial
+
+    17720'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 7ddd741ec48e472b80376d7952ad3acd, type: 3}
+        m_Scale: {x: -1, y: -1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &865629976
 GameObject:
   m_ObjectHideFlags: 0
@@ -9853,7 +9914,7 @@ GameObject:
   - component: {fileID: 992729237}
   - component: {fileID: 992729236}
   m_Layer: 0
-  m_Name: TheHyperCube.Front
+  m_Name: TheCube.Front
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9866,8 +9927,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 992729234}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.1015, z: 0}
-  m_LocalScale: {x: 0.203, y: 1, z: 0.203}
+  m_LocalPosition: {x: 0, y: 0.1, z: 0}
+  m_LocalScale: {x: 0.2, y: 1, z: 0.2}
   m_Children: []
   m_Father: {fileID: 1368489428}
   m_RootOrder: 2
@@ -9906,7 +9967,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 1783855499}
+  - {fileID: 1823287505}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10048,33 +10109,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1005492050}
---- !u!21 &1069999321
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 'TheHyperCube.Bottom_scaledMaterial
-
-    13806'
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 62947cde576a4e2da5f326d891f1682f, type: 3}
-        m_Scale: {x: -1, y: -1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &1081894621
 GameObject:
   m_ObjectHideFlags: 0
@@ -14816,7 +14850,7 @@ GameObject:
   - component: {fileID: 1200966627}
   - component: {fileID: 1200966626}
   m_Layer: 0
-  m_Name: TheHyperCube.Left
+  m_Name: TheCube.Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14829,8 +14863,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1200966624}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -0.1015, y: 0, z: 0}
-  m_LocalScale: {x: 0.203, y: 1, z: 0.203}
+  m_LocalPosition: {x: -0.1, y: 0, z: 0}
+  m_LocalScale: {x: 0.2, y: 1, z: 0.2}
   m_Children: []
   m_Father: {fileID: 1368489428}
   m_RootOrder: 0
@@ -14869,7 +14903,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 1515339936}
+  - {fileID: 492056566}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15025,7 +15059,7 @@ Transform:
   m_Children:
   - {fileID: 1081894622}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1372799806
 MonoBehaviour:
@@ -15220,33 +15254,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!21 &1515339936
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 'TheHyperCube.Left_scaledMaterial
-
-    13806'
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 7011edee60aa465fad7981d2c583196f, type: 3}
-        m_Scale: {x: -1, y: -1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &1556702557
 GameObject:
   m_ObjectHideFlags: 0
@@ -15328,7 +15335,7 @@ GameObject:
   - component: {fileID: 1579337433}
   - component: {fileID: 1579337432}
   m_Layer: 0
-  m_Name: TheHyperCube.Right
+  m_Name: TheCube.Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15341,8 +15348,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1579337430}
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0.1015, y: 0, z: 0}
-  m_LocalScale: {x: 0.203, y: 1, z: 0.203}
+  m_LocalPosition: {x: 0.1, y: 0, z: 0}
+  m_LocalScale: {x: 0.2, y: 1, z: 0.2}
   m_Children: []
   m_Father: {fileID: 1368489428}
   m_RootOrder: 1
@@ -15381,7 +15388,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 1656469556}
+  - {fileID: 367961161}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15401,6 +15408,33 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!21 &1633884966
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 'TheCube.Bottom_scaledMaterial
+
+    17720'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 487cd98a03a34e74816420b07ce08c8e, type: 3}
+        m_Scale: {x: -1, y: -1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &1652495727
 GameObject:
   m_ObjectHideFlags: 0
@@ -15669,33 +15703,6 @@ Mesh:
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshOptimized: 0
---- !u!21 &1656469556
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 'TheHyperCube.Right_scaledMaterial
-
-    13806'
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: b53b717a7ef842799d6d3f9c6a6683be, type: 3}
-        m_Scale: {x: -1, y: -1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &1669214387
 GameObject:
   m_ObjectHideFlags: 0
@@ -15708,7 +15715,7 @@ GameObject:
   - component: {fileID: 1669214390}
   - component: {fileID: 1669214389}
   m_Layer: 0
-  m_Name: TheHyperCube.Bottom
+  m_Name: TheCube.Bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15721,8 +15728,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1669214387}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: -0.1015}
-  m_LocalScale: {x: 0.203, y: 1, z: 0.203}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
+  m_LocalScale: {x: 0.2, y: 1, z: 0.2}
   m_Children: []
   m_Father: {fileID: 1368489428}
   m_RootOrder: 5
@@ -15761,7 +15768,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 1069999321}
+  - {fileID: 1633884966}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15781,15 +15788,15 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!21 &1783855499
+--- !u!21 &1745466614
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: 'TheHyperCube.Front_scaledMaterial
+  m_Name: 'TheCube.Back_scaledMaterial
 
-    13806'
+    17720'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -15802,21 +15809,21 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 9ba1a594972443e6b047187e3ea57196, type: 3}
+        m_Texture: {fileID: 2800000, guid: de66ae4dac5c4679b51b29639b95b956, type: 3}
         m_Scale: {x: -1, y: -1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
     m_Colors:
     - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
---- !u!21 &1828361574
+--- !u!21 &1823287505
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: 'TheHyperCube.Top_scaledMaterial
+  m_Name: 'TheCube.Front_scaledMaterial
 
-    13806'
+    17720'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -15829,21 +15836,21 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 8b461b46ac774fbf8dec11423e42627e, type: 3}
+        m_Texture: {fileID: 2800000, guid: 32d104440e5b4b37bfd008ec09739b28, type: 3}
         m_Scale: {x: -1, y: -1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
     m_Colors:
     - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
---- !u!21 &1905076790
+--- !u!21 &1940878265
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: 'TheHyperCube.Back_scaledMaterial
+  m_Name: 'TheCube.Top_scaledMaterial
 
-    13806'
+    17720'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -15856,7 +15863,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: a3e35550e00147b9abc608d0e66fee96, type: 3}
+        m_Texture: {fileID: 2800000, guid: 29a83797750e47028dd3dde1c118199a, type: 3}
         m_Scale: {x: -1, y: -1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -15890,7 +15897,7 @@ Transform:
   m_Children:
   - {fileID: 34955380}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2075517114
 MonoBehaviour:
@@ -15931,7 +15938,7 @@ MonoBehaviour:
   m_Script: {fileID: 1568443412, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: TheHyperCube
+  mTrackableName: TheCube
   mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/CubeMarks.xml
@@ -15948,6 +15955,7 @@ Transform:
   m_Children:
   - {fileID: 1368489428}
   - {fileID: 246407402}
+  - {fileID: 419180964}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
