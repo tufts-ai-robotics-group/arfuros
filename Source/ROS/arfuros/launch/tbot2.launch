@@ -1,0 +1,10 @@
+<launch>
+  <include file="$(find tbot2_launch)/launch/tbot2.launch"/>
+  <include file="$(find tbot2_launch)/launch/amcl_navigation.launch"/>
+  <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch"/>
+
+  <node name="laser_to_string" pkg="laser_to_string" type="laser_to_string" respawn="true"/>
+
+  <node name="plan_to_string" pkg="plan_to_string" type="plan_to_string" respawn="true"/>
+
+</launch>

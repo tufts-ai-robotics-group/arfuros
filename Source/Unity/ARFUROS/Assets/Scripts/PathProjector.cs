@@ -6,7 +6,7 @@ using System;
 
 public class PathProjector : MonoBehaviour {
 
-	public PathReceiver receiver;
+	/*public PathReceiver receiver;
 	private NavPath message;
 
 	private ParticleSystem mySystem;
@@ -50,5 +50,5 @@ public class PathProjector : MonoBehaviour {
 
      	  	mySystem.SetParticles(particles, particles.Length);
 	}
-
+    */
 }
