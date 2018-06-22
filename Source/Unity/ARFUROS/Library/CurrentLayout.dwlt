@@ -13,8 +13,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 8
+    y: 51
     width: 1280
     height: 800
   m_ShowMode: 4
@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1280
     height: 800
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 77
+  controlID: 26
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 78
+  controlID: 27
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 79
+  controlID: 28
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -176,8 +176,8 @@ MonoBehaviour:
     y: 0
     width: 294
     height: 438
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -201,15 +201,15 @@ MonoBehaviour:
     y: 0
     width: 613
     height: 438
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 12}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
   - {fileID: 12}
   - {fileID: 15}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -283,8 +283,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 296
-    y: 49
+    x: 304
+    y: 100
     width: 609
     height: 417
   m_PersistentViewDataDictionary: {fileID: 0}
@@ -296,10 +296,10 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-    m_HBaseRangeMin: -256
-    m_HBaseRangeMax: 256
-    m_VBaseRangeMin: -150
-    m_VBaseRangeMax: 150
+    m_HBaseRangeMin: -512
+    m_HBaseRangeMax: 512
+    m_VBaseRangeMin: -300
+    m_VBaseRangeMax: 300
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -318,7 +318,7 @@ MonoBehaviour:
       y: 17
       width: 609
       height: 400
-    m_Scale: {x: 1, y: 1}
+    m_Scale: {x: 0.59472656, y: 0.59472656}
     m_Translation: {x: 304.5, y: 200}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -326,15 +326,15 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -304.5
-      y: -200
-      width: 609
-      height: 400
+      x: -512
+      y: -336.289
+      width: 1024
+      height: 672.578
     m_MinimalGUI: 1
-  m_defaultScale: 1
+  m_defaultScale: 0.59472656
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 1218, y: 834}
+  m_LastWindowPixelSize: {x: 609, y: 417}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -358,30 +358,30 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 49
+    x: 8
+    y: 100
     width: 292
     height: 417
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: eefbffff
-    m_LastClickedID: -1042
-    m_ExpandedIDs: eefbfffff0fbffff00000000a031000046320000ce34000074350000903c0000363d0000944000003a41000042540000e8540000
+    m_SelectedIDs: 4e370000
+    m_LastClickedID: 14158
+    m_ExpandedIDs: 9667ffff986cffff6af3ffff6cf3ffff000000004e370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: LaserScan
+      m_OriginalName: LaserScan
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 13992
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
@@ -412,20 +412,20 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 296
-    y: 19
+    x: 304
+    y: 100
     width: 609
-    height: 374
+    height: 417
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 2336.187074691526
-  m_2DMode: 1
+  lastFramingTime: 812.259892835598
+  m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 531.71454, y: 168.03966, z: -10.790889}
+    m_Target: {x: 0, y: 0.35, z: 0}
     speed: 2
-    m_Value: {x: 531.71454, y: 168.03966, z: -10.790889}
+    m_Value: {x: 0, y: 0.35, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -445,25 +445,25 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 0
-      speed: 2
-      m_Value: 0
-    zGrid:
       m_Target: 1
       speed: 2
       m_Value: 1
+    zGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
   m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    m_Target: {x: 0.22101037, y: -0.14247222, z: 0.032660257, w: 0.96426815}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
+    m_Value: {x: 0.22100776, y: -0.14247054, z: 0.032659873, w: 0.96425676}
   m_Size:
-    m_Target: 1079.5641
+    m_Target: 1.3266568
     speed: 2
-    m_Value: 1079.5641
+    m_Value: 1.3266568
   m_Ortho:
-    m_Target: 1
+    m_Target: 0
     speed: 2
-    m_Value: 1
+    m_Value: 0
   m_ShowGlobalGrid: 1
   m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
@@ -516,8 +516,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 487
+    x: 8
+    y: 538
     width: 905
     height: 291
   m_PersistentViewDataDictionary: {fileID: 0}
@@ -533,20 +533,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Vuforia/Editor/VirtualButtonTextures
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Vuforia/Editor/VirtualButtonTextures
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS
+  m_LastProjectPath: D:\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 142}
-    m_SelectedIDs: 442f0000
-    m_LastClickedID: 12100
-    m_ExpandedIDs: 00000000f02b0000022c0000282c00009e2c0000042e0000162e0000262e0000282e0000e82e0000403100004231000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 90310000
+    m_LastClickedID: 12688
+    m_ExpandedIDs: 0000000090310000a2310000c231000034320000783300008633000096330000983300004c3400004e3600005036000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -574,7 +574,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f02b0000022c0000282c00009e2c0000042e0000262e0000282e00004031000042310000
+    m_ExpandedIDs: 0000000090310000a2310000c231000034320000783300008633000096330000983300004c3400004e36000050360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -674,8 +674,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 909
-    y: 49
+    x: 917
+    y: 100
     width: 371
     height: 729
   m_PersistentViewDataDictionary: {fileID: 0}
@@ -1303,13 +1303,13 @@ MonoBehaviour:
       staged: 0
     changedFilesText: 4 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2018-06-22T12:27:59.738-04:00
+      updatedTimeString: 2018-06-22T13:35:51.643-04:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2018-06-22T13:01:01.568-04:00
+      updatedTimeString: 2018-06-22T13:47:45.886-04:00
       cacheType: 5
     lastLocksChangedEvent:
-      updatedTimeString: 2018-06-22T13:01:09.584-04:00
+      updatedTimeString: 2018-06-22T13:35:52.106-04:00
       cacheType: 6
   historyView:
     currentLogHasUpdate: 0
