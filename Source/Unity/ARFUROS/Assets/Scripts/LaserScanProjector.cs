@@ -99,7 +99,7 @@ public class LaserScanProjector : MonoBehaviour {
         	{
             	particles[i].position = particlePositions[i];
             	particles[i].startColor = Color.red;
-            	particles[i].startSize = 0.3f;
+            	particles[i].startSize = 0.02f;
         	}
 
      	  	mySystem.SetParticles(particles, particles.Length);
