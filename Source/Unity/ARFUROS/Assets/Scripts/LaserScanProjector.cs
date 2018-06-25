@@ -79,8 +79,8 @@ public class LaserScanProjector : MonoBehaviour {
 					xpos = Math.Cos(currAngle) * message.ranges[i];
 					ypos = Math.Sin(currAngle) * message.ranges[i];
 
-					particlePositions[particleIndex] = new Vector3(Convert.ToSingle(xpos), 
-						Convert.ToSingle(ypos), Convert.ToSingle(zpos)); // store transform
+					particlePositions[particleIndex] = new Vector3(Convert.ToSingle(xpos), Convert.ToSingle(ypos), 
+					 Convert.ToSingle(zpos)); // store transform
 
 					particleIndex++;
 				}
