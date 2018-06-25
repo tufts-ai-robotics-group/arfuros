@@ -5,6 +5,8 @@
 
   <node name="laser_to_string" pkg="laser_to_string" type="laser_to_string" respawn="true"/>
 
+  <node name="laser_filter" pkg="laser_filter" type="laser_filter" respawn="true"/>
+
   <node name="plan_to_string" pkg="plan_to_string" type="plan_to_string" respawn="true"/>
 
 </launch>
