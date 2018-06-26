@@ -5,8 +5,8 @@ namespace RosSharp.RosBridgeClient
 {
     public class PathReceiver : MessageReceiver
     {
-        public override Type MessageType { get { return (typeof(StandardString)); } }
-        private StandardString rawMessage;
+        public override Type MessageType { get { return (typeof(NavigationPath)); } }
+        private NavigationPath rawMessage;
         public int numPoints;
         public Vector3[] path;
 
@@ -17,24 +17,21 @@ namespace RosSharp.RosBridgeClient
 
         private void ReceiveMessage(object sender, MessageEventArgs e)
         {
-            rawMessage = (StandardString)e.Message;
-            convertToPath();
+            rawMessage = (NavigationPath)e.Message;
+            UpdateValues();
         }
 
-        private void convertToPath()
+        private void UpdateValues()
         {
-            char[] charSeparators = new char[] { '|' };
-            string[] result;
-
-            result = rawMessage.data.Split(charSeparators, StringSplitOptions.RemoveEmptyEntries);
-            numPoints = result.Length / 3;
+            numPoints = rawMessage.poses.Length;
             path = new Vector3[numPoints];
 
-            for(int i = 0; i < numPoints; i++)
+            for (int i = 0; i < numPoints; i++)
             {
-                path[i].x = Convert.ToSingle(result[3 * i]);
-                path[i].y = Convert.ToSingle(result[3 * i + 1]);
-                path[i].z = Convert.ToSingle(result[3 * i + 2]);
+                path[i].x = rawMessage.poses[i].pose.position.x;
+                path[i].y = rawMessage.poses[i].pose.position.y;
+                path[i].z = rawMessage.poses[i].pose.position.z;
+
             }
         }
     }
