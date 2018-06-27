@@ -13,7 +13,6 @@ public class StatusManager : MonoBehaviour {
     public MultiTargetBehaviour TrackerCubeBehaviour;
     public RosConnector rosConnection;
     public GameObject laserScan;
-    public GameObject localPlan;
     public GameObject globalPlan;
 
 	// Use this for initialization
@@ -67,15 +66,10 @@ public class StatusManager : MonoBehaviour {
             laserScan.SetActive(false);
 
         if (PlayerPrefs.GetInt("Path", 1) == 1)
-        {
-            localPlan.SetActive(true);
             globalPlan.SetActive(true);
-        }
         else
-        {
-            localPlan.SetActive(false);
             globalPlan.SetActive(false);
-        }
+        
 
     }
 }
