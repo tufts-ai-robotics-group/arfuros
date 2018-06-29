@@ -30,6 +30,11 @@ public class PeopleProjector : MonoBehaviour {
 			particles = new ParticleSystem.Particle[numParticles];
 			Display();
 		}
+		else
+		{
+			particles = new ParticleSystem.Particle[EMPTY];
+			Display();
+		}
 		
 	}
 
