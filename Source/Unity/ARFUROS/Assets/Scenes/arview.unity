@@ -6029,6 +6029,47 @@ Transform:
   m_Father: {fileID: 623317467}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &240657768
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 240657770}
+  - component: {fileID: 240657769}
+  m_Layer: 0
+  m_Name: People
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &240657769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 240657768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4451b7727c6b0184ba82905aef080eb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  people: []
+--- !u!4 &240657770
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 240657768}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.51979995}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &275013253
 GameObject:
   m_ObjectHideFlags: 0
@@ -24390,6 +24431,7 @@ GameObject:
   - component: {fileID: 2118604846}
   - component: {fileID: 2118604848}
   - component: {fileID: 2118604849}
+  - component: {fileID: 2118604850}
   m_Layer: 0
   m_Name: ROSConnection
   m_TagString: Untagged
@@ -24450,6 +24492,20 @@ MonoBehaviour:
   Topic: /path_relative
   TimeStep: 0
   MessageReceiver: {fileID: 1372799806}
+--- !u!114 &2118604850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2118604845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 599399f87ee56d541ac06a68cbe1fc1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Topic: /people_tracker_measurements
+  TimeStep: 0
+  MessageReceiver: {fileID: 240657769}
 --- !u!1 &2120874915
 GameObject:
   m_ObjectHideFlags: 0

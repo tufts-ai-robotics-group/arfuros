@@ -95,6 +95,7 @@
     <Compile Include="Assets\Scripts\ButtonManager.cs" />
     <Compile Include="Assets\Scripts\CustomRosSharp\LaserScanReceiver.cs" />
     <Compile Include="Assets\Scripts\CustomRosSharp\PathReceiver.cs" />
+    <Compile Include="Assets\Scripts\CustomRosSharp\PeopleReceiver.cs" />
     <Compile Include="Assets\Scripts\HyperCubeTrackableEventHandler.cs" />
     <Compile Include="Assets\Scripts\LaserScanProjector.cs" />
     <Compile Include="Assets\Scripts\PathProjector.cs" />
