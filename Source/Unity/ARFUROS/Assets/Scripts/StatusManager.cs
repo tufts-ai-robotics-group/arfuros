@@ -14,6 +14,7 @@ public class StatusManager : MonoBehaviour {
     public RosConnector rosConnection;
     public GameObject laserScan;
     public GameObject globalPlan;
+    public GameObject people;
 
 	// Use this for initialization
 	void Awake () {
@@ -69,7 +70,11 @@ public class StatusManager : MonoBehaviour {
             globalPlan.SetActive(true);
         else
             globalPlan.SetActive(false);
-        
 
+        if (PlayerPrefs.GetInt("PeopleTracking", 1) == 1)
+            people.SetActive(true); 
+        else 
+            people.SetActive(false);
+        
     }
 }
