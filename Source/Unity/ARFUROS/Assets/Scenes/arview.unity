@@ -6132,6 +6132,7 @@ MonoBehaviour:
   laserScan: {fileID: 419180962}
   globalPlan: {fileID: 1372799804}
   people: {fileID: 240657768}
+  connector: {fileID: 2118604845}
 --- !u!4 &275013255
 Transform:
   m_ObjectHideFlags: 0
