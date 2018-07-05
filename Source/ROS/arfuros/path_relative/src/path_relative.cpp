@@ -1,24 +1,23 @@
 #include "ros/ros.h"
 #include "nav_msgs/Path.h"
-#include "std_msgs/String.h"
+#include "tf2_geometry_msgs/tf2_geometry_msgs.h"
+#include "tf2_ros/transform_listener.h"
 
-#include <string>
 #include <sstream>
+#include <string>
 
+const std::string publishFrame = "base_link";
+const std::string inputFrame = "odom";
+
+geometry_msgs::TransformStamped transform;
 ros::Publisher relativePub;
 
 nav_msgs::Path relativePath(const nav_msgs::Path::ConstPtr& globalPath){
 	nav_msgs::Path relative = *globalPath;
-	geometry_msgs::Pose firstPose;
-
-	if(relative.poses.size() > 0){
-		firstPose = relative.poses[0].pose;
-	}
+	relative.header.frame_id = publishFrame;
 	
 	for(int i = 0; i < relative.poses.size(); i++){
-		relative.poses[i].pose.position.x -= firstPose.position.x;
-		relative.poses[i].pose.position.y -= firstPose.position.y;
-		relative.poses[i].pose.position.z -= firstPose.position.z;
+		tf2::doTransform(relative.poses[i], relative.poses[i], transform);
 	}
 
 	return relative;
@@ -37,10 +36,23 @@ int main (int argc, char **argv){
 	
 	relativePub = n.advertise<nav_msgs::Path>("/path_relative", 100);
 	ros::Subscriber globalSub  = n.subscribe("/move_base/DWAPlannerROS/global_plan", 100, pathCallback);
+	
+	tf2_ros::Buffer tBuffer;
+	tf2_ros::TransformListener tf2_listener (tBuffer);
+	
 
 	while(ros::ok()){
-		ros::spin();
+	
+		try{
+			transform = tBuffer.lookupTransform(publishFrame, inputFrame, ros::Time(0), ros::Duration(1.0));
+		}
+		catch(tf2::TransformException e){
+			ROS_INFO("%s \n", e.what());
+		}
+
+		ros::spinOnce();		
 	}
 	
 	return 0;
 }
+
