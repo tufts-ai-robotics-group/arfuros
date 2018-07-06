@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(laser_filter)
+project(arfuros)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -8,6 +8,7 @@ project(laser_filter)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
+  nav_msgs
   roscpp
   sensor_msgs
   std_msgs
@@ -70,7 +71,7 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate added messages and services with any dependencies listed here
 # generate_messages(
 #   DEPENDENCIES
-#   sensor_msgs#   std_msgs
+#   nav_msgs#   sensor_msgs#   std_msgs
 # )
 
 ################################################
@@ -104,8 +105,8 @@ find_package(catkin REQUIRED COMPONENTS
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
 #  INCLUDE_DIRS include
-#  LIBRARIES laser_to_string
-#  CATKIN_DEPENDS roscpp sensor_msgs std_msgs
+#  LIBRARIES arfuros
+#  CATKIN_DEPENDS nav_msgs roscpp sensor_msgs std_msgs
 #  DEPENDS system_lib
 )
 
@@ -122,7 +123,7 @@ include_directories(
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
-#   src/${PROJECT_NAME}/laser_to_string.cpp
+#   src/${PROJECT_NAME}/arfuros.cpp
 # )
 
 ## Add cmake target dependencies of the library
@@ -133,7 +134,7 @@ include_directories(
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
-# add_executable(${PROJECT_NAME}_node src/laser_to_string_node.cpp)
+# add_executable(${PROJECT_NAME}_node src/arfuros_node.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -149,10 +150,6 @@ include_directories(
 # target_link_libraries(${PROJECT_NAME}_node
 #   ${catkin_LIBRARIES}
 # )
-
-add_executable(laser_filter src/laser_filter.cpp)
-add_dependencies(laser_filter  ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
-target_link_libraries(laser_filter ${catkin_LIBRARIES})
 
 #############
 ## Install ##
@@ -194,10 +191,20 @@ target_link_libraries(laser_filter ${catkin_LIBRARIES})
 #############
 
 ## Add gtest based cpp test target and link libraries
-# catkin_add_gtest(${PROJECT_NAME}-test test/test_laser_to_string.cpp)
+# catkin_add_gtest(${PROJECT_NAME}-test test/test_arfuros.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
+
+add_executable(path_relative src/path_relative.cpp)
+target_link_libraries(path_relative ${catkin_LIBRARIES})
+add_dependencies(path_relative arfuros)
+
+add_executable(laser_filter src/laser_filter.cpp)
+target_link_libraries(laser_filter ${catkin_LIBRARIES})
+add_dependencies(laser_filter arfuros)
+
+catkin_package()
