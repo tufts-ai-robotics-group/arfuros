@@ -18,29 +18,29 @@ public class LaserScanProjector : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		//Debug.Log("GOT TO LASER SCAN START");
+	
 		mySystem = GetComponent<ParticleSystem> ();
 		zpos = 0; // want particles to be ABOVE or BELOW cube
+
+		if (DateTime.Now.Year < 0)
+            {
+                Debug.Log(new List<Single>());
+                Debug.Log(new List<Double>());
+            }
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
-		//Debug.Log("LASER UPDATE");
-		//Debug.Log("Message " + message);
-
 		if(message != null)
 		{
-			//Debug.Log("LASER SCAN RECIEVED A MESSAGE");
-
 			// Initialize variables 
 			numPoints = message.ranges.Length;
-			//Debug.Log("Number of points: " + numPoints);
-
+			//Debug.Log("LASER SCAN: num particles: " + numParticles);
+			
 			// Discard outliers 
 			numParticles = 0;
 			CalculateNumParticles();
-			//Debug.Log("Number of particles " + numParticles);
 
 			particles = new ParticleSystem.Particle[numParticles];
 			particlePositions = new Vector3[numParticles]; 

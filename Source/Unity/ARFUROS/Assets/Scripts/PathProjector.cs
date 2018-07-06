@@ -19,8 +19,6 @@ public class PathProjector : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-
-		Debug.Log("In path projector START");
 		mySystem = GetComponent<ParticleSystem> ();
 	}
 	
@@ -29,10 +27,9 @@ public class PathProjector : MonoBehaviour {
 
 		if (message != null)
 		{
-			Debug.Log("Got a non-empty MESSAGE");
 			// Initialize variables 
 			numParticles = message.numPoints;
-			Debug.Log("This is the num particles: " + numParticles);
+			//Debug.Log("Global Path: num particles: " + numParticles);
 
 			particles = new ParticleSystem.Particle[numParticles];
 

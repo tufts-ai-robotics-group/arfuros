@@ -1,6 +1,6 @@
-Android
+iOS
 PlayerPath?
-D:/AIRLab/Tufts Summer Scholars 2018/arfuros/Builds/Android/HyperCube.apk
+/Users/amelhassan/Documents/Summer Research 2018/arfuros/Builds/iOS/replacedRosSharp
 SceneListBegin?
 Assets/Scenes/menu.unity
 Assets/Scenes/arview.unity
@@ -20,7 +20,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 30afa8783a8bbee2e465ec9ce1efaee2 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 607d64d2c4bc76ac9876e6f7b9cc7edf UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 de389846ca3164f806c4afdeca33fb8e Assembly-CSharp.dll:RosSharp.RosBridgeClient.PoseProvider
-add586fb33335d5202e78254e2e09408 Assembly-CSharp.dll:.StatusManager
+8657eb7e1968cffb636f80ce48122fcc Assembly-CSharp.dll:.StatusManager
 be678c1e2922dbf94970c08107299274 Assembly-CSharp.dll:RosSharp.RosBridgeClient.PathReceiver
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
@@ -87,6 +87,7 @@ c63db43c730fa2cbb8ca07de15898cb6 UnityEngine.UI.dll:UnityEngine.UI.Toggle
 f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 86d36c43c53541d667100dc90b89cfba UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 1b8c02d0aa82fbf036a2b9b2d713eec3 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
+a2f68d3a956e2b4840d86c2265a303f6 Assembly-CSharp.dll:RosSharp.RosBridgeClient.PeopleReceiver
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:RosSharp.RosBridgeClient.TwistProvider
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:RosSharp.RosBridgeClient.TwistReceiver
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -241,7 +242,8 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
-2585d6b96c4424183dc09740b1b0f780 Assembly-CSharp.dll:.SettingsManager
+1c11ddf493c386f450c9549a485c1824 Assembly-CSharp.dll:.SettingsManager
+fd4fb3aa99239728eb465b17e17b27ef Assembly-CSharp.dll:.PeopleProjector
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:RosSharp.RosBridgeClient.JointStateReader
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 e3839ffe38252018b33fb89435e49dbd Assembly-CSharp.dll:RosSharp.RigidbodyUrdfDataManager

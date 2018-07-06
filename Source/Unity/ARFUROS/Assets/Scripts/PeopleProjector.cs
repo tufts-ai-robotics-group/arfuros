@@ -18,12 +18,20 @@ public class PeopleProjector : MonoBehaviour {
 	void Start () {
 
 		mySystem = GetComponent<ParticleSystem>();
+
+		if (DateTime.Now.Year < 0)
+            {
+                Debug.Log(new List<Single>());
+                Debug.Log(new List<Double>());
+            }
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
 		numParticles = message.people.Length;
+		
+		//Debug.Log("People Projector: num particles: " + numParticles);
 
 		if (numParticles > EMPTY)
 		{
