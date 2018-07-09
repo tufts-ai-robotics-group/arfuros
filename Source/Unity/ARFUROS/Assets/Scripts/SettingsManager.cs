@@ -10,6 +10,8 @@ public class SettingsManager : MonoBehaviour {
     public Toggle LaserScan;
     public Toggle Path;
     public Toggle PeopleTracking;
+    public Toggle Costmap;
+    public Toggle LocalizationParticles;
 
 	public void updateIP(string newstring)
     {
@@ -31,6 +33,16 @@ public class SettingsManager : MonoBehaviour {
     public void updatePeopleTracking(bool newbool) {
         int val = newbool ? 1 : 0;
         PlayerPrefs.SetInt("PeopleTracking", val);
+    }
+
+    public void updateCostmap(bool newbool) {
+        int val = newbool ? 1 : 0;
+        PlayerPrefs.SetInt("Costmap", val);
+    }
+
+     public void updateLocalizationParticles(bool newbool) {
+        int val = newbool ? 1 : 0;
+        PlayerPrefs.SetInt("LocalizationParticles", val);
     }
 
     public void onApply()
@@ -59,6 +71,16 @@ public class SettingsManager : MonoBehaviour {
             PeopleTracking.isOn = true;
         else
             PeopleTracking.isOn = false;
+
+        if (PlayerPrefs.GetInt("Costmap", 1) == 1)
+            Costmap.isOn = true ;
+        else 
+            Costmap.isOn = false;
+
+        if (PlayerPrefs.GetInt("LocalizationParticles", 1) == 1)
+            LocalizationParticles.isOn = true ;
+        else 
+            LocalizationParticles.isOn = false;
     }
 }
 

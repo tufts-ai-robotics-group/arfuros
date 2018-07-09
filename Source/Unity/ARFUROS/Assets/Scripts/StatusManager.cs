@@ -15,7 +15,9 @@ public class StatusManager : MonoBehaviour {
     public GameObject globalPlan;
     public GameObject people;
     public GameObject connector;
-    public int numTopics = 3;
+    public GameObject Costmap;
+    public GameObject LocalizationParticles;
+    public int numTopics = 5;
     private Subscriber[] scripts;
 
 	// Use this for initialization
@@ -89,6 +91,28 @@ public class StatusManager : MonoBehaviour {
         {
             people.SetActive(false);
             rosSubscriber("/people_tracker_measurements", false);      
+        }
+
+         if (PlayerPrefs.GetInt("Costmap", 1) == 1)
+        {
+            Costmap.SetActive(true);
+            rosSubscriber("/move_base/local_costmap/costmap", true); 
+        }
+        else
+        {
+            Costmap.SetActive(false);
+            rosSubscriber("/move_base/local_costmap/costmap", false); 
+        }
+
+         if (PlayerPrefs.GetInt("LocalizationParticles", 1) == 1)
+        {
+            LocalizationParticles.SetActive(true);
+            rosSubscriber("/particlecloud", true); 
+        }
+        else
+        {
+            LocalizationParticles.SetActive(false);
+            rosSubscriber("/particlecloud", false); 
         }
     }
 
