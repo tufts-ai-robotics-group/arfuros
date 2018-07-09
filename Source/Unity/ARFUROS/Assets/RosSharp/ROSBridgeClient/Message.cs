@@ -458,4 +458,18 @@ namespace RosSharp.RosBridgeClient
             cooccurence = new float[0];
         }
     }
+
+    public class GeometryPoseArray : Message
+    {
+        public StandardHeader header;
+        public GeometryPose[] poses;
+
+        public GeometryPoseArray()
+        {
+            header = new StandardHeader();
+            poses = new GeometryPose[0];
+        }
+    }
+
+
 }

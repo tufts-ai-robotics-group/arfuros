@@ -198,9 +198,7 @@ namespace RosSharp.RosBridgeClient
         {
             JObject operation = Deserialize(e.RawData);
 
-#if DEBUG            
-            Debug.Log("Received:\n" + JsonConvert.SerializeObject(operation, Formatting.Indented) + "\n");
-#endif
+           // Debug.Log("Received:\n" + JsonConvert.SerializeObject(operation, Formatting.Indented) + "\n");
 
             switch (operation.GetOperation())
             {
@@ -270,9 +268,8 @@ namespace RosSharp.RosBridgeClient
 
         private void sendOperation(Operation operation)
         {
-#if DEBUG
-            Debug.Log("Sending:\n" +  JsonConvert.SerializeObject(operation, Formatting.Indented) + "\n");           
-#endif
+           // Debug.Log("Sending:\n" +  JsonConvert.SerializeObject(operation, Formatting.Indented) + "\n");           
+
             webSocket.SendAsync(Serialize(operation), null);
         }
         public static byte[] Serialize(object obj)

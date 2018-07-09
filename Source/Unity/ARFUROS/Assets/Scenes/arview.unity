@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6127,12 +6127,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   statusText: {fileID: 447112253}
   TrackerCube: {fileID: 2117958854}
-  TrackerCubeBehaviour: {fileID: 2117958852}
   rosConnection: {fileID: 2118604846}
   laserScan: {fileID: 419180962}
   globalPlan: {fileID: 1372799804}
   people: {fileID: 240657768}
   connector: {fileID: 2118604845}
+  numTopics: 3
 --- !u!4 &275013255
 Transform:
   m_ObjectHideFlags: 0
@@ -22655,6 +22655,46 @@ Transform:
   m_Father: {fileID: 1398056350}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1283426520
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1283426522}
+  - component: {fileID: 1283426521}
+  m_Layer: 0
+  m_Name: Costmap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1283426521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1283426520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 320fa72a811c82a4dbdf9f57b3b7edff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1283426522
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1283426520}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 443.2261, y: 263.02002, z: 7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1283846650
 GameObject:
   m_ObjectHideFlags: 0
@@ -28083,6 +28123,47 @@ Material:
     m_Floats: []
     m_Colors:
     - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
+--- !u!1 &2029330493
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2029330495}
+  - component: {fileID: 2029330494}
+  m_Layer: 0
+  m_Name: LocalizationParticles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2029330494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2029330493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83abe7f1f7ddf1c4ab38ce2c311f79c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  poses: []
+--- !u!4 &2029330495
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2029330493}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 443.2261, y: 263.02002, z: 7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2044721171
 GameObject:
   m_ObjectHideFlags: 0
@@ -29025,7 +29106,6 @@ MonoBehaviour:
   mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/CubeMarks.xml
-  mExtendedTracking: 1
 --- !u!4 &2117958853
 Transform:
   m_ObjectHideFlags: 0
@@ -29066,6 +29146,8 @@ GameObject:
   - component: {fileID: 2118604848}
   - component: {fileID: 2118604849}
   - component: {fileID: 2118604850}
+  - component: {fileID: 2118604852}
+  - component: {fileID: 2118604851}
   m_Layer: 0
   m_Name: ROSConnection
   m_TagString: Untagged
@@ -29140,6 +29222,34 @@ MonoBehaviour:
   Topic: /people_tracker_measurements
   TimeStep: 0
   MessageReceiver: {fileID: 240657769}
+--- !u!114 &2118604851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2118604845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 599399f87ee56d541ac06a68cbe1fc1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Topic: /move_base/local_costmap/costmap
+  TimeStep: 0
+  MessageReceiver: {fileID: 1283426521}
+--- !u!114 &2118604852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2118604845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 599399f87ee56d541ac06a68cbe1fc1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Topic: /particlecloud
+  TimeStep: 0
+  MessageReceiver: {fileID: 2029330494}
 --- !u!1 &2120874915
 GameObject:
   m_ObjectHideFlags: 0

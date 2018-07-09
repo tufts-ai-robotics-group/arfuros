@@ -52,7 +52,8 @@ namespace RosSharp.RosBridgeClient
             { "people_msgs/PersonStamped", typeof(PeoplePersonStamped) },
             { "people_msgs/People", typeof(PeoplePeople) },
             { "people_msgs/PositionMeasurement", typeof(PeoplePositionMeasurement) },
-            { "people_msgs/PositionMeasurementArray", typeof(PeoplePositionMeasurementArray) }
+            { "people_msgs/PositionMeasurementArray", typeof(PeoplePositionMeasurementArray) },
+            { "geometry_msgs/PoseArray", typeof(GeometryPoseArray) }
 
         };
         public static string RosMessageType(Type messageType)
