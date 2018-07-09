@@ -9,7 +9,6 @@ public class SettingsManager : MonoBehaviour {
     public InputField IPAddress;
     public Toggle LaserScan;
     public Toggle Path;
-    public Toggle ExtendedTracking;
     public Toggle PeopleTracking;
 
 	public void updateIP(string newstring)
@@ -27,11 +26,6 @@ public class SettingsManager : MonoBehaviour {
     {
         int val = newbool ? 1 : 0;
         PlayerPrefs.SetInt("Path", val);
-    }
-
-    public void updateExtendedTracking(bool newbool) {
-        int val = newbool ? 1 : 0;
-        PlayerPrefs.SetInt("ExtendedTracking", val);
     }
 
     public void updatePeopleTracking(bool newbool) {
@@ -60,11 +54,6 @@ public class SettingsManager : MonoBehaviour {
             Path.isOn = true;
         else 
         	Path.isOn = false;
-
-        if (PlayerPrefs.GetInt("ExtendedTracking", 1) == 1)
-            ExtendedTracking.isOn = true;
-        else
-            ExtendedTracking.isOn = false;
 
         if (PlayerPrefs.GetInt("PeopleTracking", 1) == 1)
             PeopleTracking.isOn = true;

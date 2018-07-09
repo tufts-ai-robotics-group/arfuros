@@ -10,7 +10,6 @@ public class StatusManager : MonoBehaviour {
 
     public Text statusText;
     public HyperCubeTrackableEventHandler TrackerCube;
-    public MultiTargetBehaviour TrackerCubeBehaviour;
     public RosConnector rosConnection;
     public GameObject laserScan;
     public GameObject globalPlan;
@@ -34,24 +33,13 @@ public class StatusManager : MonoBehaviour {
     // Update is called once per frame
     void Update () {
         checkTracker();
-        controlExtendedTracking();
+        //controlExtendedTracking();
         implementPreferences();
 	}
 
     void displayStatus (string message)
     {
         statusText.text = message;
-    }
-
-    void controlExtendedTracking()
-    {
-        if (TrackerCubeBehaviour.MultiTarget == null)
-            return;
-
-        if (PlayerPrefs.GetInt("ExtendedTracking") == 1)
-            TrackerCubeBehaviour.MultiTarget.StartExtendedTracking();
-        else
-            TrackerCubeBehaviour.MultiTarget.StopExtendedTracking();
     }
 
     void checkTracker()
