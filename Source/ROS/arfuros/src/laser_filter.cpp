@@ -20,9 +20,24 @@ sensor_msgs::LaserScan filterScan(const sensor_msgs::LaserScan::ConstPtr& scanDa
 	return filtered;
 }
 
+sensor_msgs::LaserScan reducePoints(const sensor_msgs::LaserScan::ConstPtr& scanData){
+	sensor_msgs::LaserScan filtered = *scanData;
+
+	int count = 0;
+
+	while (count < filtered.ranges.size())
+	{
+		filtered.ranges[i] = -1;
+		count += 2;
+	}
+	
+	return filtered;
+}
+
 void scanCallback(const sensor_msgs::LaserScan::ConstPtr& inMsg){
 	sensor_msgs::LaserScan outMsg;
 	outMsg = filterScan(inMsg);
+	outMsg = reducePoints(outMsg);
 	filteredPub.publish(outMsg);
 }
 
