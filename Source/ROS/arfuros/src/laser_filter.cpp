@@ -5,10 +5,12 @@
 #include <string>
 #include <sstream>
 
+const int REDUCTION_FACTOR = 2;
+
 ros::Publisher filteredPub;
 
-sensor_msgs::LaserScan filterScan(const sensor_msgs::LaserScan::ConstPtr& scanData){
-	sensor_msgs::LaserScan filtered = *scanData;
+sensor_msgs::LaserScan filterScan(sensor_msgs::LaserScan scanData){
+	sensor_msgs::LaserScan filtered = scanData;
 
 	for (int i = 0; i < filtered.ranges.size(); i ++){
 		if (isnan(filtered.ranges[i])){
@@ -16,13 +18,26 @@ sensor_msgs::LaserScan filterScan(const sensor_msgs::LaserScan::ConstPtr& scanDa
 		}
 	}
 
-	
 	return filtered;
+}
+
+sensor_msgs::LaserScan reducePoints(sensor_msgs::LaserScan input){
+	sensor_msgs::LaserScan output = input;
+
+	output.angle_increment *= REDUCTION_FACTOR;
+	output.ranges.resize(input.ranges.size()/REDUCTION_FACTOR);
+	output.intensities.resize(0);
+
+	for(int i = 0; i < input.ranges.size()/REDUCTION_FACTOR; i++){
+		output.ranges[i] = input.ranges[i*REDUCTION_FACTOR];
+	}
+
+	return output;
 }
 
 void scanCallback(const sensor_msgs::LaserScan::ConstPtr& inMsg){
 	sensor_msgs::LaserScan outMsg;
-	outMsg = filterScan(inMsg);
+	outMsg = filterScan(reducePoints(*inMsg));
 	filteredPub.publish(outMsg);
 }
 
