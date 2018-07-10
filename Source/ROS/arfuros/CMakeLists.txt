@@ -11,6 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   nav_msgs
   roscpp
   sensor_msgs
+  geometry_msgs
   std_msgs
   tf2_ros
   tf2_geometry_msgs
@@ -208,5 +209,9 @@ add_dependencies(path_relative arfuros)
 add_executable(laser_filter src/laser_filter.cpp)
 target_link_libraries(laser_filter ${catkin_LIBRARIES})
 add_dependencies(laser_filter arfuros)
+
+add_executable(localization_relative src/localization_relative.cpp)
+target_link_libraries(localization_relative ${catkin_LIBRARIES})
+add_dependencies(localization_relative arfuros)
 
 catkin_package()

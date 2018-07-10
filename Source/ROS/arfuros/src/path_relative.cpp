@@ -34,8 +34,8 @@ int main (int argc, char **argv){
 	ros::init(argc, argv, "path_relative");
 	ros::NodeHandle n;
 	
-	relativePub = n.advertise<nav_msgs::Path>("/path_relative", 100);
-	ros::Subscriber globalSub  = n.subscribe("/move_base/DWAPlannerROS/global_plan", 100, pathCallback);
+	relativePub = n.advertise<nav_msgs::Path>("/path_relative", 5);
+	ros::Subscriber globalSub  = n.subscribe("/move_base/DWAPlannerROS/global_plan", 5, pathCallback);
 	
 	tf2_ros::Buffer tBuffer;
 	tf2_ros::TransformListener tf2_listener (tBuffer);

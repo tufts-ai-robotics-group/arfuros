@@ -24,11 +24,15 @@ sensor_msgs::LaserScan filterScan(sensor_msgs::LaserScan scanData){
 sensor_msgs::LaserScan reducePoints(sensor_msgs::LaserScan input){
 	sensor_msgs::LaserScan output = input;
 
+	int reduced_size = input.ranges.size() / REDUCTION_FACTOR;
+
 	output.angle_increment *= REDUCTION_FACTOR;
-	output.ranges.resize(input.ranges.size()/REDUCTION_FACTOR);
+	output.angle_max = output.angle_min + output.angle_increment * reduced_size;
+
+	output.ranges.resize(reduced_size);
 	output.intensities.resize(0);
 
-	for(int i = 0; i < input.ranges.size()/REDUCTION_FACTOR; i++){
+	for(int i = 0; i < reduced_size; i++){
 		output.ranges[i] = input.ranges[i*REDUCTION_FACTOR];
 	}
 
@@ -45,12 +49,10 @@ int main (int argc, char **argv){
 	ros::init(argc, argv, "laser_filter");
 	ros::NodeHandle n;
 	
-	filteredPub = n.advertise<sensor_msgs::LaserScan>("/scan_filtered", 100);
-	ros::Subscriber scanSub  = n.subscribe("/scan", 100, scanCallback);
+	filteredPub = n.advertise<sensor_msgs::LaserScan>("/scan_filtered", 5);
+	ros::Subscriber scanSub  = n.subscribe("/scan", 5, scanCallback);
 	
-	while(ros::ok()){
-		ros::spin();
-	}
+	ros::spin();
 	
 	return 0;
 }
