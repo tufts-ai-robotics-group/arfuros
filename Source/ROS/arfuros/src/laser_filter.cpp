@@ -45,12 +45,10 @@ int main (int argc, char **argv){
 	ros::init(argc, argv, "laser_filter");
 	ros::NodeHandle n;
 	
-	filteredPub = n.advertise<sensor_msgs::LaserScan>("/scan_filtered", 100);
-	ros::Subscriber scanSub  = n.subscribe("/scan", 100, scanCallback);
+	filteredPub = n.advertise<sensor_msgs::LaserScan>("/scan_filtered", 5);
+	ros::Subscriber scanSub  = n.subscribe("/scan", 5, scanCallback);
 	
-	while(ros::ok()){
-		ros::spin();
-	}
+	ros::spin();
 	
 	return 0;
 }
