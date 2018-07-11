@@ -8031,13 +8031,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 596854847}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2029330495}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!199 &596854849
 ParticleSystemRenderer:
   serializedVersion: 5
@@ -8054,7 +8054,7 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 281f5bd015ac8463f8b9f5e0f0cbdc5c, type: 2}
   - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -8075,7 +8075,7 @@ ParticleSystemRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_RenderMode: 4
+  m_RenderMode: 0
   m_SortMode: 0
   m_MinParticleSize: 0
   m_MaxParticleSize: 0.5
@@ -12637,6 +12637,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: {fileID: 2029330494}
+  rotation: 0
+  size: 0.03
 --- !u!1 &606475292
 GameObject:
   m_ObjectHideFlags: 0
@@ -27370,6 +27372,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 320fa72a811c82a4dbdf9f57b3b7edff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  origin: {x: 0, y: 0, z: 0}
+  ProbData: 
+  count: 0
+  height: 0
+  width: 0
+  resolution: 0
 --- !u!4 &1283426522
 Transform:
   m_ObjectHideFlags: 0
@@ -30934,6 +30942,7 @@ GameObject:
   - component: {fileID: 1756690853}
   - component: {fileID: 1756690855}
   - component: {fileID: 1756690854}
+  - component: {fileID: 1756690856}
   m_Layer: 0
   m_Name: CostmapProjector
   m_TagString: Untagged
@@ -31196,7 +31205,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 1, b: 1, a: 1}
+      maxColor: {r: 1, g: 0, b: 0, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -35541,6 +35550,21 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!114 &1756690856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1756690852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fca5d8dd6bebe4047ae1afa739942de2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: {fileID: 1283426521}
+  rComp: 0.2
+  gComp: 0.3
+  bComp: 0.4
 --- !u!1 &1769484414
 GameObject:
   m_ObjectHideFlags: 0
@@ -37376,6 +37400,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   poses: []
+  orientations: []
 --- !u!4 &2029330495
 Transform:
   m_ObjectHideFlags: 0
@@ -38501,7 +38526,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 599399f87ee56d541ac06a68cbe1fc1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Topic: /particlecloud
+  Topic: /localization_relative
   TimeStep: 0
   MessageReceiver: {fileID: 2029330494}
 --- !u!1 &2120874915
