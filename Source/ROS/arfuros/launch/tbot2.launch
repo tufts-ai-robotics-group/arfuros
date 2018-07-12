@@ -7,5 +7,6 @@
   <node name="laser_filter" pkg="arfuros" type="laser_filter" respawn="true"/>
   <node name="path_relative" pkg="arfuros" type="path_relative" respawn="true"/>
   <node name="localization_relative" pkg="arfuros" type="localization_relative" respawn="true"/>
+  <node name="costmap_relative" pkg="arfuros" type="costmap_relative" respawn="true"/>
 
 </launch>

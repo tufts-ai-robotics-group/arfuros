@@ -214,4 +214,8 @@ add_executable(localization_relative src/localization_relative.cpp)
 target_link_libraries(localization_relative ${catkin_LIBRARIES})
 add_dependencies(localization_relative arfuros)
 
+add_executable(costmap_relative src/costmap_relative.cpp)
+target_link_libraries(costmap_relative ${catkin_LIBRARIES})
+add_dependencies(costmap_relative arfuros)
+
 catkin_package()
