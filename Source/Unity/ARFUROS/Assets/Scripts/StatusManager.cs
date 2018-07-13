@@ -63,23 +63,23 @@ public class StatusManager : MonoBehaviour {
         if (PlayerPrefs.GetInt("LaserScan", 1) == 1)
         {
             laserScan.SetActive(true);
-            rosSubscriber("/scan_filtered", true); 
+            rosSubscriber("/ARFUROS/LaserScan", true); 
         }
         else
         {
             laserScan.SetActive(false);
-            rosSubscriber("/scan_filtered", false); 
+            rosSubscriber("/ARFUROS/LaserScan", false); 
         }
 
         if (PlayerPrefs.GetInt("Path", 1) == 1)
         {
             globalPlan.SetActive(true);
-            rosSubscriber("/path_relative", true); 
+            rosSubscriber("/ARFUROS/Path", true); 
         }
         else
         {
             globalPlan.SetActive(false);
-            rosSubscriber("/path_relative", false); 
+            rosSubscriber("/ARFUROS/Path", false); 
         }
 
         if (PlayerPrefs.GetInt("PeopleTracking", 1) == 1)
@@ -96,23 +96,23 @@ public class StatusManager : MonoBehaviour {
          if (PlayerPrefs.GetInt("Costmap", 1) == 1)
         {
             Costmap.SetActive(true);
-            rosSubscriber("/move_base/local_costmap/costmap", true); 
+            rosSubscriber("/ARFUROS/Costmap", true); 
         }
         else
         {
             Costmap.SetActive(false);
-            rosSubscriber("/move_base/local_costmap/costmap", false); 
+            rosSubscriber("/ARFUROS/Costmap", false); 
         }
 
          if (PlayerPrefs.GetInt("LocalizationParticles", 1) == 1)
         {
             LocalizationParticles.SetActive(true);
-            rosSubscriber("/particlecloud", true); 
+            rosSubscriber("/ARFUROS/Localization", true); 
         }
         else
         {
             LocalizationParticles.SetActive(false);
-            rosSubscriber("/particlecloud", false); 
+            rosSubscriber("/ARFUROS/Localization", false); 
         }
     }
 
