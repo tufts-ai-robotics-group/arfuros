@@ -41,8 +41,6 @@ public class CostmapProjector : MonoBehaviour {
 		{
 			// Initialize variables 
 			numParticles = message.count;
-			Debug.Log("Costmap numparticles: " + numParticles);
-
 			particles = new ParticleSystem.Particle[numParticles];
 
 			// Spawn 

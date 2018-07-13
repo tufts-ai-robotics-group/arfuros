@@ -53,9 +53,6 @@ public class LocalizationProjector : MonoBehaviour {
 			// Initialize variables 
 			numParticles = zRotation.Length;
 
-			Debug.Log("Localization Particles num particles zrotation: " + numParticles);
-			Debug.Log("Localization Particles num particles poses: " + poses.Length);
-
 			particles = new ParticleSystem.Particle[numParticles];
 			
 			// Spawn 
