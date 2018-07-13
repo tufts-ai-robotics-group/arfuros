@@ -42,7 +42,7 @@ int main (int argc, char **argv){
 	ros::init(argc, argv, "localization_relative");
 	ros::NodeHandle n;
 	
-	relativePub = n.advertise<geometry_msgs::PoseArray>("/localization_relative", 5);
+	relativePub = n.advertise<geometry_msgs::PoseArray>("/ARFUROS/Localization", 5);
 	ros::Subscriber globalSub  = n.subscribe("/particlecloud", 5, localizationCallback);
 	
 	tf2_ros::Buffer tBuffer;

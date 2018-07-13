@@ -49,7 +49,7 @@ int main (int argc, char **argv){
 	ros::init(argc, argv, "laser_filter");
 	ros::NodeHandle n;
 	
-	filteredPub = n.advertise<sensor_msgs::LaserScan>("/scan_filtered", 5);
+	filteredPub = n.advertise<sensor_msgs::LaserScan>("/ARFUROS/LaserScan", 5);
 	ros::Subscriber scanSub  = n.subscribe("/scan", 5, scanCallback);
 	
 	ros::spin();

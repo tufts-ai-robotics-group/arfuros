@@ -35562,9 +35562,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: {fileID: 1283426521}
-  rComp: 0.2
-  gComp: 0.3
-  bComp: 0.4
 --- !u!1 &1769484414
 GameObject:
   m_ObjectHideFlags: 0
@@ -38384,7 +38381,6 @@ MonoBehaviour:
   mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/CubeMarks.xml
-  mExtendedTracking: 0
 --- !u!4 &2117958853
 Transform:
   m_ObjectHideFlags: 0
@@ -38470,7 +38466,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 599399f87ee56d541ac06a68cbe1fc1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Topic: /scan_filtered
+  Topic: /ARFUROS/LaserScan
   TimeStep: 0
   MessageReceiver: {fileID: 419180963}
 --- !u!114 &2118604849
@@ -38484,7 +38480,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 599399f87ee56d541ac06a68cbe1fc1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Topic: /path_relative
+  Topic: /ARFUROS/path
   TimeStep: 0
   MessageReceiver: {fileID: 1372799806}
 --- !u!114 &2118604850
@@ -38512,7 +38508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 599399f87ee56d541ac06a68cbe1fc1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Topic: /move_base/local_costmap/costmap
+  Topic: /ARFUROS/Costmap
   TimeStep: 0
   MessageReceiver: {fileID: 1283426521}
 --- !u!114 &2118604852
@@ -38526,7 +38522,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 599399f87ee56d541ac06a68cbe1fc1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Topic: /localization_relative
+  Topic: /ARFUROS/Localization
   TimeStep: 0
   MessageReceiver: {fileID: 2029330494}
 --- !u!1 &2120874915

@@ -40,7 +40,7 @@ int main (int argc, char **argv){
 	ros::init(argc, argv, "costmap_relative");
 	ros::NodeHandle n;
 	
-	relativePub = n.advertise<nav_msgs::OccupancyGrid>("/costmap_relative", 5);
+	relativePub = n.advertise<nav_msgs::OccupancyGrid>("/ARFUROS/Costmap", 5);
 	ros::Subscriber globalSub  = n.subscribe("/move_base/local_costmap/costmap", 5, costmapCallback);
 	
 	tf2_ros::Buffer tBuffer;
