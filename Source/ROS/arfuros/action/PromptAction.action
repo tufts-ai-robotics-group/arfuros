@@ -1,0 +1,11 @@
+#goal definition
+string prompt_type
+string prompt_text
+string[] options
+---
+#result definition
+bool timeout
+string selected_option
+---
+#feedback definition
+bool device_connected
