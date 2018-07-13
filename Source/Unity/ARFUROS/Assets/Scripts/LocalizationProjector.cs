@@ -17,11 +17,12 @@ public class LocalizationProjector : MonoBehaviour {
 	private ParticleSystem mySystem;
 	private ParticleSystem.Particle[] particles;
 	private int numParticles; 
-	public float size = 0.04f;
+	public float size = 0.06f;
 
 	// Use this for initialization
 	void Start () {
 		mySystem = GetComponent<ParticleSystem> ();
+		
 		if (DateTime.Now.Year < 0)
             {
                 Debug.Log(new List<SByte>());
@@ -52,7 +53,6 @@ public class LocalizationProjector : MonoBehaviour {
 		{						
 			// Initialize variables 
 			numParticles = zRotation.Length;
-
 			particles = new ParticleSystem.Particle[numParticles];
 			
 			// Spawn 
@@ -72,6 +72,8 @@ public class LocalizationProjector : MonoBehaviour {
 			size = 0.02f; */
 
 		// Set positions
+			size = 0.06f;
+			
     		for (int i = 0; i < numParticles; i++) 
         	{
         		if (i < poses.Length)
