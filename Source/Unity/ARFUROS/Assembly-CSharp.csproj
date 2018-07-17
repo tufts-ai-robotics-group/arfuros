@@ -111,6 +111,7 @@
     <Compile Include="Assets\Scripts\HyperCubeTrackableEventHandler.cs" />
     <Compile Include="Assets\Scripts\LaserScanProjector.cs" />
     <Compile Include="Assets\Scripts\LocalizationProjector.cs" />
+    <Compile Include="Assets\Scripts\LocalParticleRotation.cs" />
     <Compile Include="Assets\Scripts\PathProjector.cs" />
     <Compile Include="Assets\Scripts\PeopleProjector.cs" />
     <Compile Include="Assets\Scripts\scroll.cs" />
