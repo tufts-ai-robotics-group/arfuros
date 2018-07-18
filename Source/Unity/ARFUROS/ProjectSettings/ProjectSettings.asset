@@ -780,7 +780,7 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: ARFUROS
   metroPackageVersion: 1.0.0.0
-  metroCertificatePath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\WSATestCertificate.pfx
+  metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
   metroCertificateSubject: AIRLab
   metroCertificateIssuer: AIRLab

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2018-07-17T12:13:06.508-04:00
-  initializedAtString: 2018-07-17T12:13:06.508-04:00
+  lastUpdatedAtString: 2018-07-18T11:45:50.748-04:00
+  initializedAtString: 2018-07-18T11:45:50.748-04:00
   currentGitRemote:
     name: origin
     url: https://github.com/faizan-m/arfuros.git
@@ -23,15 +23,15 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: master
-    tracking: origin/master
+    name: Hololens
+    tracking: origin/Hololens
   currentConfigBranch:
-    name: master
+    name: Hololens
     remote:
       name: origin
       url: https://github.com/faizan-m/arfuros.git
-    trackingBranch: master
+    trackingBranch: Hololens
   currentConfigRemote:
     name: origin
     url: https://github.com/faizan-m/arfuros.git
-  currentHead: 550a792
+  currentHead: 2dcd689

@@ -236,6 +236,9 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="Vuforia.UnityExtensions">
+      <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/WindowsStoreApps/Vuforia.UnityExtensions.dll</HintPath>
+    </Reference>
     <Reference Include="MathNet.Numerics">
       <HintPath>Assets/RosSharp/Plugins/MathNet.Numerics.dll</HintPath>
     </Reference>
