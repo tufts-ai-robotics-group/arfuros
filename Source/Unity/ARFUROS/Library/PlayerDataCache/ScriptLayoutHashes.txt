@@ -321,3 +321,6 @@ ad4ede464ae743b4514f752be6cc0a4a Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 8bb3f0d0e0e6a4e201460935624777a3 Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 3d1b89310e77c34bc0c8d7132231345c Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
+fed89361190a472d89062e35024e71d8 Assembly-CSharp.dll:.ButtonScript
+b4e543529b88eb776df23e0696170aa7 Assembly-CSharp.dll:.clearbtn
+b4e543529b88eb776df23e0696170aa7 Assembly-CSharp.dll:.deletebtn
