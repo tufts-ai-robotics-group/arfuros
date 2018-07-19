@@ -23,7 +23,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_1_8;UNITY_2018_1;UNITY_2018;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_TRANSFORM_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_METRO;UNITY_METRO;UNITY_METRO_API;PLATFORM_WINRT;UNITY_WINRT;ENABLE_WINRT_PINVOKE;ENABLE_LAZY_METHOD_CACHING;ENABLE_MOVIES;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_NETWORK;ENABLE_EVENT_QUEUE;UNITY_PLATFORM_THREAD_TO_CORE_MAPPING;ENABLE_SUBSTANCE;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;CURL_STATICLIB;ENABLE_VR;ENABLE_AR;UNITY_WSA;ENABLE_IL2CPP;NET_4_6;ENABLE_PROFILER;UNITY_WSA_10_0;UNITY_WINRT_10_0;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;ENABLE_DOTNET</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_1_6;UNITY_2018_1;UNITY_2018;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_TRANSFORM_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_METRO;UNITY_METRO;UNITY_METRO_API;PLATFORM_WINRT;UNITY_WINRT;ENABLE_WINRT_PINVOKE;ENABLE_LAZY_METHOD_CACHING;ENABLE_MOVIES;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_NETWORK;ENABLE_EVENT_QUEUE;UNITY_PLATFORM_THREAD_TO_CORE_MAPPING;ENABLE_SUBSTANCE;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;CURL_STATICLIB;ENABLE_VR;ENABLE_AR;UNITY_WSA;ENABLE_IL2CPP;NET_4_6;ENABLE_PROFILER;UNITY_WSA_10_0;UNITY_WINRT_10_0;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;ENABLE_DOTNET</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -50,7 +50,7 @@
     <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
     <UnityProjectType>Editor:5</UnityProjectType>
     <UnityBuildTarget>WSAPlayer:21</UnityBuildTarget>
-    <UnityVersion>2018.1.8f1</UnityVersion>
+    <UnityVersion>2018.1.6f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -69,10 +69,10 @@
     <None Include="Assets\Editor\Vuforia\ForPrint\ModelTarget\readme_3dprint.txt" />
     <None Include="Assets\Editor\Vuforia\CylinderTargetTextures\VuforiaMars_Images\authoringinfo.xml" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/Amel/Documents/Summer 2018 Research/arfuros/Source/Unity/ARFUROS/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/WorkSpace/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/Amel/Documents/Summer 2018 Research/arfuros/Source/Unity/ARFUROS/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/WorkSpace/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/MetroSupport/Tools/UnityEngine.AIModule.dll</HintPath>
@@ -242,12 +242,6 @@
     <Reference Include="Unity.Locator">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Unity.Locator.dll</HintPath>
     </Reference>
-    <Reference Include="Vuforia.UnityExtensions.Editor">
-      <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Editor/Vuforia.UnityExtensions.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Vuforia.UnityExtensions">
-      <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -305,6 +299,12 @@
     <Reference Include="UnityEditor.VR">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
     </Reference>
+    <Reference Include="Vuforia.UnityExtensions.Editor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Editor/Vuforia.UnityExtensions.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Vuforia.UnityExtensions">
+      <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.Graphs">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
     </Reference>
@@ -317,6 +317,12 @@
     <Reference Include="UnityEditor.WSA.Extensions">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.WSA.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.WebGL.Extensions">
+      <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.LinuxStandalone.Extensions">
+      <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
@@ -324,61 +330,61 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="AsyncBridge.Net35">
-      <HintPath>C:/Users/Amel/Documents/Summer 2018 Research/arfuros/Source/Unity/ARFUROS/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll</HintPath>
+      <HintPath>C:/WorkSpace/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.Api">
-      <HintPath>C:/Users/Amel/Documents/Summer 2018 Research/arfuros/Source/Unity/ARFUROS/Assets/Plugins/GitHub/Editor/GitHub.Api.dll</HintPath>
+      <HintPath>C:/WorkSpace/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/Plugins/GitHub/Editor/GitHub.Api.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.Logging">
-      <HintPath>C:/Users/Amel/Documents/Summer 2018 Research/arfuros/Source/Unity/ARFUROS/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
+      <HintPath>C:/WorkSpace/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.Unity">
-      <HintPath>C:/Users/Amel/Documents/Summer 2018 Research/arfuros/Source/Unity/ARFUROS/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll</HintPath>
+      <HintPath>C:/WorkSpace/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>C:/Users/Amel/Documents/Summer 2018 Research/arfuros/Source/Unity/ARFUROS/Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll</HintPath>
+      <HintPath>C:/WorkSpace/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Posix">
-      <HintPath>C:/Users/Amel/Documents/Summer 2018 Research/arfuros/Source/Unity/ARFUROS/Assets/Plugins/GitHub/Editor/Mono.Posix.dll</HintPath>
+      <HintPath>C:/WorkSpace/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/Plugins/GitHub/Editor/Mono.Posix.dll</HintPath>
     </Reference>
     <Reference Include="ReadOnlyCollectionsInterfaces">
-      <HintPath>C:/Users/Amel/Documents/Summer 2018 Research/arfuros/Source/Unity/ARFUROS/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll</HintPath>
+      <HintPath>C:/WorkSpace/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll</HintPath>
     </Reference>
     <Reference Include="sfw.net">
-      <HintPath>C:/Users/Amel/Documents/Summer 2018 Research/arfuros/Source/Unity/ARFUROS/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
+      <HintPath>C:/WorkSpace/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
     </Reference>
     <Reference Include="System.Threading">
-      <HintPath>C:/Users/Amel/Documents/Summer 2018 Research/arfuros/Source/Unity/ARFUROS/Assets/Plugins/GitHub/Editor/System.Threading.dll</HintPath>
+      <HintPath>C:/WorkSpace/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/Plugins/GitHub/Editor/System.Threading.dll</HintPath>
     </Reference>
     <Reference Include="MathNet.Numerics">
-      <HintPath>C:/Users/Amel/Documents/Summer 2018 Research/arfuros/Source/Unity/ARFUROS/Assets/RosSharp/Plugins/MathNet.Numerics.dll</HintPath>
+      <HintPath>C:/WorkSpace/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/RosSharp/Plugins/MathNet.Numerics.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>C:/Users/Amel/Documents/Summer 2018 Research/arfuros/Source/Unity/ARFUROS/Assets/RosSharp/Plugins/Newtonsoft.Json.dll</HintPath>
+      <HintPath>C:/WorkSpace/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/RosSharp/Plugins/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System.Threading">
-      <HintPath>C:/Users/Amel/Documents/Summer 2018 Research/arfuros/Source/Unity/ARFUROS/Assets/RosSharp/Plugins/System.Threading.dll</HintPath>
+      <HintPath>C:/WorkSpace/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/RosSharp/Plugins/System.Threading.dll</HintPath>
     </Reference>
     <Reference Include="websocket-sharp">
-      <HintPath>C:/Users/Amel/Documents/Summer 2018 Research/arfuros/Source/Unity/ARFUROS/Assets/RosSharp/Plugins/websocket-sharp.dll</HintPath>
+      <HintPath>C:/WorkSpace/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/RosSharp/Plugins/websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>C:/Users/Amel/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>C:/Users/faiza/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.7/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
-      <HintPath>C:/Users/Amel/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
+      <HintPath>C:/Users/faiza/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Analytics">
-      <HintPath>C:/Users/Amel/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/Editor/UnityEditor.Analytics.dll</HintPath>
+      <HintPath>C:/Users/faiza/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/Editor/UnityEditor.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing">
-      <HintPath>C:/Users/Amel/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.1/UnityEngine.Purchasing.dll</HintPath>
+      <HintPath>C:/Users/faiza/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.1/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>C:/Users/Amel/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.1/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>C:/Users/faiza/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.1/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
-      <HintPath>C:/Users/Amel/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/faiza/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>

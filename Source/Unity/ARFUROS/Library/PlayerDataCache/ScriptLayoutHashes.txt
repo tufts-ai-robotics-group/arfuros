@@ -5,6 +5,7 @@ SceneListBegin?
 Assets/Scenes/menu.unity
 Assets/Scenes/arview.unity
 SceneListEnd?
+5327a7937f10944b5ab5df356ee4ed2e Assembly-CSharp.dll:.ButtonScript
 861e7e82c7b14c6febf8bb9fcd63789d Assembly-CSharp.dll:RosSharp.RosBridgeClient.JointStateProvider
 c336a23cb2c77628c421b4a224f2098d Assembly-CSharp.dll:.PathProjector
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -21,6 +22,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 607d64d2c4bc76ac9876e6f7b9cc7edf UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 de389846ca3164f806c4afdeca33fb8e Assembly-CSharp.dll:RosSharp.RosBridgeClient.PoseProvider
 52ddbff2dc1e01a9aa8167e284c742aa Assembly-CSharp.dll:.StatusManager
+a7a8b7d7ce432a862f2cb15fa8d37804 Assembly-CSharp.dll:.deletebtn
 be678c1e2922dbf94970c08107299274 Assembly-CSharp.dll:RosSharp.RosBridgeClient.PathReceiver
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
@@ -123,6 +125,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DefaultInitializationErrorHandler
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ButtonManager
 368d6a7a37450191e90db0108d45028b Assembly-CSharp.dll:RosSharp.RosBridgeClient.UnityTimePublisher
+a7a8b7d7ce432a862f2cb15fa8d37804 Assembly-CSharp.dll:.clearbtn
 322cb40e1e282f28af980cbef7922a90 UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsEventTracker
 dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
@@ -321,6 +324,3 @@ ad4ede464ae743b4514f752be6cc0a4a Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 8bb3f0d0e0e6a4e201460935624777a3 Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 3d1b89310e77c34bc0c8d7132231345c Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
-fed89361190a472d89062e35024e71d8 Assembly-CSharp.dll:.ButtonScript
-b4e543529b88eb776df23e0696170aa7 Assembly-CSharp.dll:.clearbtn
-b4e543529b88eb776df23e0696170aa7 Assembly-CSharp.dll:.deletebtn
