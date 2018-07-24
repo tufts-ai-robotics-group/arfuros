@@ -6107,7 +6107,6 @@ MonoBehaviour:
   connector: {fileID: 2118604845}
   Costmap: {fileID: 1283426520}
   LocalizationParticles: {fileID: 2029330493}
-  numTopics: 5
 --- !u!4 &275013255
 Transform:
   m_ObjectHideFlags: 0
@@ -38610,7 +38609,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 599399f87ee56d541ac06a68cbe1fc1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Topic: /ARFUROS/path
+  Topic: /ARFUROS/Path
   TimeStep: 0
   MessageReceiver: {fileID: 1372799806}
 --- !u!114 &2118604850

@@ -50,6 +50,10 @@ public class SettingsManager : MonoBehaviour {
         SceneManager.LoadScene("arview");
     }
 
+    public void OnQuit()
+    {
+        Application.Quit();
+    }
     public void Awake()
     {
         // Load in the values

@@ -21,7 +21,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 30afa8783a8bbee2e465ec9ce1efaee2 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 607d64d2c4bc76ac9876e6f7b9cc7edf UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 de389846ca3164f806c4afdeca33fb8e Assembly-CSharp.dll:RosSharp.RosBridgeClient.PoseProvider
-52ddbff2dc1e01a9aa8167e284c742aa Assembly-CSharp.dll:.StatusManager
+872a66276077eb94c48ffb68d92697fc Assembly-CSharp.dll:.StatusManager
 a7a8b7d7ce432a862f2cb15fa8d37804 Assembly-CSharp.dll:.deletebtn
 be678c1e2922dbf94970c08107299274 Assembly-CSharp.dll:RosSharp.RosBridgeClient.PathReceiver
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
