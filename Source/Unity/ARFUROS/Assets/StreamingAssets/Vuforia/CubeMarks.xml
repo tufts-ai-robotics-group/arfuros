@@ -1,33 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
     <Tracking>
-        <ImageTarget name="TheHyperCube.Front" size="0.203000 0.203000"/>
-        <ImageTarget name="TheHyperCube.Bottom" size="0.203000 0.203000"/>
-        <ImageTarget name="TheHyperCube.Left" size="0.203000 0.203000"/>
-        <ImageTarget name="TheHyperCube.Right" size="0.203000 0.203000"/>
-        <ImageTarget name="TheHyperCube.Top" size="0.203000 0.203000"/>
-        <ImageTarget name="TheHyperCube.Back" size="0.203000 0.203000"/>
-        <ImageTarget name="TheCube.Front" size="0.200000 0.200000"/>
-        <ImageTarget name="TheCube.Bottom" size="0.200000 0.200000"/>
-        <ImageTarget name="TheCube.Left" size="0.200000 0.200000"/>
-        <ImageTarget name="TheCube.Right" size="0.200000 0.200000"/>
-        <ImageTarget name="TheCube.Top" size="0.200000 0.200000"/>
-        <ImageTarget name="TheCube.Back" size="0.200000 0.200000"/>
-        <MultiTarget name="TheHyperCube">
-            <Part name="TheHyperCube.Left" translation="-0.1014999970793724 0 0" rotation="AD: 0 1 0 -90"/>
-            <Part name="TheHyperCube.Right" translation="0.1014999970793724 0 0" rotation="AD: 0 1 0 90"/>
-            <Part name="TheHyperCube.Front" translation="0 0 0.1014999970793724" rotation="AD: 1 0 0 0"/>
-            <Part name="TheHyperCube.Back" translation="0 0 -0.1014999970793724" rotation="AD: 0 1 0 180"/>
-            <Part name="TheHyperCube.Top" translation="0 0.1014999970793724 0" rotation="AD: 1 0 0 -90"/>
-            <Part name="TheHyperCube.Bottom" translation="0 -0.1014999970793724 0" rotation="AD: 1 0 0 90"/>
-        </MultiTarget>
-        <MultiTarget name="TheCube">
-            <Part name="TheCube.Left" translation="-0.10000000149011612 0 0" rotation="AD: 0 1 0 -90"/>
-            <Part name="TheCube.Right" translation="0.10000000149011612 0 0" rotation="AD: 0 1 0 90"/>
-            <Part name="TheCube.Front" translation="0 0 0.10000000149011612" rotation="AD: 1 0 0 0"/>
-            <Part name="TheCube.Back" translation="0 0 -0.10000000149011612" rotation="AD: 0 1 0 180"/>
-            <Part name="TheCube.Top" translation="0 0.10000000149011612 0" rotation="AD: 1 0 0 -90"/>
-            <Part name="TheCube.Bottom" translation="0 -0.10000000149011612 0" rotation="AD: 1 0 0 90"/>
+        <ImageTarget name="HyperCube.Front" size="0.206000 0.206000"/>
+        <ImageTarget name="HyperCube.Left" size="0.206000 0.206000"/>
+        <ImageTarget name="HyperCube.Right" size="0.206000 0.206000"/>
+        <ImageTarget name="HyperCube.Top" size="0.206000 0.206000"/>
+        <ImageTarget name="HyperCube.Bottom" size="0.206000 0.206000"/>
+        <ImageTarget name="HyperCube.Back" size="0.206000 0.206000"/>
+        <MultiTarget name="HyperCube">
+            <Part name="HyperCube.Left" translation="-0.10300000011920929 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="HyperCube.Right" translation="0.10300000011920929 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="HyperCube.Front" translation="0 0 0.10300000011920929" rotation="AD: 1 0 0 0"/>
+            <Part name="HyperCube.Back" translation="0 0 -0.10300000011920929" rotation="AD: 0 1 0 180"/>
+            <Part name="HyperCube.Top" translation="0 0.10300000011920929 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="HyperCube.Bottom" translation="0 -0.10300000011920929 0" rotation="AD: 1 0 0 90"/>
         </MultiTarget>
     </Tracking>
 </QCARConfig>
