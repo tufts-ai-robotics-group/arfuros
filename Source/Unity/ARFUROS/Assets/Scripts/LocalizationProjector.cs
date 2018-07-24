@@ -18,6 +18,7 @@ public class LocalizationProjector : MonoBehaviour {
 	private ParticleSystem.Particle[] particles;
 	private int numParticles; 
 	public float size = 0.06f;
+	public Transform target;
 
 	// Use this for initialization
 	void Start () {
@@ -74,7 +75,7 @@ public class LocalizationProjector : MonoBehaviour {
 			size = 0.02f; */
 
 		// Set positions
-			size = 0.06f;
+			size = 0.02f;
 			
     		for (int i = 0; i < numParticles; i++) 
         	{
@@ -88,10 +89,12 @@ public class LocalizationProjector : MonoBehaviour {
             		// Transform arrow to point in direction of front of cube 
             		// zRotation corresponds to incoming orientation messages
 
-            		cubeRotation = new Vector3(cube.transform.localEulerAngles.x, cube.transform.localEulerAngles.y/-1f,
-            			(cube.transform.localEulerAngles.z/-1f) - 90f); // + zRotation[i]
+            		/*cubeRotation = new Vector3(cube.transform.localEulerAngles.x, cube.transform.localEulerAngles.y/-1f,
+            			(cube.transform.localEulerAngles.z/-1f) - 90f); // + zRotation[i]*/
+            		cubeRotation = target.position - transform.position;
 
             		particles[i].rotation3D = cubeRotation;
+            		Debug.Log("The rotation: " + cubeRotation.x + cubeRotation.y + cubeRotation.z);
     
             	}
         	}
