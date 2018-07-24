@@ -41,11 +41,13 @@ public class LocalizationProjector : MonoBehaviour {
 		zRotation = rotationScript.zRotation;
 
 		poses = new Vector3[message.poses.Length];
+
 		for (int i = 0; i < message.poses.Length; i++)
 		{
 			poses[i].x = rotationScript.message.poses[i].x;
 			poses[i].y = rotationScript.message.poses[i].y;
 			poses[i].z = rotationScript.message.poses[i].z;
+
 		}
 
 
@@ -78,8 +80,7 @@ public class LocalizationProjector : MonoBehaviour {
         	{
         		if (i < poses.Length)
         		{
-            		particles[i].position = new Vector3(poses[i].x , 
-            			poses[i].y , 0f); 
+            		particles[i].position = new Vector3(poses[i].x , poses[i].y , 0f); 
         		
             		particles[i].startColor = Color.magenta;
             		particles[i].startSize = size;
@@ -88,9 +89,9 @@ public class LocalizationProjector : MonoBehaviour {
             		// zRotation corresponds to incoming orientation messages
 
             		cubeRotation = new Vector3(cube.transform.localEulerAngles.x, cube.transform.localEulerAngles.y/-1f,
-            			(cube.transform.localEulerAngles.z/-1f) - 90f + zRotation[i]); 
+            			(cube.transform.localEulerAngles.z/-1f) - 90f); // + zRotation[i]
 
-            		particles[i].rotation3D = cubeRotation; 
+            		particles[i].rotation3D = cubeRotation;
     
             	}
         	}

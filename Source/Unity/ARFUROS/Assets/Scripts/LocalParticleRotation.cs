@@ -24,8 +24,9 @@ public class LocalParticleRotation : MonoBehaviour {
 		for (int i = 0; i < message.orientations.Length; i ++)
 		{
 			// Z is the only thing that changes... 
-			rotation.z = message.orientations[i].z;
-			zRotation[i] = rotation.eulerAngles.z;
+				rotation.z = message.orientations[i].z;
+				zRotation[i] = rotation.eulerAngles.z;
+
 		}
 	}
 }
