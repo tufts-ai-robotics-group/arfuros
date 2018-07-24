@@ -17,7 +17,6 @@ public class CostmapProjector : MonoBehaviour {
 	float s_value = 0.84f;
 	float v_value = 1f;
 	float h_value;
-	float opacity = 0.7f;
 	const float Hue_Dividor = 3f;
 
 

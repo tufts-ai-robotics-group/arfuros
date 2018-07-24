@@ -36,7 +36,7 @@ public class RosConnector : MonoBehaviour
         Debug.Log("Disconnected from RosBridge: " + RosBridgeServerUrl);
     }
 
-    private void OnApplicationQuit()
+    private void OnDestroy()
     {
         RosSocket.Close();
         Debug.Log("Disconnected from RosBridge: " + RosBridgeServerUrl);

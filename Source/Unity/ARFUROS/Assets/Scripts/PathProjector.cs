@@ -14,8 +14,6 @@ public class PathProjector : MonoBehaviour {
 
 	// Variables for loading effect 
 	private int colorCount = 0;
-	private int rate = 8; // higher number = slower 
-	private int counter = 0;
 
 	// Use this for initialization
 	void Start () {
