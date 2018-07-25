@@ -12787,7 +12787,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17620ebb672c34c8cac68c7ab27b00de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleRotation: {fileID: 1949534056}
+  message: {fileID: 2029330494}
   size: 0.03
 --- !u!1 &606475292
 GameObject:
@@ -36884,7 +36884,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1949534057
 Transform:
   m_ObjectHideFlags: 0

@@ -6,12 +6,14 @@ using System;
 
 public class LocalizationProjector : MonoBehaviour {
 
+	// Rotation Variables 
 	//public GameObject cube; // Get cube's rotation
-	public GameObject ParticleRotation; // Get particle's rotation
+	//public GameObject ParticleRotation; // Get particle's rotation
 	//private Vector3 cubeRotation;
-	private float[] zRotation;
-	private  PoseArrayReceiver message;
-	private Vector3[] poses;
+	//private float[] zRotation;
+	//private Vector3[] poses;
+
+	public  PoseArrayReceiver message;
 	
 
 	private ParticleSystem mySystem;
@@ -33,7 +35,8 @@ public class LocalizationProjector : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		// Get information from cube gameobject 
+		// Code for rotation only 
+		/*// Get information from cube gameobject 
 		var rotationScript = ParticleRotation.GetComponent<LocalParticleRotation>();
 		message = rotationScript.message;
 
@@ -46,13 +49,13 @@ public class LocalizationProjector : MonoBehaviour {
 			poses[i].x = rotationScript.message.poses[i].x;
 			poses[i].y = rotationScript.message.poses[i].y;
 			poses[i].z = rotationScript.message.poses[i].z;
-		}
+		}*/
 
 
 		if (message != null)
 		{						
 			// Initialize variables 
-			numParticles = poses.Length;
+			numParticles = message.poses.Length;
 			particles = new ParticleSystem.Particle[numParticles];
 			
 			// Spawn 
@@ -76,10 +79,10 @@ public class LocalizationProjector : MonoBehaviour {
 			
     		for (int i = 0; i < numParticles; i++) 
         	{
-        		if (i < poses.Length)
+        		if (i < message.poses.Length)
         		{
-            		particles[i].position = new Vector3(poses[i].x , 
-            			poses[i].y , 0f); 
+            		particles[i].position = new Vector3(message.poses[i].x , 
+            			message.poses[i].y , 0f); 
         		
             		particles[i].startColor = Color.magenta;
             		particles[i].startSize = size;
