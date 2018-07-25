@@ -6,7 +6,9 @@ using System;
 
 public class CostmapProjector : MonoBehaviour {
 
+	public OccupancyGridReceiver newMessage;
 	public OccupancyGridReceiver message;
+	public int count = 0;
 
 	private ParticleSystem mySystem;
 	private ParticleSystem.Particle[] particles;
@@ -32,7 +34,13 @@ public class CostmapProjector : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if (message != null)
+		if (newMessage != null)
+		{
+			message = newMessage;
+			count++;
+		}
+
+		if (message != null && count < 1)
 		{
 			// Initialize variables 
 			numParticles = message.count;

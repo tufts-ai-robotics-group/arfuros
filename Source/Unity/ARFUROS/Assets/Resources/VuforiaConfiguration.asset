@@ -21,7 +21,6 @@ MonoBehaviour:
     useDelayedLoadingObjectTargets: 1
     cameraDirection: 0
     mirrorVideoBackground: 0
-    version: 7.2.20
   digitalEyewear:
     cameraOffset: 0.06
     distortionRenderingLayer: 31
@@ -58,12 +57,11 @@ MonoBehaviour:
     modelCorrectionMode: 2
     modelTransformEnabled: 0
     modelTransform: {x: 0, y: 0.1, z: -0.1}
-    fusionMode: 5
   smartTerrain:
     autoInitTracker: 0
     autoStartTracker: 0
   webcam:
-    deviceNameSetInEditor: 'USB Camera #2'
+    deviceNameSetInEditor: USB Camera
     flipHorizontally: 1
     turnOffWebCam: 0
     renderTextureLayer: 30
