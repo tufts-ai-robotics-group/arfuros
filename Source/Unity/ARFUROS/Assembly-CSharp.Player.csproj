@@ -251,9 +251,6 @@
     <Reference Include="websocket-sharp">
       <HintPath>Assets/RosSharp/Plugins/websocket-sharp.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.StandardEvents">
-      <HintPath>C:/Users/faiza/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
-    </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
     </Reference>
@@ -856,7 +853,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\FaceCamera.cs" />
     <Compile Include="Assets\RosSharp\ROSBridgeClient\JObjectExtensions.cs" />
     <Compile Include="Assets\RosSharp\ROSBridgeClient\Message.cs" />
     <Compile Include="Assets\RosSharp\ROSBridgeClient\MessageTypes.cs" />
@@ -901,12 +897,14 @@
     <Compile Include="Assets\Scripts\ButtonScript.cs" />
     <Compile Include="Assets\Scripts\clearbtn.cs" />
     <Compile Include="Assets\Scripts\CostmapProjector.cs" />
+    <Compile Include="Assets\Scripts\CursorProjector.cs" />
     <Compile Include="Assets\Scripts\CustomRosSharp\LaserScanReceiver.cs" />
     <Compile Include="Assets\Scripts\CustomRosSharp\OccupancyGridReceiver.cs" />
     <Compile Include="Assets\Scripts\CustomRosSharp\PathReceiver.cs" />
     <Compile Include="Assets\Scripts\CustomRosSharp\PeopleReceiver.cs" />
     <Compile Include="Assets\Scripts\CustomRosSharp\PoseArrayReceiver.cs" />
     <Compile Include="Assets\Scripts\deletebtn.cs" />
+    <Compile Include="Assets\Scripts\FaceCamera.cs" />
     <Compile Include="Assets\Scripts\HyperCubeTrackableEventHandler.cs" />
     <Compile Include="Assets\Scripts\LaserScanProjector.cs" />
     <Compile Include="Assets\Scripts\LocalizationProjector.cs" />

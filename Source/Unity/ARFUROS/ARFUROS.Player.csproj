@@ -239,6 +239,9 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="Vuforia.UnityExtensions">
+      <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/WindowsStoreApps/Vuforia.UnityExtensions.dll</HintPath>
+    </Reference>
     <Reference Include="MathNet.Numerics">
       <HintPath>Assets/RosSharp/Plugins/MathNet.Numerics.dll</HintPath>
     </Reference>
@@ -897,12 +900,17 @@
     <Compile Include="Assets\RosSharp\Scripts\UrdfComponents\RigidbodyUrdfDataManager.cs" />
     <Compile Include="Assets\RosSharp\Scripts\UrdfComponents\UrdfPatcher.cs" />
     <Compile Include="Assets\Scripts\ButtonManager.cs" />
+    <Compile Include="Assets\Scripts\ButtonScript.cs" />
+    <Compile Include="Assets\Scripts\clearbtn.cs" />
     <Compile Include="Assets\Scripts\CostmapProjector.cs" />
+    <Compile Include="Assets\Scripts\CursorProjector.cs" />
     <Compile Include="Assets\Scripts\CustomRosSharp\LaserScanReceiver.cs" />
     <Compile Include="Assets\Scripts\CustomRosSharp\OccupancyGridReceiver.cs" />
     <Compile Include="Assets\Scripts\CustomRosSharp\PathReceiver.cs" />
     <Compile Include="Assets\Scripts\CustomRosSharp\PeopleReceiver.cs" />
     <Compile Include="Assets\Scripts\CustomRosSharp\PoseArrayReceiver.cs" />
+    <Compile Include="Assets\Scripts\deletebtn.cs" />
+    <Compile Include="Assets\Scripts\FaceCamera.cs" />
     <Compile Include="Assets\Scripts\HyperCubeTrackableEventHandler.cs" />
     <Compile Include="Assets\Scripts\LaserScanProjector.cs" />
     <Compile Include="Assets\Scripts\LocalizationProjector.cs" />
