@@ -72,7 +72,7 @@ public class LocalizationProjector : MonoBehaviour {
 			size = 0.02f; */
 
 		// Set positions
-			size = 0.06f;
+			size = 0.025f;
 			
     		for (int i = 0; i < numParticles; i++) 
         	{
@@ -88,7 +88,7 @@ public class LocalizationProjector : MonoBehaviour {
             		// zRotation corresponds to incoming orientation messages
 
             		cubeRotation = new Vector3(cube.transform.localEulerAngles.x, cube.transform.localEulerAngles.y/-1f,
-            			(cube.transform.localEulerAngles.z/-1f) - 90f + zRotation[i]); 
+            			(cube.transform.localEulerAngles.z/-1f) - 90f); // + zRotation[i]
 
             		particles[i].rotation3D = cubeRotation; 
     
