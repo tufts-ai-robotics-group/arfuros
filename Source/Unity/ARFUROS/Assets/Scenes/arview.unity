@@ -233,7 +233,7 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: b07a1fa9848264e4795888a5fce04b9e, type: 2}
+  - {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -12787,7 +12787,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17620ebb672c34c8cac68c7ab27b00de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cube: {fileID: 2117958850}
   ParticleRotation: {fileID: 1949534056}
   size: 0.03
 --- !u!1 &606475292

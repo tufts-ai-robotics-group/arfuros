@@ -6,11 +6,11 @@ using System;
 
 public class LocalizationProjector : MonoBehaviour {
 
-	public GameObject cube; // Get cube's rotation
+	//public GameObject cube; // Get cube's rotation
 	public GameObject ParticleRotation; // Get particle's rotation
-	private  PoseArrayReceiver message;
-	private Vector3 cubeRotation;
+	//private Vector3 cubeRotation;
 	private float[] zRotation;
+	private  PoseArrayReceiver message;
 	private Vector3[] poses;
 	
 
@@ -37,8 +37,8 @@ public class LocalizationProjector : MonoBehaviour {
 		var rotationScript = ParticleRotation.GetComponent<LocalParticleRotation>();
 		message = rotationScript.message;
 
-		zRotation = new float[message.orientations.Length];
-		zRotation = rotationScript.zRotation;
+		//zRotation = new float[message.orientations.Length];
+		//zRotation = rotationScript.zRotation;
 
 		poses = new Vector3[message.poses.Length];
 		for (int i = 0; i < message.poses.Length; i++)
@@ -52,7 +52,7 @@ public class LocalizationProjector : MonoBehaviour {
 		if (message != null)
 		{						
 			// Initialize variables 
-			numParticles = zRotation.Length;
+			numParticles = poses.Length;
 			particles = new ParticleSystem.Particle[numParticles];
 			
 			// Spawn 
@@ -87,10 +87,10 @@ public class LocalizationProjector : MonoBehaviour {
             		// Transform arrow to point in direction of front of cube 
             		// zRotation corresponds to incoming orientation messages
 
-            		cubeRotation = new Vector3(cube.transform.localEulerAngles.x, cube.transform.localEulerAngles.y/-1f,
+            		/*cubeRotation = new Vector3(cube.transform.localEulerAngles.x, cube.transform.localEulerAngles.y/-1f,
             			(cube.transform.localEulerAngles.z/-1f) - 90f); // + zRotation[i]
 
-            		particles[i].rotation3D = cubeRotation; 
+            		particles[i].rotation3D = cubeRotation;*/
     
             	}
         	}
