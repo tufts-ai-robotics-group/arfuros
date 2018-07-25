@@ -6,19 +6,18 @@ using System;
 
 public class LocalizationProjector : MonoBehaviour {
 
-	public GameObject cube; // Get cube's rotation
-	public GameObject ParticleRotation; // Get particle's rotation
-	private  PoseArrayReceiver message;
-	private Vector3 cubeRotation;
-	private float[] zRotation;
-	private Vector3[] poses;
+	// Rotation variables 
+	//public GameObject cube; // Get cube's rotation
+	//public GameObject ParticleRotation; // Get particle's rotation
+	//private Vector3 cubeRotation;
+	//private float[] zRotation;
+	// private Vector3[] poses;
+	public  PoseArrayReceiver message;
 	
-
 	private ParticleSystem mySystem;
 	private ParticleSystem.Particle[] particles;
 	private int numParticles; 
-	public float size = 0.06f;
-	public Transform target;
+	public float size = 0.02f;
 
 	// Use this for initialization
 	void Start () {
@@ -34,7 +33,7 @@ public class LocalizationProjector : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		// Get information from cube gameobject 
+		/*// Get information from cube gameobject (for rotation)
 		var rotationScript = ParticleRotation.GetComponent<LocalParticleRotation>();
 		message = rotationScript.message;
 
@@ -49,13 +48,12 @@ public class LocalizationProjector : MonoBehaviour {
 			poses[i].y = rotationScript.message.poses[i].y;
 			poses[i].z = rotationScript.message.poses[i].z;
 
-		}
-
+		}*/
 
 		if (message != null)
 		{						
 			// Initialize variables 
-			numParticles = zRotation.Length;
+			numParticles = message.poses.Length;
 			particles = new ParticleSystem.Particle[numParticles];
 			
 			// Spawn 
@@ -77,11 +75,12 @@ public class LocalizationProjector : MonoBehaviour {
 		// Set positions
 			size = 0.02f;
 			
+			//Debug.Log("Displaying particles: ");
     		for (int i = 0; i < numParticles; i++) 
         	{
-        		if (i < poses.Length)
+        		if (i < message.poses.Length)
         		{
-            		particles[i].position = new Vector3(poses[i].x , poses[i].y , 0f); 
+            		particles[i].position = new Vector3(message.poses[i].x , message.poses[i].y , 0f); 
         		
             		particles[i].startColor = Color.magenta;
             		particles[i].startSize = size;
@@ -90,11 +89,9 @@ public class LocalizationProjector : MonoBehaviour {
             		// zRotation corresponds to incoming orientation messages
 
             		/*cubeRotation = new Vector3(cube.transform.localEulerAngles.x, cube.transform.localEulerAngles.y/-1f,
-            			(cube.transform.localEulerAngles.z/-1f) - 90f); // + zRotation[i]*/
-            		cubeRotation = target.position - transform.position;
+            			(cube.transform.localEulerAngles.z/-1f) - 90f); // + zRotation[i]
 
-            		particles[i].rotation3D = cubeRotation;
-            		Debug.Log("The rotation: " + cubeRotation.x + cubeRotation.y + cubeRotation.z);
+            		particles[i].rotation3D = cubeRotation;*/
     
             	}
         	}
