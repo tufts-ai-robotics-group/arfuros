@@ -204,20 +204,20 @@ include_directories(
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
 
-add_executable(path_relative src/path_relative.cpp)
-target_link_libraries(path_relative ${catkin_LIBRARIES})
-add_dependencies(path_relative arfuros)
+add_executable(path_arfuros src/path_arfuros.cpp)
+target_link_libraries(path_arfuros ${catkin_LIBRARIES})
+add_dependencies(path_arfuros arfuros)
 
-add_executable(laser_filter src/laser_filter.cpp)
-target_link_libraries(laser_filter ${catkin_LIBRARIES})
-add_dependencies(laser_filter arfuros)
+add_executable(laserscan_arfuros src/laserscan_arfuros.cpp)
+target_link_libraries(laserscan_arfuros ${catkin_LIBRARIES})
+add_dependencies(laserscan_arfuros arfuros)
 
-add_executable(localization_relative src/localization_relative.cpp)
-target_link_libraries(localization_relative ${catkin_LIBRARIES})
-add_dependencies(localization_relative arfuros)
+add_executable(localization_arfuros src/localization_arfuros.cpp)
+target_link_libraries(localization_arfuros ${catkin_LIBRARIES})
+add_dependencies(localization_arfuros arfuros)
 
-add_executable(costmap_relative src/costmap_relative.cpp)
-target_link_libraries(costmap_relative ${catkin_LIBRARIES})
-add_dependencies(costmap_relative arfuros)
+add_executable(costmap_arfuros src/costmap_arfuros.cpp)
+target_link_libraries(costmap_arfuros ${catkin_LIBRARIES})
+add_dependencies(costmap_arfuros arfuros)
 
 catkin_package()
