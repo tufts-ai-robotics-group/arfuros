@@ -44,7 +44,7 @@ public class CostmapProjector : MonoBehaviour {
 
 	}
 
-	void calculateOrigin()
+	/*void calculateOrigin()
 	{
 		int myWidth = (int) message.width;
 		int myHeight = (int) message.height;
@@ -53,13 +53,11 @@ public class CostmapProjector : MonoBehaviour {
 		message.origin.y = 0 - (row * message.resolution);
 		message.origin.x = 0 - (column * message.resolution);
 
-	}
+	}*/
 
 	void Display(){ 
 		
 		int widthCounter = 0;
-		// New calculation for message origin 
-		calculateOrigin();
 		float x_pos = message.origin.x;
 		float y_pos = message.origin.y;
 
