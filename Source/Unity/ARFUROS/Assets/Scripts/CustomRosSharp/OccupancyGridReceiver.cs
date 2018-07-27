@@ -9,6 +9,7 @@ namespace RosSharp.RosBridgeClient
         private NavigationOccupancyGrid rawMessage;
         
         public Vector3 origin;
+        public Quaternion origin_orientation;
         public int[] ProbData;
         public int count;
         public int height;
@@ -34,6 +35,10 @@ namespace RosSharp.RosBridgeClient
             
             origin = new Vector3(rawMessage.info.origin.position.x,
             rawMessage.info.origin.position.y, rawMessage.info.origin.position.z);
+
+            origin_orientation = new Quaternion(rawMessage.info.origin.orientation.x,
+                rawMessage.info.origin.orientation.y, rawMessage.info.origin.orientation.z,
+                rawMessage.info.origin.orientation.w);
 
             count = height * width;
 

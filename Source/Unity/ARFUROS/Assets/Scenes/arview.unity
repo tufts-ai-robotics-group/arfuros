@@ -32729,7 +32729,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 1000
+    maxNumParticles: 10000
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -40141,7 +40141,6 @@ MonoBehaviour:
   mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/CubeMarks.xml
-  mExtendedTracking: 0
 --- !u!4 &2117958853
 Transform:
   m_ObjectHideFlags: 0

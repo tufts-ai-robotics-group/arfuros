@@ -44,57 +44,63 @@ public class CostmapProjector : MonoBehaviour {
 
 	}
 
-	/*void calculateOrigin()
-	{
-		int myWidth = (int) message.width;
-		int myHeight = (int) message.height;
-		int row = myHeight/2;
-		int column = myWidth/2;
-		message.origin.y = 0 - (row * message.resolution);
-		message.origin.x = 0 - (column * message.resolution);
+	void Display(){
+        ColorDecider();
 
-	}*/
+        Vector3 origin = new Vector3(message.origin.x, message.origin.y, 0);
 
-	void Display(){ 
-		
-		int widthCounter = 0;
-		float x_pos = message.origin.x;
-		float y_pos = message.origin.y;
+        float rotation_angle = message.origin_orientation.eulerAngles.z;
 
-		// Set positions
-    		for (int i = 0; i < numParticles; i++) 
+        Vector2 x_axis = new Vector2(1, 0);
+        x_axis = Quaternion.AngleAxis(rotation_angle, Vector3.forward) * x_axis;
+
+        Vector2 y_axis = Vector2.Perpendicular(x_axis);
+
+        Vector3 x_inc = message.resolution * Vector3.Normalize(new Vector3(x_axis.x, x_axis.y, 0));
+        Vector3 y_inc = message.resolution * Vector3.Normalize(new Vector3(y_axis.x, y_axis.y, 0));
+
+        Vector3 current = origin;
+
+        // Set positions
+        int widthCounter = 0;
+        for (int i = 0; i < numParticles; i++) 
+        {
+        	if (i < message.count)
         	{
-        		if (i < message.count)
+        		// For a new row
+        		if (widthCounter == message.width)
         		{
-        			// For a new row
-        			if (widthCounter == message.width)
-        			{
-        				widthCounter = 0;
-        				x_pos = message.origin.x;
-        				y_pos += message.resolution;
+                    current += y_inc;
+                    current -= x_inc * widthCounter;
+                    widthCounter = 0;
+                }
 
-        			}
-        			if (message.ProbData[i] != UNKNOWN) // or maybe we should make it a diff color?
-        			{
-            			particles[i].position = new Vector3(x_pos, y_pos, 0f); 
-        			 
-            			ColorDecider(i);
-            			particles[i].startSize = 0.025f;
-            		}
+                particles[i].position = current;  			 
 
-            		x_pos += message.resolution;
-            		widthCounter ++;
-            	}
-
-        	}
+                current += x_inc;
+            	widthCounter ++;
+            }
+        }
 
         mySystem.SetParticles(particles, particles.Length);
 	}
 
-	void ColorDecider(int index){
+	void ColorDecider(){
 
-		h_value = ((1f - (message.ProbData[index]/100f)))/ Hue_Dividor;
-		particles[index].startColor = Color.HSVToRGB(h_value, s_value, v_value);
-		
+        for (int i = 0; i < numParticles; i++)
+        {
+            particles[i].startSize = 0.025f;
+
+            if (message.ProbData[i] == UNKNOWN)
+            {
+                particles[i].startColor = Color.black;
+            }
+            else
+            {
+                h_value = ((1f - (message.ProbData[i] / 100f))) / Hue_Dividor;
+                particles[i].startColor = Color.HSVToRGB(h_value, s_value, v_value);
+            }
+
+        }		
 	}
 }
