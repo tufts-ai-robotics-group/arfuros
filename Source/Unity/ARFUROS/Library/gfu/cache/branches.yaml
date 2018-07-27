@@ -12,12 +12,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2018-06-29T10:58:01.514-04:00
-  initializedAtString: 2018-06-29T10:58:01.500-04:00
+  lastUpdatedAtString: 2018-07-26T18:06:48.085-04:00
+  initializedAtString: 2018-07-26T18:06:48.064-04:00
   localBranches:
+  - name: Hololens
+    tracking: origin/Hololens
   - name: master
     tracking: origin/master
   remoteBranches:
+  - name: origin/Hololens
+    tracking: '[None]'
   - name: origin/master
     tracking: '[None]'
   remotes:
@@ -30,8 +34,14 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
+    - Hololens
     - master
     values:
+    - name: Hololens
+      remote:
+        name: origin
+        url: https://github.com/faizan-m/arfuros.git
+      trackingBranch: Hololens
     - name: master
       remote:
         name: origin
@@ -42,9 +52,15 @@ MonoBehaviour:
     - origin
     subKeys:
     - Values:
+      - Hololens
       - master
     subKeyValues:
     - Values:
+      - name: Hololens
+        remote:
+          name: origin
+          url: https://github.com/faizan-m/arfuros.git
+        trackingBranch: 
       - name: master
         remote:
           name: origin

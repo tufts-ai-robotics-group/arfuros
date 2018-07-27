@@ -27,7 +27,6 @@ public class PathProjector : MonoBehaviour {
 		{
 			// Initialize variables 
 			numParticles = message.numPoints;
-			//Debug.Log("Global Path: num particles: " + numParticles);
 
 			particles = new ParticleSystem.Particle[numParticles];
 
