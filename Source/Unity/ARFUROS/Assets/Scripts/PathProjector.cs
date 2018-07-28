@@ -27,6 +27,7 @@ public class PathProjector : MonoBehaviour {
 		{
 			// Initialize variables 
 			numParticles = message.numPoints;
+			//Debug.Log("Global Path: num particles: " + numParticles);
 
 			particles = new ParticleSystem.Particle[numParticles];
 
@@ -50,7 +51,7 @@ public class PathProjector : MonoBehaviour {
             			message.path[i].y, 0f); // changed from message.path[i].z
 
             		particles[i].startColor = Color.green;
-            		particles[i].startSize = 0.1f;
+            		particles[i].startSize = 0.06f;
             	}
         	}
 
@@ -68,16 +69,16 @@ public class PathProjector : MonoBehaviour {
 		if (colorCount == 0)
 		{
 			particles[message.numPoints - 1].startColor = Color.green;
-			particles[message.numPoints - 1].startSize = 1f;
+			particles[message.numPoints - 1].startSize = 0.06f;
 		}
 		else 
 		{
 			particles[colorCount - 1].startColor = Color.green;
-			particles[colorCount - 1].startSize = 1f;
+			particles[colorCount - 1].startSize = 0.06f;
 		}
 		
 		particles[colorCount].startColor = Color.white;
-		particles[colorCount].startSize = 2f;
+		particles[colorCount].startSize = 0.1f;
 		mySystem.SetParticles(particles, particles.Length);
 		colorCount++;
 	}
