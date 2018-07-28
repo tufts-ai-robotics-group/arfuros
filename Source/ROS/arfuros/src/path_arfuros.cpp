@@ -63,8 +63,8 @@ int main (int argc, char **argv){
     ros::init(argc, argv, "path_arfuros");
     ros::NodeHandle n;
     
-    relativePub = n.advertise<nav_msgs::Path>(TOPIC_IN, 5);
-    ros::Subscriber globalSub  = n.subscribe(TOPIC_OUT, 5, pathCallback);
+    relativePub = n.advertise<nav_msgs::Path>(TOPIC_OUT, 5);
+    ros::Subscriber globalSub  = n.subscribe(TOPIC_IN, 5, pathCallback);
     
     tf2_ros::Buffer tBuffer;
     tf2_ros::TransformListener tf2_listener (tBuffer);
