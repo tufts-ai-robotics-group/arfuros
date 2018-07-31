@@ -12,11 +12,6 @@ public class PathProjector : MonoBehaviour {
 	private ParticleSystem.Particle[] particles;
 	private int numParticles; 
 
-	// Variables for loading effect 
-	private int colorCount = 0;
-	private int colorCountT = 0;
-	private int colorUpdate = 0;
-	private int UpdateCap = 5;
 
 	// Use this for initialization
 	void Start () {
@@ -36,26 +31,7 @@ public class PathProjector : MonoBehaviour {
 
 			// Spawn 
 			Display();
-			colorCountT = message.numPoints / 2;
-			// Loading effect 
-			if(numParticles > 0)
-			{
-				if (colorUpdate == 0)
-				{
-					ColorChanger();
-				}
-				if (colorUpdate == 3)
-				{
-					ColorChanger();
-				}
-			
-			}
 		}
-
-		if (colorUpdate == UpdateCap)
-			colorUpdate = 0;
-		else
-			colorUpdate++;
 
 	}
 
@@ -78,7 +54,7 @@ public class PathProjector : MonoBehaviour {
 	}
 
 	// Changes colors of indvidual particles for loading effect 
-	void ColorChanger (){
+	/*void ColorChanger (){
 
 
 		if(colorCount > (message.numPoints - 1)) // Loop back over array 
@@ -102,7 +78,7 @@ public class PathProjector : MonoBehaviour {
 		mySystem.SetParticles(particles, particles.Length);
 		colorCount++;
 
-	}
+	}*/
 
     
 }
