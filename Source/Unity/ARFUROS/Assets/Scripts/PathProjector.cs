@@ -14,6 +14,9 @@ public class PathProjector : MonoBehaviour {
 
 	// Variables for loading effect 
 	private int colorCount = 0;
+	private int colorCountT = 0;
+	private int colorUpdate = 0;
+	private int UpdateCap = 5;
 
 	// Use this for initialization
 	void Start () {
@@ -33,10 +36,26 @@ public class PathProjector : MonoBehaviour {
 
 			// Spawn 
 			Display();
+			colorCountT = message.numPoints / 2;
 			// Loading effect 
 			if(numParticles > 0)
-				ColorChanger();
+			{
+				if (colorUpdate == 0)
+				{
+					ColorChanger();
+				}
+				if (colorUpdate == 3)
+				{
+					ColorChanger();
+				}
+			
+			}
 		}
+
+		if (colorUpdate == UpdateCap)
+			colorUpdate = 0;
+		else
+			colorUpdate++;
 
 	}
 
@@ -50,7 +69,7 @@ public class PathProjector : MonoBehaviour {
             		particles[i].position = new Vector3(message.path[i].x, 
             			message.path[i].y, 0f); // changed from message.path[i].z
 
-            		particles[i].startColor = Color.green;
+            		particles[i].startColor = Color.yellow;
             		particles[i].startSize = 0.06f;
             	}
         	}
@@ -61,6 +80,7 @@ public class PathProjector : MonoBehaviour {
 	// Changes colors of indvidual particles for loading effect 
 	void ColorChanger (){
 
+
 		if(colorCount > (message.numPoints - 1)) // Loop back over array 
 		{
 			colorCount = 0;
@@ -68,19 +88,20 @@ public class PathProjector : MonoBehaviour {
 
 		if (colorCount == 0)
 		{
-			particles[message.numPoints - 1].startColor = Color.green;
+			particles[message.numPoints - 1].startColor = Color.yellow;
 			particles[message.numPoints - 1].startSize = 0.06f;
 		}
 		else 
 		{
-			particles[colorCount - 1].startColor = Color.green;
+			particles[colorCount - 1].startColor = Color.yellow;
 			particles[colorCount - 1].startSize = 0.06f;
 		}
 		
 		particles[colorCount].startColor = Color.white;
-		particles[colorCount].startSize = 0.1f;
+		particles[colorCount].startSize = 0.13f;
 		mySystem.SetParticles(particles, particles.Length);
 		colorCount++;
+
 	}
 
     
