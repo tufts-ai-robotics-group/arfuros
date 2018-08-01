@@ -21553,6 +21553,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: {fileID: 1372799806}
+  colorVector: []
 --- !u!199 &1081894624
 ParticleSystemRenderer:
   serializedVersion: 5
@@ -21569,7 +21570,7 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 85ad066f8f94d4b64855886646e7e8ea, type: 2}
+  - {fileID: 2100000, guid: 30b25cc9f3cb843a38a49e503c756b11, type: 2}
   - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -27833,7 +27834,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1245482892
 Transform:
   m_ObjectHideFlags: 0
@@ -27841,8 +27842,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1245482891}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0000000018626451, y: 0, z: -0.000000024214387}
-  m_LocalScale: {x: 1.0000005, y: 1.0000006, z: 1.0000001}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000005, y: 1, z: 1.0000001}
   m_Children: []
   m_Father: {fileID: 1372799805}
   m_RootOrder: 1
@@ -27858,7 +27859,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8940e5f5d44c48c0aa0d4f2cefd1136, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: {fileID: 1372799806}
+  GlobalProjector: {fileID: 1081894621}
 --- !u!199 &1245482894
 ParticleSystemRenderer:
   serializedVersion: 5

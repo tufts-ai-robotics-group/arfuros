@@ -13,6 +13,13 @@ public class PathProjector : MonoBehaviour {
 	private int numParticles; 
 
 
+	// Variables for loading effect 
+	//public Vector3[] colorVector;
+	//private int colorPoints;
+	private int colorCount = 0;
+	//private int ColorFreq = 9;
+	//private int currCount = 0;
+
 	// Use this for initialization
 	void Start () {
 		mySystem = GetComponent<ParticleSystem> ();
@@ -25,12 +32,12 @@ public class PathProjector : MonoBehaviour {
 		{
 			// Initialize variables 
 			numParticles = message.numPoints;
-			//Debug.Log("Global Path: num particles: " + numParticles);
 
 			particles = new ParticleSystem.Particle[numParticles];
 
 			// Spawn 
 			Display();
+        	ColorChanger();
 		}
 
 	}
@@ -53,9 +60,37 @@ public class PathProjector : MonoBehaviour {
      	  	mySystem.SetParticles(particles, particles.Length);
 	}
 
-	// Changes colors of indvidual particles for loading effect 
-	/*void ColorChanger (){
+	// Changes colors of for trail particle component 
+	/*void ColorChanger() {
 
+		currCount = colorCount; 
+		for (int i = 0; i < colorPoints; i++)
+		{
+			if(currCount > (message.numPoints - 1)) // Loop back over array 
+			{
+				currCount = 0;
+			}
+
+			if (currCount < message.numPoints)
+			{
+				colorVector[i] = new Vector3(message.path[currCount].x, 
+            			message.path[currCount].y, 0f);
+        	}
+
+        	currCount += ColorFreq;
+    	}
+
+    	if (colorCount > message.numPoints - 1)
+    		colorCount = 0;
+    	else
+    		colorCount++;
+
+    	Debug.Log("FROM path projector length: " + colorVector.Length);
+
+	}*/
+
+	// Changes colors of indvidual particles for loading effect 
+	void ColorChanger (){
 
 		if(colorCount > (message.numPoints - 1)) // Loop back over array 
 		{
@@ -78,7 +113,7 @@ public class PathProjector : MonoBehaviour {
 		mySystem.SetParticles(particles, particles.Length);
 		colorCount++;
 
-	}*/
+	}
 
     
 }
