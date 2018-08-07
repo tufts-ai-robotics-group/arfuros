@@ -71,11 +71,11 @@
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>/Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>/Users/amelhassan/Documents/Summer Research 2018/arfuros/Source/Unity/ARFUROS/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
