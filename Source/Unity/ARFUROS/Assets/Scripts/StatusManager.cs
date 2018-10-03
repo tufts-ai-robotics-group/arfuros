@@ -17,7 +17,7 @@ public class StatusManager : MonoBehaviour {
     public GameObject connector;
     public GameObject Costmap;
     public GameObject LocalizationParticles;
-    private int numTopics = 5;
+    public int numTopics = 6;
     private Subscriber[] scripts;
 
 	// Use this for initialization
