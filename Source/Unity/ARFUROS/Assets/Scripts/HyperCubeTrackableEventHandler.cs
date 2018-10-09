@@ -127,7 +127,7 @@ public class HyperCubeTrackableEventHandler : MonoBehaviour, ITrackableEventHand
         // Disable canvas':
         foreach (var component in canvasComponents)
             component.enabled = false;
-
+           
         isTracked = false;
     }
 
