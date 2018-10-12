@@ -3,7 +3,7 @@
 --- !u!114 &1
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -20,12 +20,12 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -48,7 +48,7 @@ MonoBehaviour:
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -69,7 +69,7 @@ MonoBehaviour:
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -89,7 +89,7 @@ MonoBehaviour:
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -106,14 +106,14 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 683, y: 342}
-  m_MaxSize: {x: 12008, y: 8042}
+  m_MinSize: {x: 679, y: 321}
+  m_MaxSize: {x: 12004, y: 8021}
   vertical: 0
-  controlID: 73
+  controlID: 97
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -130,14 +130,14 @@ MonoBehaviour:
     y: 0
     width: 1358
     height: 947
-  m_MinSize: {x: 406, y: 342}
-  m_MaxSize: {x: 8006, y: 8042}
+  m_MinSize: {x: 402, y: 321}
+  m_MaxSize: {x: 8002, y: 8021}
   vertical: 1
-  controlID: 74
+  controlID: 98
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -154,14 +154,14 @@ MonoBehaviour:
     y: 0
     width: 1358
     height: 539
-  m_MinSize: {x: 406, y: 221}
-  m_MaxSize: {x: 8006, y: 4021}
+  m_MinSize: {x: 402, y: 221}
+  m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 75
+  controlID: 99
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -186,7 +186,7 @@ MonoBehaviour:
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -201,8 +201,8 @@ MonoBehaviour:
     y: 0
     width: 1055
     height: 539
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -213,7 +213,7 @@ MonoBehaviour:
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -228,8 +228,8 @@ MonoBehaviour:
     y: 539
     width: 1358
     height: 408
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 16}
@@ -239,7 +239,7 @@ MonoBehaviour:
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -266,7 +266,7 @@ MonoBehaviour:
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -296,10 +296,12 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
     m_HBaseRangeMin: -512
     m_HBaseRangeMax: 512
-    m_VBaseRangeMin: -384
-    m_VBaseRangeMax: 384
+    m_VBaseRangeMin: -300
+    m_VBaseRangeMax: 300
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -309,7 +311,8 @@ MonoBehaviour:
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 0
-    m_EnableSliderZoom: 0
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
     m_UpDirection: 1
     m_DrawArea:
@@ -318,7 +321,7 @@ MonoBehaviour:
       y: 17
       width: 1051
       height: 501
-    m_Scale: {x: 0.65234375, y: 0.65234375}
+    m_Scale: {x: 0.83500004, y: 0.835}
     m_Translation: {x: 525.5, y: 250.5}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -326,22 +329,23 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -805.5569
-      y: -384
-      width: 1611.1138
-      height: 768
+      x: -629.3413
+      y: -300
+      width: 1258.6826
+      height: 600
     m_MinimalGUI: 1
-  m_defaultScale: 0.65234375
+  m_defaultScale: 0.835
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
   m_LastWindowPixelSize: {x: 1051, y: 518}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
+  m_XRRenderMode: 0
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -367,7 +371,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 6ad5faff3ed6faffb4d8faffbcd8faff00e8fcffd2e8fcff48ebfcff50ebfcff30f1fcff04f2fcff7af4fcff82f4fcffc82dfdffdaeafffffef8ffffe8fbffffeafbffff0000000028700000ac960000aaae000034af0000a8b0000074b2000024b30000
+    m_ExpandedIDs: 5efafeff2cfbfeffa6fdfeffb6fdfeff98deffff9adeffff000000003c450000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -395,7 +399,7 @@ MonoBehaviour:
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -418,14 +422,14 @@ MonoBehaviour:
     height: 518
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 198.8251795
+  lastFramingTime: 162.1195521
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: -0.000000014901161, z: -0.21350001}
+    m_Target: {x: 0, y: -0.21350001, z: 0}
     speed: 2
-    m_Value: {x: 0, y: -0.000000014901161, z: -0.21350001}
+    m_Value: {x: 0, y: -0.21350001, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -455,11 +459,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.08270982, y: 0.011058523, z: -0.00091816223, w: -0.99651164}
     speed: 2
-    m_Value: {x: -0.08270984, y: 0.011058527, z: -0.0009181625, w: -0.99651194}
+    m_Value: {x: -0.08270981, y: 0.011058523, z: -0.00091816223, w: -0.99651164}
   m_Size:
-    m_Target: 2.83311
+    m_Target: 1.3331105
     speed: 2
-    m_Value: 2.83311
+    m_Value: 1.3331105
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -474,7 +478,7 @@ MonoBehaviour:
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -499,7 +503,7 @@ MonoBehaviour:
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -546,7 +550,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 238}
     m_SelectedIDs: 522e0000
     m_LastClickedID: 11858
-    m_ExpandedIDs: 00000000022c0000122c0000da2c0000a22d00003e2e0000782e00008a2e00009c2e00009e2e0000fc320000fe320000
+    m_ExpandedIDs: 000000004e3800005a380000aa380000fe3800004a390000643900006c39000072390000743900007e3c0000803c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -574,7 +578,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000022c0000122c0000da2c0000a22d00003e2e0000782e00008a2e00009c2e00009e2e0000fc320000fe320000
+    m_ExpandedIDs: 000000004e3800005a380000aa380000fe3800004a390000643900006c39000072390000743900007e3c0000803c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -632,7 +636,7 @@ MonoBehaviour:
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -657,7 +661,7 @@ MonoBehaviour:
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -691,7 +695,7 @@ MonoBehaviour:
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -721,7 +725,7 @@ MonoBehaviour:
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -1303,13 +1307,13 @@ MonoBehaviour:
       staged: 0
     changedFilesText: 4 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2018-10-09T12:39:40.191-04:00
+      updatedTimeString: 2018-10-10T12:29:16.127-04:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2018-10-09T13:33:52.747-04:00
+      updatedTimeString: 2018-10-10T12:37:44.921-04:00
       cacheType: 5
     lastLocksChangedEvent:
-      updatedTimeString: 2018-10-09T13:33:49.930-04:00
+      updatedTimeString: 2018-10-10T12:37:44.765-04:00
       cacheType: 6
   historyView:
     currentLogHasUpdate: 0
