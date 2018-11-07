@@ -12,6 +12,300 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-10-10T12:37:44.921-04:00
-  initializedAtString: 2018-10-10T12:29:15.669-04:00
-  entries: []
+  lastUpdatedAtString: 2018-11-07T13:00:24.450-05:00
+  initializedAtString: 2018-11-07T12:15:36.608-05:00
+  entries:
+  - path: Source\Unity\ARFUROS\.vs\ARFUROS\v15\Server\sqlite3\storage.ide-shm
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\.vs\ARFUROS\v15\Server\sqlite3\storage.ide-shm
+    projectPath: .vs\ARFUROS\v15\Server\sqlite3\storage.ide-shm
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assembly-CSharp.csproj
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Resources\VuforiaConfiguration.asset
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\Resources\VuforiaConfiguration.asset
+    projectPath: Assets\Resources\VuforiaConfiguration.asset
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Scripts\ExtrapolationManager.cs
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Assets\Scripts\ExtrapolationManager.cs
+    projectPath: Assets\Scripts\ExtrapolationManager.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\assetDatabase3
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\assetDatabase3
+    projectPath: Library\assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\EditorInstance.json
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\gfu\cache\gitlocks.yaml
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\metadata\06\06a6d43752a6a6440822e730bd68070c
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\06\06a6d43752a6a6440822e730bd68070c
+    projectPath: Library\metadata\06\06a6d43752a6a6440822e730bd68070c
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\metadata\5a\5a917f0af64a6423093132dab321c15f
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\5a\5a917f0af64a6423093132dab321c15f
+    projectPath: Library\metadata\5a\5a917f0af64a6423093132dab321c15f
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\metadata\90\908a46ef14be34843aa3e3d9671f29cf
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\90\908a46ef14be34843aa3e3d9671f29cf
+    projectPath: Library\metadata\90\908a46ef14be34843aa3e3d9671f29cf
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\metadata\bc\bc72f8689eefa484699b4ed79b36553d
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\bc\bc72f8689eefa484699b4ed79b36553d
+    projectPath: Library\metadata\bc\bc72f8689eefa484699b4ed79b36553d
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\metadata\ca\caf0f3a88341ab549852764c706f63c2
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\ca\caf0f3a88341ab549852764c706f63c2
+    projectPath: Library\metadata\ca\caf0f3a88341ab549852764c706f63c2
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\metadata\cd\cd3ec24c28e06fe4b8053e2c7522928c
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\cd\cd3ec24c28e06fe4b8053e2c7522928c
+    projectPath: Library\metadata\cd\cd3ec24c28e06fe4b8053e2c7522928c
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\metadata\f4\f40623b353e2f1943b1b3ba42975db7a
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\metadata\f4\f40623b353e2f1943b1b3ba42975db7a
+    projectPath: Library\metadata\f4\f40623b353e2f1943b1b3ba42975db7a
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\ScriptAssemblies\VuforiaEditorScripts.dll.mdb
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\ScriptAssemblies\VuforiaEditorScripts.dll.mdb
+    projectPath: Library\ScriptAssemblies\VuforiaEditorScripts.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\ScriptAssemblies\VuforiaScripts.dll.mdb
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\ScriptAssemblies\VuforiaScripts.dll.mdb
+    projectPath: Library\ScriptAssemblies\VuforiaScripts.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\ShaderCache\3\3c6a1749911022f46255a81e438e93e3.bin
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\ShaderCache\3\3c6a1749911022f46255a81e438e93e3.bin
+    projectPath: Library\ShaderCache\3\3c6a1749911022f46255a81e438e93e3.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\ShaderCache\3\3d57527258999f995eebbe87e8e3e0eb.bin
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\ShaderCache\3\3d57527258999f995eebbe87e8e3e0eb.bin
+    projectPath: Library\ShaderCache\3\3d57527258999f995eebbe87e8e3e0eb.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\ShaderCache\5\5cf7290e33999aadea5698ab94ef6c44.bin
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\ShaderCache\5\5cf7290e33999aadea5698ab94ef6c44.bin
+    projectPath: Library\ShaderCache\5\5cf7290e33999aadea5698ab94ef6c44.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\ShaderCache\6\6290dab3b447c24e2beb1c45b281e04b.bin
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\ShaderCache\6\6290dab3b447c24e2beb1c45b281e04b.bin
+    projectPath: Library\ShaderCache\6\6290dab3b447c24e2beb1c45b281e04b.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\ShaderCache\6\6db3a402b89991d1307253f5cde55dc0.bin
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\ShaderCache\6\6db3a402b89991d1307253f5cde55dc0.bin
+    projectPath: Library\ShaderCache\6\6db3a402b89991d1307253f5cde55dc0.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\ShaderCache\8\837372cb98d9b53eeb371ad39a54a23d.bin
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\ShaderCache\8\837372cb98d9b53eeb371ad39a54a23d.bin
+    projectPath: Library\ShaderCache\8\837372cb98d9b53eeb371ad39a54a23d.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\ShaderCache\b\bd24e6f4f04910234a961652197778e0.bin
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\ShaderCache\b\bd24e6f4f04910234a961652197778e0.bin
+    projectPath: Library\ShaderCache\b\bd24e6f4f04910234a961652197778e0.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\ShaderCache\d\d05d587a488ac6d622108d69d3396e8d.bin
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\ShaderCache\d\d05d587a488ac6d622108d69d3396e8d.bin
+    projectPath: Library\ShaderCache\d\d05d587a488ac6d622108d69d3396e8d.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\ShaderCache\d\d547869d906bfeb3072bca5d0b03335b.bin
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\ShaderCache\d\d547869d906bfeb3072bca5d0b03335b.bin
+    projectPath: Library\ShaderCache\d\d547869d906bfeb3072bca5d0b03335b.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\ShaderCache\d\d8b13295c6dc06e16a06a72215db56bd.bin
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\ShaderCache\d\d8b13295c6dc06e16a06a72215db56bd.bin
+    projectPath: Library\ShaderCache\d\d8b13295c6dc06e16a06a72215db56bd.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\ShaderCache\f\f29ea710b12336973c864446835ae716.bin
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\ShaderCache\f\f29ea710b12336973c864446835ae716.bin
+    projectPath: Library\ShaderCache\f\f29ea710b12336973c864446835ae716.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\ShaderCache\f\f60615458058963b5288f521ce957aeb.bin
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\ShaderCache\f\f60615458058963b5288f521ce957aeb.bin
+    projectPath: Library\ShaderCache\f\f60615458058963b5288f521ce957aeb.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Temp\__Backupscenes\0.backup
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\__Backupscenes\0.backup
+    projectPath: Temp\__Backupscenes\0.backup
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+    projectPath: Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Temp\UnityLockfile
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityLockfile
+    projectPath: Temp\UnityLockfile
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-1ec9d2f61bcdb434eaba0c86cef64c40
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-1ec9d2f61bcdb434eaba0c86cef64c40
+    projectPath: Temp\UnityTempFile-1ec9d2f61bcdb434eaba0c86cef64c40
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-472e15a3aadf4b54391bd2c345646f5b
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-472e15a3aadf4b54391bd2c345646f5b
+    projectPath: Temp\UnityTempFile-472e15a3aadf4b54391bd2c345646f5b
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-5f9cc53a77b47a149a975cb7993deff5
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-5f9cc53a77b47a149a975cb7993deff5
+    projectPath: Temp\UnityTempFile-5f9cc53a77b47a149a975cb7993deff5
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-61c09968384d53646b4320a0877890c4
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-61c09968384d53646b4320a0877890c4
+    projectPath: Temp\UnityTempFile-61c09968384d53646b4320a0877890c4
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-61f16822ec0ff8f4cb06a92bc6010815
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-61f16822ec0ff8f4cb06a92bc6010815
+    projectPath: Temp\UnityTempFile-61f16822ec0ff8f4cb06a92bc6010815
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-6ab4ad7d543875943a945479af5f2012
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-6ab4ad7d543875943a945479af5f2012
+    projectPath: Temp\UnityTempFile-6ab4ad7d543875943a945479af5f2012
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-998d9cbb1e961ec469be0fadce616fe8
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-998d9cbb1e961ec469be0fadce616fe8
+    projectPath: Temp\UnityTempFile-998d9cbb1e961ec469be0fadce616fe8
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-9a4418dd46b02424a9149d41408d6501
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-9a4418dd46b02424a9149d41408d6501
+    projectPath: Temp\UnityTempFile-9a4418dd46b02424a9149d41408d6501
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-c3013e35d1de8d9499a4eb152e885d9b
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-c3013e35d1de8d9499a4eb152e885d9b
+    projectPath: Temp\UnityTempFile-c3013e35d1de8d9499a4eb152e885d9b
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-eec9fb068262df442847ad17a14d61e9
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-eec9fb068262df442847ad17a14d61e9
+    projectPath: Temp\UnityTempFile-eec9fb068262df442847ad17a14d61e9
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Temp\UnityTempFile-f9b4d618f3cb2774cab458f7b055fcf3
+    fullPath: C:\WorkSpace\AIRLab\Tufts Summer Scholars 2018\arfuros\Source\Unity\ARFUROS\Temp\UnityTempFile-f9b4d618f3cb2774cab458f7b055fcf3
+    projectPath: Temp\UnityTempFile-f9b4d618f3cb2774cab458f7b055fcf3
+    originalPath: 
+    status: 1
+    staged: 0

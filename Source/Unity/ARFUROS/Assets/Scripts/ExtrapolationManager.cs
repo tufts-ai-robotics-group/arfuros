@@ -27,7 +27,7 @@ public class ExtrapolationManager : MonoBehaviour {
 	void Update () {
         updateLatest();
 
-        if (TrackerCube.isTracked)
+        if (TrackerCube.isTracked && !TrackerCube.isExtended)
         {
             ExtrapolationTarget.transform.localPosition = defaultPos;
             ExtrapolationTarget.transform.localRotation = defaultOri;
@@ -38,8 +38,12 @@ public class ExtrapolationManager : MonoBehaviour {
 
         if(TrackerCube.isExtended)
         {
-            ExtrapolationTarget.transform.localPosition = defaultPos + (latestWorldPos - lastTrackedWorldPos);
-            ExtrapolationTarget.transform.localRotation = Quaternion.Euler (defaultOri.eulerAngles + (latestWorldOri.eulerAngles - lastTrackedWorldOri.eulerAngles));
+            ExtrapolationTarget.transform.localPosition = defaultPos + (lastTrackedWorldPos - latestWorldPos);
+            ExtrapolationTarget.transform.localRotation = Quaternion.Euler (defaultOri.eulerAngles + (lastTrackedWorldOri.eulerAngles - latestWorldOri.eulerAngles));
+
+            print("Extrapolating:");
+            print(ExtrapolationTarget.transform.localPosition);
+            print(ExtrapolationTarget.transform.localRotation.eulerAngles);
         }
     }
 
