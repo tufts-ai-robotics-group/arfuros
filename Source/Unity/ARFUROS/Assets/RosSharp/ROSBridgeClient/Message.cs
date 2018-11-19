@@ -471,5 +471,16 @@ namespace RosSharp.RosBridgeClient
         }
     }
 
+    public class GeometryPoseWithCovarianceStamped : Message
+    {
+        public StandardHeader header;
+        public GeometryPoseWithCovariance pose;
+
+        public GeometryPoseWithCovarianceStamped()
+        {
+            header = new StandardHeader();
+            pose = new GeometryPoseWithCovariance();
+        }
+    }
 
 }
