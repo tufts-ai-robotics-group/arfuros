@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 392}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -106,10 +106,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 681, y: 342}
-  m_MaxSize: {x: 12006, y: 8042}
+  m_MinSize: {x: 683, y: 342}
+  m_MaxSize: {x: 12008, y: 8042}
   vertical: 0
-  controlID: 112
+  controlID: 98
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -130,10 +130,10 @@ MonoBehaviour:
     y: 0
     width: 1411
     height: 947
-  m_MinSize: {x: 404, y: 342}
-  m_MaxSize: {x: 8004, y: 8042}
+  m_MinSize: {x: 406, y: 342}
+  m_MaxSize: {x: 8006, y: 8042}
   vertical: 1
-  controlID: 113
+  controlID: 99
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,10 +154,10 @@ MonoBehaviour:
     y: 0
     width: 1411
     height: 556
-  m_MinSize: {x: 404, y: 221}
-  m_MaxSize: {x: 8004, y: 4021}
+  m_MinSize: {x: 406, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 114
+  controlID: 100
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -176,8 +176,8 @@ MonoBehaviour:
     y: 0
     width: 466
     height: 556
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -286,7 +286,7 @@ MonoBehaviour:
     x: 468
     y: 92
     width: 941
-    height: 537
+    height: 535
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
@@ -300,8 +300,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -470.5
     m_HBaseRangeMax: 470.5
-    m_VBaseRangeMin: -260
-    m_VBaseRangeMax: 260
+    m_VBaseRangeMin: -259
+    m_VBaseRangeMax: 259
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -320,9 +320,9 @@ MonoBehaviour:
       x: 0
       y: 17
       width: 941
-      height: 520
+      height: 518
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 470.5, y: 260}
+    m_Translation: {x: 470.5, y: 259}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -330,14 +330,14 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -470.5
-      y: -260
+      y: -259
       width: 941
-      height: 520
+      height: 518
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 941, y: 537}
+  m_LastWindowPixelSize: {x: 941, y: 535}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -369,9 +369,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 9edbfbff62dcfbffcedefbfffadefbfffce5fbffd8f3ffffc6f4ffff40f7ffff6cf7ffffe4fbffffe6fbffff00000000ba4e0000
+    m_SelectedIDs: ae340000
+    m_LastClickedID: 13486
+    m_ExpandedIDs: e4fbffffe6fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -459,7 +459,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.13003795, y: -0.5232341, z: 0.08117123, w: 0.83829474}
     speed: 2
-    m_Value: {x: 0.13003725, y: -0.5232313, z: 0.0811708, w: 0.8382903}
+    m_Value: {x: -0.13003795, y: 0.5232341, z: -0.08117123, w: -0.83829474}
   m_Size:
     m_Target: 1.0581956
     speed: 2
@@ -550,7 +550,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 71}
     m_SelectedIDs: 8a2c0000
     m_LastClickedID: 11402
-    m_ExpandedIDs: 000000008a2c00009c2c00001e2e0000b82e0000022f00001e2f00002e2f0000322f0000023900000439000000ca9a3b
+    m_ExpandedIDs: 000000008a2c00009c2c00001e2e0000b82e0000022f00001e2f00002e2f0000322f00000239000004390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1307,13 +1307,13 @@ MonoBehaviour:
       staged: 0
     changedFilesText: 4 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2018-11-19T13:36:24.746-05:00
+      updatedTimeString: 2018-11-25T17:10:27.656-05:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2018-11-25T17:10:27.815-05:00
       cacheType: 5
     lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2018-11-25T17:10:27.801-05:00
       cacheType: 6
   historyView:
     currentLogHasUpdate: 0
