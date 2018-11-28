@@ -26,6 +26,22 @@ namespace RosSharp.RosBridgeClient
         }
     }
 
+    public class BlinkerMsg : Message
+    {
+        public string path;
+        public uint numpoints_thresh;
+        public uint outlook_thresh;
+        public float deviation_thresh;
+
+        public BlinkerMsg()
+        {
+            path = "";
+            numpoints_thresh = 0;
+            outlook_thresh = 0;
+            deviation_thresh = 0;
+        }
+    }
+
     public class GeometryTwist : Message
     {
         public GeometryVector3 linear;

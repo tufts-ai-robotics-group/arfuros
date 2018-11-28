@@ -53,8 +53,8 @@ namespace RosSharp.RosBridgeClient
             { "people_msgs/People", typeof(PeoplePeople) },
             { "people_msgs/PositionMeasurement", typeof(PeoplePositionMeasurement) },
             { "people_msgs/PositionMeasurementArray", typeof(PeoplePositionMeasurementArray) },
-            { "geometry_msgs/PoseArray", typeof(GeometryPoseArray) },
-            { "geometry_msgs/PoseWithCovarianceStamped", typeof(GeometryPoseWithCovarianceStamped) }
+            { "BlinkerMsg/BlinkerMsg", typeof(BlinkerMsg) }
+
         };
         public static string RosMessageType(Type messageType)
         {
