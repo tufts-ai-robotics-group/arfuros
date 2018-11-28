@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2018-11-07T12:15:41.055-05:00
-  initializedAtString: 2018-11-07T12:15:41.055-05:00
+  lastUpdatedAtString: 2018-11-27T20:12:50.457-05:00
+  initializedAtString: 2018-11-27T20:12:50.457-05:00
   currentGitRemote:
     name: origin
     url: https://github.com/faizan-m/arfuros.git
@@ -23,15 +23,15 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: master-extrapolation
-    tracking: origin/master-extrapolation
+    name: master
+    tracking: origin/master
   currentConfigBranch:
-    name: master-extrapolation
+    name: master
     remote:
       name: origin
       url: https://github.com/faizan-m/arfuros.git
-    trackingBranch: master-extrapolation
+    trackingBranch: master
   currentConfigRemote:
     name: origin
     url: https://github.com/faizan-m/arfuros.git
-  currentHead: a517dfd
+  currentHead: 8314396f
