@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
     <Tracking>
-        <ImageTarget name="HyperCube.Front" size="0.206000 0.206000"/>
-        <ImageTarget name="HyperCube.Left" size="0.206000 0.206000"/>
-        <ImageTarget name="HyperCube.Right" size="0.206000 0.206000"/>
-        <ImageTarget name="HyperCube.Top" size="0.206000 0.206000"/>
-        <ImageTarget name="HyperCube.Bottom" size="0.206000 0.206000"/>
-        <ImageTarget name="HyperCube.Back" size="0.206000 0.206000"/>
-        <MultiTarget name="HyperCube">
-            <Part name="HyperCube.Left" translation="-0.10300000011920929 0 0" rotation="AD: 0 1 0 -90"/>
-            <Part name="HyperCube.Right" translation="0.10300000011920929 0 0" rotation="AD: 0 1 0 90"/>
-            <Part name="HyperCube.Front" translation="0 0 0.10300000011920929" rotation="AD: 1 0 0 0"/>
-            <Part name="HyperCube.Back" translation="0 0 -0.10300000011920929" rotation="AD: 0 1 0 180"/>
-            <Part name="HyperCube.Top" translation="0 0.10300000011920929 0" rotation="AD: 1 0 0 -90"/>
-            <Part name="HyperCube.Bottom" translation="0 -0.10300000011920929 0" rotation="AD: 1 0 0 90"/>
+        <ImageTarget name="BigHyperCube.Top" size="0.300000 0.300000"/>
+        <ImageTarget name="BigHyperCube.Right" size="0.300000 0.300000"/>
+        <ImageTarget name="BigHyperCube.Back" size="0.300000 0.300000"/>
+        <ImageTarget name="BigHyperCube.Left" size="0.300000 0.300000"/>
+        <ImageTarget name="BigHyperCube.Front" size="0.300000 0.300000"/>
+        <ImageTarget name="BigHyperCube.Bottom" size="0.300000 0.300000"/>
+        <MultiTarget name="BigHyperCube">
+            <Part name="BigHyperCube.Left" translation="-0.15000000596046448 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="BigHyperCube.Right" translation="0.15000000596046448 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="BigHyperCube.Front" translation="0 0 0.15000000596046448" rotation="AD: 1 0 0 0"/>
+            <Part name="BigHyperCube.Back" translation="0 0 -0.15000000596046448" rotation="AD: 0 1 0 180"/>
+            <Part name="BigHyperCube.Top" translation="0 0.15000000596046448 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="BigHyperCube.Bottom" translation="0 -0.15000000596046448 0" rotation="AD: 1 0 0 90"/>
         </MultiTarget>
     </Tracking>
 </QCARConfig>
