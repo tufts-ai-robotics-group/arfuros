@@ -8,10 +8,12 @@ public class SettingsManager : MonoBehaviour {
 
     public InputField IPAddress;
     public Toggle LaserScan;
-    public Toggle Path;
+    public Toggle GlobalPath;
     public Toggle PeopleTracking;
     public Toggle Costmap;
     public Toggle LocalizationParticles;
+    public Toggle FullPath;
+    public Toggle Blinker;
 
 	public void updateIP(string newstring)
     {
@@ -24,10 +26,10 @@ public class SettingsManager : MonoBehaviour {
         PlayerPrefs.SetInt("LaserScan", val);
     }
 
-    public void updatePath(bool newbool)
+    public void updateGlobalPath(bool newbool)
     {
         int val = newbool ? 1 : 0;
-        PlayerPrefs.SetInt("Path", val);
+        PlayerPrefs.SetInt("GlobalPath", val);
     }
 
     public void updatePeopleTracking(bool newbool) {
@@ -43,6 +45,15 @@ public class SettingsManager : MonoBehaviour {
      public void updateLocalizationParticles(bool newbool) {
         int val = newbool ? 1 : 0;
         PlayerPrefs.SetInt("LocalizationParticles", val);
+    }
+
+    public void updateFullPath(bool newbool) {
+        int val = newbool ? 1 : 0;
+        PlayerPrefs.SetInt("FullPath", val);
+    }
+    public void updateBlinker(bool newbool) {
+        int val = newbool ? 1 : 0;
+        PlayerPrefs.SetInt("Blinker", val);
     }
 
     public void onApply()
@@ -61,11 +72,10 @@ public class SettingsManager : MonoBehaviour {
         else 
         	LaserScan.isOn = false;
 
-
-        if (PlayerPrefs.GetInt("Path", 1) == 1)
-            Path.isOn = true;
+        if (PlayerPrefs.GetInt("GlobalPath", 1) == 1)
+            GlobalPath.isOn = true;
         else 
-        	Path.isOn = false;
+        	GlobalPath.isOn = false;
 
         if (PlayerPrefs.GetInt("PeopleTracking", 1) == 1)
             PeopleTracking.isOn = true;
@@ -81,6 +91,16 @@ public class SettingsManager : MonoBehaviour {
             LocalizationParticles.isOn = true ;
         else 
             LocalizationParticles.isOn = false;
+            
+        if (PlayerPrefs.GetInt("FullPath", 1) == 1)
+            FullPath.isOn = true ;
+        else 
+            FullPath.isOn = false;
+
+        if (PlayerPrefs.GetInt("Blinker", 1) == 1)
+            Blinker.isOn = true ;
+        else 
+            Blinker.isOn = false;
     }
 }
 

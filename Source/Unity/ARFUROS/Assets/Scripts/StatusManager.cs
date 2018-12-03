@@ -17,7 +17,9 @@ public class StatusManager : MonoBehaviour {
     public GameObject connector;
     public GameObject Costmap;
     public GameObject LocalizationParticles;
-    public int numTopics = 6;
+    public GameObject FullPath;
+    public GameObject Blinker;
+    private int numTopics = 8;
     private Subscriber[] scripts;
 
 	// Use this for initialization
@@ -71,7 +73,7 @@ public class StatusManager : MonoBehaviour {
             rosSubscriber("/ARFUROS/LaserScan", false); 
         }
 
-        if (PlayerPrefs.GetInt("Path", 1) == 1)
+        if (PlayerPrefs.GetInt("GlobalPath", 1) == 1)
         {
             globalPlan.SetActive(true);
             rosSubscriber("/ARFUROS/Path", true); 
@@ -113,6 +115,28 @@ public class StatusManager : MonoBehaviour {
         {
             LocalizationParticles.SetActive(false);
             rosSubscriber("/ARFUROS/Localization", false); 
+        }
+
+        if (PlayerPrefs.GetInt("FullPath", 1) == 1)
+        {
+            FullPath.SetActive(true);
+            rosSubscriber("/ARFUROS/fullpath", true); 
+        }
+        else
+        {
+            FullPath.SetActive(false);
+            rosSubscriber("/ARFUROS/fullpath", false); 
+        }
+
+        if (PlayerPrefs.GetInt("Blinker", 1) == 1)
+        {
+            Blinker.SetActive(true);
+            rosSubscriber("/ARFUROS/Blinker", true); 
+        }
+        else
+        {
+            Blinker.SetActive(false);
+            rosSubscriber("/ARFUROS/Blinker", false); 
         }
     }
 
