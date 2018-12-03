@@ -666,7 +666,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1154941218}
         m_MethodName: updateBlinker
-        m_Mode: 6
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3742,7 +3742,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1154941218}
         m_MethodName: updateFullPath
-        m_Mode: 6
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -7861,7 +7861,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1154941218}
         m_MethodName: updateGlobalPath
-        m_Mode: 6
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

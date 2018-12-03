@@ -19,7 +19,7 @@ public class StatusManager : MonoBehaviour {
     public GameObject LocalizationParticles;
     public GameObject FullPath;
     public GameObject Blinker;
-    public int numTopics = 8;
+    private int numTopics = 8;
     private Subscriber[] scripts;
 
 	// Use this for initialization
@@ -119,23 +119,23 @@ public class StatusManager : MonoBehaviour {
 
         if (PlayerPrefs.GetInt("FullPath", 1) == 1)
         {
-            LocalizationParticles.SetActive(true);
+            FullPath.SetActive(true);
             rosSubscriber("/ARFUROS/FullPath", true); 
         }
         else
         {
-            LocalizationParticles.SetActive(false);
+            FullPath.SetActive(false);
             rosSubscriber("/ARFUROS/fullpath", false); 
         }
 
         if (PlayerPrefs.GetInt("Blinker", 1) == 1)
         {
-            LocalizationParticles.SetActive(true);
+            Blinker.SetActive(true);
             rosSubscriber("/ARFUROS/Blinker", true); 
         }
         else
         {
-            LocalizationParticles.SetActive(false);
+            Blinker.SetActive(false);
             rosSubscriber("/ARFUROS/Blinker", false); 
         }
     }
