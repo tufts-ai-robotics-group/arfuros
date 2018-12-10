@@ -53,7 +53,9 @@ namespace RosSharp.RosBridgeClient
             { "people_msgs/People", typeof(PeoplePeople) },
             { "people_msgs/PositionMeasurement", typeof(PeoplePositionMeasurement) },
             { "people_msgs/PositionMeasurementArray", typeof(PeoplePositionMeasurementArray) },
-            { "BlinkerMsg/BlinkerMsg", typeof(BlinkerMsg) }
+            { "BlinkerMsg/BlinkerMsg", typeof(BlinkerMsg) },
+            { "arfuros/Prompt", typeof(PromptMessage) },
+            { "arfuros/PromptFeedback", typeof(PromptFeedbackMessage) }
 
         };
         public static string RosMessageType(Type messageType)

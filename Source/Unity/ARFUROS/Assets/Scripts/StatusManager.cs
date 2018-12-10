@@ -19,7 +19,8 @@ public class StatusManager : MonoBehaviour {
     public GameObject LocalizationParticles;
     public GameObject FullPath;
     public GameObject Blinker;
-    private int numTopics = 8;
+    public int numTopics = 9;
+
     private Subscriber[] scripts;
 
 	// Use this for initialization

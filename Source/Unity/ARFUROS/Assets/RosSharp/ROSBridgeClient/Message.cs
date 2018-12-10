@@ -499,4 +499,41 @@ namespace RosSharp.RosBridgeClient
         }
     }
 
+    public class PromptMessage : Message
+    {
+        public StandardHeader header;
+        public int prompt_id;
+        public string type;
+        public string text;
+        public string[] options;
+        public double display_duration;
+
+        public PromptMessage()
+        {
+            header = new StandardHeader();
+            prompt_id = 0;
+            type = "";
+            text = "";
+            options = new string[0];
+            display_duration = 0.0;
+        }
+    }
+
+    public class PromptFeedbackMessage : Message
+    {
+        public StandardHeader header;
+        public int prompt_id;
+        public string selected_option;
+        public bool waiting;
+        public bool timeout;
+
+        public PromptFeedbackMessage()
+        {
+            header = new StandardHeader();
+            prompt_id = 0;
+            selected_option = "";
+            waiting = false;
+            timeout = false;
+        }
+    }
 }
