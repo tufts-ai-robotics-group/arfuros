@@ -6,7 +6,7 @@ namespace RosSharp.RosBridgeClient
     public class PromptReceiver : MessageReceiver
     {
         public override Type MessageType { get { return (typeof(PromptMessage)); } }
-        public PromptMessage message;
+        public PromptMessage message = new PromptMessage();
 
         private void Awake()
         {

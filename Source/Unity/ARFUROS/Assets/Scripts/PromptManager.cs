@@ -28,30 +28,46 @@ public class PromptManager : MonoBehaviour {
             newPrompt = false;
             onGoing = true;
 
-            buttonA.GetComponentInChildren<Text>().text = inMessage.options[0];
-            buttonB.GetComponentInChildren<Text>().text = inMessage.options[1];
+            if (inMessage.options.Length == 2)
+            {
+                buttonA.GetComponentInChildren<Text>().text = inMessage.options[0];
+                buttonB.GetComponentInChildren<Text>().text = inMessage.options[1];
+            }
+        }
+
+        if(inMessage.text == "")
+        {
+            done();
         }
 
         if (onGoing) { 
              if (startTime - Time.time > inMessage.display_duration)
              {
                 outMessage.timeout = true;
-                onGoing = false;
-                PromptCanvas.SetActive(false);
-            }
+                done();
+             }
         }
+        else
+        {
+            done();
+        }
+
 	}
 
     public void buttonACallback()
     {
         outMessage.selected_option = inMessage.options[0];
-        onGoing = false;
-        PromptCanvas.SetActive(false);
+        done();
     }
 
     public void buttonBCallback()
     {
         outMessage.selected_option = inMessage.options[1];
+        done();
+    }
+
+    void done()
+    {
         onGoing = false;
         PromptCanvas.SetActive(false);
     }

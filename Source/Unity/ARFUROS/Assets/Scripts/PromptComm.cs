@@ -8,7 +8,7 @@ public class PromptComm : MonoBehaviour {
     public PromptManager manager;
     public PromptReceiver input;
 
-    int last_id = -1;
+    int last_id = 0;
     bool waiting = false;
 
 	// Update is called once per frame
@@ -17,6 +17,7 @@ public class PromptComm : MonoBehaviour {
         {
             manager.newPrompt = true;
             manager.inMessage = input.message;
+            manager.startTime = Time.time;
             last_id = input.message.prompt_id;
             waiting = true;
         }
@@ -25,11 +26,12 @@ public class PromptComm : MonoBehaviour {
         {
             if (manager.onGoing)
             {
-                // Tell we are waiting
+                // Publish that we are waiting
             }
             else
             {
                 // Publish outMessage
+                waiting = false;
             }
         }
 
