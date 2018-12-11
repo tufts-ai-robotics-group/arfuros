@@ -50,7 +50,7 @@ public class PathProjector : MonoBehaviour {
         		if (i < message.numPoints)
         		{
             		particles[i].position = new Vector3(message.path[i].x, 
-            			message.path[i].y, 0f); // changed from message.path[i].z
+            			message.path[i].y, message.path[i].z);
 
             		particles[i].startColor = Color.yellow;
             		particles[i].startSize = 0.06f;
