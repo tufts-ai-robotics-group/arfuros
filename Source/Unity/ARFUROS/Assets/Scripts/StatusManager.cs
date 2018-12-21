@@ -19,7 +19,6 @@ public class StatusManager : MonoBehaviour {
     public GameObject LocalizationParticles;
     public GameObject FullPath;
     public GameObject Blinker;
-    public int numTopics = 9;
 
     private Subscriber[] scripts;
 
@@ -29,10 +28,8 @@ public class StatusManager : MonoBehaviour {
         rosConnection.RosBridgeServerUrl = "ws://" + PlayerPrefs.GetString("IP", "192.168.1.1") + ":9090";
 
         // Initialize array for rosconnections
-        scripts = new Subscriber[numTopics];
+        scripts = new Subscriber [0];
         scripts = connector.GetComponents<Subscriber>();
-
-
     }
 
     // Update is called once per frame
@@ -143,7 +140,7 @@ public class StatusManager : MonoBehaviour {
 
     void rosSubscriber(string topic, bool status)
     {
-          for (int i = 0; i < numTopics; i++)
+          for (int i = 0; i < scripts.Length; i++)
             {
                 if (scripts[i].Topic == topic)
                     scripts[i].enabled = status;
