@@ -269,9 +269,6 @@
     <Reference Include="websocket-sharp">
       <HintPath>Assets/RosSharp/Plugins/websocket-sharp.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.StandardEvents">
-      <HintPath>C:/Users/faiza/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
-    </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
     </Reference>
@@ -914,17 +911,21 @@
     <Compile Include="Assets\RosSharp\Scripts\UrdfComponents\JointUrdfDataManager.cs" />
     <Compile Include="Assets\RosSharp\Scripts\UrdfComponents\RigidbodyUrdfDataManager.cs" />
     <Compile Include="Assets\RosSharp\Scripts\UrdfComponents\UrdfPatcher.cs" />
+    <Compile Include="Assets\Scripts\BlinkerOffProjector.cs" />
+    <Compile Include="Assets\Scripts\BlinkerProjector.cs" />
     <Compile Include="Assets\Scripts\ButtonManager.cs" />
     <Compile Include="Assets\Scripts\ButtonScript.cs" />
     <Compile Include="Assets\Scripts\clearbtn.cs" />
     <Compile Include="Assets\Scripts\CostmapProjector.cs" />
     <Compile Include="Assets\Scripts\CursorProjector.cs" />
+    <Compile Include="Assets\Scripts\CustomRosSharp\BlinkerReceiver.cs" />
     <Compile Include="Assets\Scripts\CustomRosSharp\LaserScanReceiver.cs" />
     <Compile Include="Assets\Scripts\CustomRosSharp\OccupancyGridReceiver.cs" />
     <Compile Include="Assets\Scripts\CustomRosSharp\PathReceiver.cs" />
     <Compile Include="Assets\Scripts\CustomRosSharp\PeopleReceiver.cs" />
     <Compile Include="Assets\Scripts\CustomRosSharp\PoseArrayReceiver.cs" />
     <Compile Include="Assets\Scripts\CustomRosSharp\PoseWithCovarianceStampedReceiver.cs" />
+    <Compile Include="Assets\Scripts\CustomRosSharp\PromptReceiver.cs" />
     <Compile Include="Assets\Scripts\deletebtn.cs" />
     <Compile Include="Assets\Scripts\ExtrapolationManager.cs" />
     <Compile Include="Assets\Scripts\FaceCamera.cs" />
@@ -934,6 +935,8 @@
     <Compile Include="Assets\Scripts\LocalParticleRotation.cs" />
     <Compile Include="Assets\Scripts\PathProjector.cs" />
     <Compile Include="Assets\Scripts\PeopleProjector.cs" />
+    <Compile Include="Assets\Scripts\PromptComm.cs" />
+    <Compile Include="Assets\Scripts\PromptManager.cs" />
     <Compile Include="Assets\Scripts\scroll.cs" />
     <Compile Include="Assets\Scripts\SettingsManager.cs" />
     <Compile Include="Assets\Scripts\StatusManager.cs" />
