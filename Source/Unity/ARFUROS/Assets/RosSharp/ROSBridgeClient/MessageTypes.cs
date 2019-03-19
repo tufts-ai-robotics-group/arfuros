@@ -44,6 +44,7 @@ namespace RosSharp.RosBridgeClient
             { "std_msgs/Time", typeof(StandardTime)    },
             { "nav_msgs/MapMetaData", typeof(NavigationMapMetaData) },
             { "nav_msgs/OccupancyGrid", typeof(NavigationOccupancyGrid) },
+            { "geometry_msgs/PoseWithCovarianceStamped",typeof(GeometryPoseWithCovarianceStamped) },
 
 // ADDED FOR PROJECT ARFUROS
             { "sensor_msgs/LaserScan", typeof(SensorLaserScan) },

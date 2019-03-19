@@ -11,8 +11,8 @@ public class PromptManager : MonoBehaviour {
     public Button buttonB;
     public GameObject PromptCanvas;
 
-    public PromptMessage inMessage;
-    public PromptFeedbackMessage outMessage;
+    public PromptMessage inMessage = new PromptMessage();
+    public PromptFeedbackMessage outMessage = new PromptFeedbackMessage();
 
     public bool newPrompt = false;
     public bool onGoing = false;
