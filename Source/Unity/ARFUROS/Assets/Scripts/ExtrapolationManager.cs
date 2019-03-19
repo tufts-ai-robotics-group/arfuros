@@ -17,6 +17,9 @@ public class ExtrapolationManager : MonoBehaviour {
 
     private Vector3 latestWorldPos;
     private Quaternion latestWorldOri;
+
+    private Vector3 lastAddedWorldPos;
+
     // Use this for initialization
     void Start () {
         defaultPos = ExtrapolationTarget.transform.localPosition;
@@ -34,15 +37,19 @@ public class ExtrapolationManager : MonoBehaviour {
 
             lastTrackedWorldPos = latestWorldPos;
             lastTrackedWorldOri = latestWorldOri;
+
+            lastAddedWorldPos = lastTrackedWorldPos;
         }
 
         if(TrackerCube.isExtended)
         {
             ExtrapolationTarget.transform.localRotation = Quaternion.Euler (defaultOri.eulerAngles + (lastTrackedWorldOri.eulerAngles - latestWorldOri.eulerAngles));
 
-            float distance_travelled = (lastTrackedWorldPos - latestWorldPos).magnitude;
+            float distance_travelled = (lastAddedWorldPos - latestWorldPos).magnitude;
             Vector3 local_forward = ExtrapolationTarget.transform.InverseTransformVector(ExtrapolationTarget.transform.forward);
-            ExtrapolationTarget.transform.localPosition = defaultPos + (distance_travelled * local_forward);
+            ExtrapolationTarget.transform.Translate(distance_travelled * local_forward);
+
+            lastAddedWorldPos = latestWorldPos;
 
             //print("Extrapolating:");
             //print(ExtrapolationTarget.transform.localPosition);
