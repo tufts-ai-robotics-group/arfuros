@@ -9,7 +9,6 @@ using Vuforia;
 public class StatusManager : MonoBehaviour {
 
     public Text statusText;
-    public HyperCubeTrackableEventHandler TrackerCube;
     public RosConnector rosConnection;
     public GameObject laserScan;
     public GameObject globalPlan;

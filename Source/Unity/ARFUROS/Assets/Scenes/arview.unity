@@ -113,6 +113,34 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &225196399
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 225196400}
+  m_Layer: 0
+  m_Name: Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &225196400
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 225196399}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 575.368, y: 114.450485, z: -2.4644012}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &275013253
 GameObject:
   m_ObjectHideFlags: 0
@@ -141,16 +169,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   statusText: {fileID: 447112253}
-  TrackerCube: {fileID: 0}
   rosConnection: {fileID: 2118604846}
   laserScan: {fileID: 1772087335}
   globalPlan: {fileID: 1319069742}
-  people: {fileID: 1224656863}
+  people: {fileID: 225196399}
   connector: {fileID: 2118604845}
   Costmap: {fileID: 1538418493}
   LocalizationParticles: {fileID: 659562212}
-  FullPath: {fileID: 1699513259}
-  Blinker: {fileID: 447112251}
+  FullPath: {fileID: 225196399}
+  Blinker: {fileID: 225196399}
 --- !u!4 &275013255
 Transform:
   m_ObjectHideFlags: 0
@@ -266,10 +293,8 @@ Transform:
   m_Children:
   - {fileID: 1772087336}
   - {fileID: 1319069743}
-  - {fileID: 1699513260}
   - {fileID: 1538418494}
   - {fileID: 659562213}
-  - {fileID: 1224656864}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -289,7 +314,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &659562213
 Transform:
   m_ObjectHideFlags: 0
@@ -301,7 +326,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 559735207}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &659562214
 MonoBehaviour:
@@ -590,62 +615,6 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1221838451}
   m_CullTransparentMesh: 0
---- !u!1 &1224656863
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1224656864}
-  - component: {fileID: 1224656865}
-  - component: {fileID: 1224656866}
-  m_Layer: 0
-  m_Name: People
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1224656864
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1224656863}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 559735207}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1224656865
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1224656863}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4451b7727c6b0184ba82905aef080eb2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  people: []
---- !u!114 &1224656866
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1224656863}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41a723ad852956a4c9b9f9fde3325213, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Topic: /ARFUROS/LatencyTest/People
-  MessageProvider: {fileID: 1224656865}
-  rosConnector: {fileID: 2118604846}
 --- !u!1 &1273686783
 GameObject:
   m_ObjectHideFlags: 0
@@ -739,7 +708,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1319069743
 Transform:
   m_ObjectHideFlags: 0
@@ -979,7 +948,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1538418494
 Transform:
   m_ObjectHideFlags: 0
@@ -991,7 +960,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 559735207}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1538418495
 MonoBehaviour:
@@ -1218,63 +1187,6 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1652495727}
   m_CullTransparentMesh: 0
---- !u!1 &1699513259
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1699513260}
-  - component: {fileID: 1699513261}
-  - component: {fileID: 1699513262}
-  m_Layer: 0
-  m_Name: Global Path
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1699513260
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1699513259}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 559735207}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1699513261
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1699513259}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b43d26c13f9ece54d9ccf70b8430b113, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numPoints: 0
-  path: []
---- !u!114 &1699513262
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1699513259}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d42e242c54f7ed4caae0c28dc2dbc1b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Topic: /ARFUROS/LatencyTest/FullPath
-  MessageProvider: {fileID: 1699513261}
-  rosConnector: {fileID: 2118604846}
 --- !u!1 &1772087335
 GameObject:
   m_ObjectHideFlags: 0
@@ -1291,7 +1203,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1772087336
 Transform:
   m_ObjectHideFlags: 0
@@ -1382,7 +1294,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2118604848
 MonoBehaviour:
@@ -1425,7 +1337,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Topic: /people_tracker_measurements
   TimeStep: 0
-  MessageReceiver: {fileID: 1224656865}
+  MessageReceiver: {fileID: 0}
 --- !u!114 &2118604851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1467,4 +1379,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Topic: /ARFUROS/fullpath
   TimeStep: 0
-  MessageReceiver: {fileID: 1699513261}
+  MessageReceiver: {fileID: 0}
