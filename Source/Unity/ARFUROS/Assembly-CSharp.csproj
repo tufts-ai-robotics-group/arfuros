@@ -61,6 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\PeopleRepublisher.cs" />
     <Compile Include="Assets\RosSharp\ROSBridgeClient\JObjectExtensions.cs" />
     <Compile Include="Assets\RosSharp\ROSBridgeClient\Message.cs" />
     <Compile Include="Assets\RosSharp\ROSBridgeClient\MessageTypes.cs" />
@@ -115,10 +116,14 @@
     <Compile Include="Assets\Scripts\ExtrapolationManager.cs" />
     <Compile Include="Assets\Scripts\HyperCubeTrackableEventHandler.cs" />
     <Compile Include="Assets\Scripts\LaserScanProjector.cs" />
+    <Compile Include="Assets\Scripts\LaserScanPublisher.cs" />
     <Compile Include="Assets\Scripts\LocalizationProjector.cs" />
     <Compile Include="Assets\Scripts\LocalParticleRotation.cs" />
+    <Compile Include="Assets\Scripts\OccupancyGridPublisher.cs" />
     <Compile Include="Assets\Scripts\PathProjector.cs" />
+    <Compile Include="Assets\Scripts\PathRepublisher.cs" />
     <Compile Include="Assets\Scripts\PeopleProjector.cs" />
+    <Compile Include="Assets\Scripts\PoseArrayRepublisher.cs" />
     <Compile Include="Assets\Scripts\PrompterScript.cs" />
     <Compile Include="Assets\Scripts\scroll.cs" />
     <Compile Include="Assets\Scripts\SettingsManager.cs" />

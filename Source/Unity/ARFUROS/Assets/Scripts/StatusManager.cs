@@ -23,7 +23,7 @@ public class StatusManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Awake () {
-        statusText.text = "Initializing...";
+        statusText.text = "Republishing";
         rosConnection.RosBridgeServerUrl = "ws://" + PlayerPrefs.GetString("IP", "192.168.1.1") + ":9090";
 
         // Initialize array for rosconnections
@@ -35,28 +35,12 @@ public class StatusManager : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-        checkTracker();
-        //controlExtendedTracking();
         implementPreferences();
 	}
 
     void displayStatus (string message)
     {
         statusText.text = message;
-    }
-
-    void checkTracker()
-    {
-        if (TrackerCube.isTracked) {
-            if (TrackerCube.isExtended)
-                displayStatus("HyperCube Lost, Extrapolating...");
-            else
-                displayStatus("HyperCube Detected");
-        }
-        else
-        {
-            displayStatus("HyperCube Not Found");
-        }
     }
 
     void implementPreferences()

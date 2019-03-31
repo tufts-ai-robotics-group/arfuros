@@ -6,7 +6,7 @@ namespace RosSharp.RosBridgeClient
     public class OccupancyGridReceiver : MessageReceiver
     {
         public override Type MessageType { get { return (typeof(NavigationOccupancyGrid)); } }
-        private NavigationOccupancyGrid rawMessage;
+        public NavigationOccupancyGrid rawMessage;
         
         public Vector3 origin;
         public Quaternion origin_orientation;

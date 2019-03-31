@@ -6,7 +6,7 @@ namespace RosSharp.RosBridgeClient
     public class PeopleReceiver : MessageReceiver
     {
         public override Type MessageType { get { return (typeof(PeoplePositionMeasurementArray)); } }
-        private PeoplePositionMeasurementArray rawMessage;
+        public PeoplePositionMeasurementArray rawMessage;
         public Vector3[] people;
 
 

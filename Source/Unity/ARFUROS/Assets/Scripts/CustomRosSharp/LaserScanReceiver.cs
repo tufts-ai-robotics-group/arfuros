@@ -6,7 +6,7 @@ namespace RosSharp.RosBridgeClient
     public class LaserScanReceiver : MessageReceiver
     {
         public override Type MessageType { get { return (typeof(SensorLaserScan)); } }
-        private SensorLaserScan rawMessage;
+        public SensorLaserScan rawMessage;
         
         public float angle_min;
         public float angle_max;

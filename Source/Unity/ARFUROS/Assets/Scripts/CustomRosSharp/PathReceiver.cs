@@ -6,7 +6,7 @@ namespace RosSharp.RosBridgeClient
     public class PathReceiver : MessageReceiver
     {
         public override Type MessageType { get { return (typeof(NavigationPath)); } }
-        private NavigationPath rawMessage;
+        public NavigationPath rawMessage;
         public int numPoints;
         public Vector3[] path;
 

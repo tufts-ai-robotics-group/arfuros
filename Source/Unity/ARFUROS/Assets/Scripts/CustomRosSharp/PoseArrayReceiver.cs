@@ -6,7 +6,7 @@ namespace RosSharp.RosBridgeClient
     public class PoseArrayReceiver : MessageReceiver
     {
         public override Type MessageType { get { return (typeof(GeometryPoseArray)); } }
-        private GeometryPoseArray rawMessage;
+        public GeometryPoseArray rawMessage;
         public Vector3[] poses;
         public Vector3[] orientations;
 
