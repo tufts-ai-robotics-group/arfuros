@@ -352,7 +352,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74ce33c41d8c7d545b42960fc46ea71a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Topic: /ARFUROS/LatencyTest/Localization
+  Topic: /localization_from
   MessageProvider: {fileID: 659562214}
   rosConnector: {fileID: 2118604846}
 --- !u!1 &865629976
@@ -746,7 +746,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d42e242c54f7ed4caae0c28dc2dbc1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Topic: /ARFUROS/LatencyTest/Path
+  Topic: /path_from
   MessageProvider: {fileID: 1319069744}
   rosConnector: {fileID: 2118604846}
 --- !u!1 &1505171165
@@ -991,7 +991,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7a2e4362c8496d4fb0142b5cb03dd71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Topic: /ARFUROS/LatencyTest/Costmap
+  Topic: /costmap_from
   MessageProvider: {fileID: 1538418495}
   rosConnector: {fileID: 2118604846}
 --- !u!1 &1556702557
@@ -1246,7 +1246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96f17d20b3d76dc43b24cd4c6c138239, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Topic: /ARFUROS/LatencyTest/LaserScan
+  Topic: /laser_from
   MessageProvider: {fileID: 1772087337}
   rosConnector: {fileID: 2118604846}
 --- !u!1 &2118604845
@@ -1260,10 +1260,8 @@ GameObject:
   - component: {fileID: 2118604846}
   - component: {fileID: 2118604848}
   - component: {fileID: 2118604849}
-  - component: {fileID: 2118604850}
   - component: {fileID: 2118604852}
   - component: {fileID: 2118604851}
-  - component: {fileID: 2118604854}
   m_Layer: 0
   m_Name: ROSConnection
   m_TagString: Untagged
@@ -1307,7 +1305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 599399f87ee56d541ac06a68cbe1fc1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Topic: /ARFUROS/LaserScan
+  Topic: /laser_to
   TimeStep: 0
   MessageReceiver: {fileID: 1772087337}
 --- !u!114 &2118604849
@@ -1321,23 +1319,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 599399f87ee56d541ac06a68cbe1fc1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Topic: /ARFUROS/Path
+  Topic: /path_to
   TimeStep: 0
   MessageReceiver: {fileID: 1319069744}
---- !u!114 &2118604850
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2118604845}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 599399f87ee56d541ac06a68cbe1fc1f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Topic: /people_tracker_measurements
-  TimeStep: 0
-  MessageReceiver: {fileID: 0}
 --- !u!114 &2118604851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1349,7 +1333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 599399f87ee56d541ac06a68cbe1fc1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Topic: /ARFUROS/Costmap
+  Topic: /costmap_to
   TimeStep: 0
   MessageReceiver: {fileID: 1538418495}
 --- !u!114 &2118604852
@@ -1363,20 +1347,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 599399f87ee56d541ac06a68cbe1fc1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Topic: /ARFUROS/Localization
+  Topic: /localization_to
   TimeStep: 0
   MessageReceiver: {fileID: 659562214}
---- !u!114 &2118604854
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2118604845}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 599399f87ee56d541ac06a68cbe1fc1f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Topic: /ARFUROS/fullpath
-  TimeStep: 0
-  MessageReceiver: {fileID: 0}

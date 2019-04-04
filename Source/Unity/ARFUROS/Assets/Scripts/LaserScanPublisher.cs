@@ -23,7 +23,9 @@ namespace RosSharp.RosBridgeClient
         private void Update()
         {
             if (MessageProvider.rawMessage.header.seq > last_id) {
+                last_id = MessageProvider.rawMessage.header.seq;
                 rosSocket.Publish(publicationId, MessageProvider.rawMessage);
+
             }
         }
 
