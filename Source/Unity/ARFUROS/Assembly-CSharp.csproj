@@ -61,6 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\BlinkerController.cs" />
     <Compile Include="Assets\RosSharp\ROSBridgeClient\JObjectExtensions.cs" />
     <Compile Include="Assets\RosSharp\ROSBridgeClient\Message.cs" />
     <Compile Include="Assets\RosSharp\ROSBridgeClient\MessageTypes.cs" />
@@ -116,6 +117,7 @@
     <Compile Include="Assets\Scripts\CustomRosSharp\PoseArrayReceiver.cs" />
     <Compile Include="Assets\Scripts\CustomRosSharp\PoseWithCovarianceStampedReceiver.cs" />
     <Compile Include="Assets\Scripts\CustomRosSharp\PromptReceiver.cs" />
+    <Compile Include="Assets\Scripts\CustomRosSharp\StringReceiver.cs" />
     <Compile Include="Assets\Scripts\deletebtn.cs" />
     <Compile Include="Assets\Scripts\ExtrapolationManager.cs" />
     <Compile Include="Assets\Scripts\FaceCamera.cs" />
@@ -131,6 +133,7 @@
     <Compile Include="Assets\Scripts\SettingsManager.cs" />
     <Compile Include="Assets\Scripts\StatusManager.cs" />
     <Compile Include="Assets\Scripts\TrailScript.cs" />
+    <Compile Include="Assets\SpriteBlinker.cs" />
     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml" />
     <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />

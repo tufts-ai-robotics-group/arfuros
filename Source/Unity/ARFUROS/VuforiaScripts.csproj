@@ -327,6 +327,9 @@
     <Reference Include="GitHub.Unity">
       <HintPath>C:/WorkSpace/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll</HintPath>
     </Reference>
+    <Reference Include="GitHub.UnityShim">
+      <HintPath>C:/WorkSpace/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
+    </Reference>
     <Reference Include="ICSharpCode.SharpZipLib">
       <HintPath>C:/WorkSpace/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
@@ -368,9 +371,6 @@
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
-    </Reference>
-    <Reference Include="GitHub.UnityShim">
-      <HintPath>C:/WorkSpace/AIRLab/Tufts Summer Scholars 2018/arfuros/Source/Unity/ARFUROS/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/2.0-api/mscorlib.dll</HintPath>
