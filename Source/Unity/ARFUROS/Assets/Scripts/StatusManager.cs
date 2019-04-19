@@ -118,7 +118,7 @@ public class StatusManager : MonoBehaviour {
         if (PlayerPrefs.GetInt("FullPath", 1) == 1)
         {
             FullPath.SetActive(true);
-            rosSubscriber("/ARFUROS/FullPath", true); 
+            rosSubscriber("/ARFUROS/fullpath", true); 
         }
         else
         {
@@ -129,12 +129,12 @@ public class StatusManager : MonoBehaviour {
         if (PlayerPrefs.GetInt("Blinker", 1) == 1)
         {
             Blinker.SetActive(true);
-            rosSubscriber("/ARFUROS/Blinker", true); 
+            rosSubscriber("/turn_signal", true); 
         }
         else
         {
             Blinker.SetActive(false);
-            rosSubscriber("/ARFUROS/Blinker", false); 
+            rosSubscriber("/turn_signal", false); 
         }
     }
 
