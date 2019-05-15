@@ -130,12 +130,12 @@ public class StatusManager : MonoBehaviour {
         if (PlayerPrefs.GetInt("Blinker", 1) == 1)
         {
             Blinker.SetActive(true);
-            rosSubscriber("/ARFUROS/Blinker", true); 
+            rosSubscriber("/turn_signal", true); 
         }
         else
         {
             Blinker.SetActive(false);
-            rosSubscriber("/ARFUROS/Blinker", false); 
+            rosSubscriber("/turn_signal", false); 
         }
     }
 

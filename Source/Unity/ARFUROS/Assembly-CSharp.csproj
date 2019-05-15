@@ -101,6 +101,7 @@
     <Compile Include="Assets\RosSharp\Scripts\UrdfComponents\JointUrdfDataManager.cs" />
     <Compile Include="Assets\RosSharp\Scripts\UrdfComponents\RigidbodyUrdfDataManager.cs" />
     <Compile Include="Assets\RosSharp\Scripts\UrdfComponents\UrdfPatcher.cs" />
+    <Compile Include="Assets\Scripts\BlinkerController.cs" />
     <Compile Include="Assets\Scripts\BlinkerOffProjector.cs" />
     <Compile Include="Assets\Scripts\BlinkerProjector.cs" />
     <Compile Include="Assets\Scripts\ButtonManager.cs" />
@@ -112,6 +113,7 @@
     <Compile Include="Assets\Scripts\CustomRosSharp\PeopleReceiver.cs" />
     <Compile Include="Assets\Scripts\CustomRosSharp\PoseArrayReceiver.cs" />
     <Compile Include="Assets\Scripts\CustomRosSharp\PoseWithCovarianceStampedReceiver.cs" />
+    <Compile Include="Assets\Scripts\CustomRosSharp\StringReceiver.cs" />
     <Compile Include="Assets\Scripts\ExtrapolationManager.cs" />
     <Compile Include="Assets\Scripts\HyperCubeTrackableEventHandler.cs" />
     <Compile Include="Assets\Scripts\LaserScanProjector.cs" />
@@ -122,6 +124,7 @@
     <Compile Include="Assets\Scripts\PrompterScript.cs" />
     <Compile Include="Assets\Scripts\scroll.cs" />
     <Compile Include="Assets\Scripts\SettingsManager.cs" />
+    <Compile Include="Assets\Scripts\SpriteBlinker.cs" />
     <Compile Include="Assets\Scripts\StatusManager.cs" />
     <Compile Include="Assets\Scripts\TrailScript.cs" />
     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
