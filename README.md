@@ -12,8 +12,12 @@ Currently, all the code is customized to work with Turtlebot robots and there ar
 This repository contains code that can be compiled for the user devices. [This](https://github.com/faizan-m/arfuros_ros) repository contains the package that needs to be installed on the robot. 
 
 ## How to Run
-Once you have the ROS code downloaded on the robot and the Unity app downloaded on another device, check to make sure both devices are on the same WiFi network. They rely on the WiFi to talk to each other, so it's important that you have a stable connection. Start running roscore on your robot and launch the ARFUROS program. Check for the IP address on the robot and type it into the appropriate text field on the menu screen. (On our lab's Ubuntu computers, you can find the IP address by typing "ifconfig" into the command line and look for the "inet addr"). Check or uncheck any information that you want to have visualized and press "Apply." The ARView scene will then load. As you walk around the robot, you can see the information projected in AR as the robot moves through its environment.
+Once you have the ROS code downloaded on the robot and the Unity app downloaded on another device, check to make sure both devices are on the same WiFi network. They rely on the WiFi to talk to each other, so it's important that you have a stable connection. If you are in the AIR Lab, be mindful of which WiFi; Tufts Guest will often block the connection. We have had the most success with Tufts Wireless. 
 
-**QUESTION what are the launch commands??** 
+Start running roscore on your robot and launch the ARFUROS program. 
+The command for robots with lidar is: roslaunch arfuros tbot2_lidar.launch 
+Otherwise: roslaunch arfuros tbot2.launch 
+
+Check for the IP address on the robot and type it into the appropriate text field on the menu screen. (On our lab's Ubuntu computers, you can find the IP address by typing "ifconfig" into the command line and look for the "inet addr"). Check or uncheck any information that you want to have visualized and press "Apply." The ARView scene will then load. As you walk around the robot, you can see the information projected in AR as the robot moves through its environment! 
 
 
