@@ -13,30 +13,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-06-26T15:57:27.397-04:00
+  lastUpdatedAtString: 2019-06-26T16:08:51.463-04:00
   initializedAtString: 2019-06-26T15:43:08.683-04:00
   entries:
-  - path: Source/Unity/ARFUROS/Assets/Resources/VuforiaConfiguration.asset
-    fullPath: /Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/Assets/Resources/VuforiaConfiguration.asset
-    projectPath: Assets/Resources/VuforiaConfiguration.asset
+  - path: Source/Unity/ARFUROS/.vs/ARFUROS/xs/UserPrefs.xml
+    fullPath: /Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/.vs/ARFUROS/xs/UserPrefs.xml
+    projectPath: .vs/ARFUROS/xs/UserPrefs.xml
     originalPath: 
     status: 3
     staged: 0
-  - path: Source/Unity/ARFUROS/Assets/Scenes/LoadMenu.unity
-    fullPath: /Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/Assets/Scenes/LoadMenu.unity
-    projectPath: Assets/Scenes/LoadMenu.unity
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Source/Unity/ARFUROS/Assets/Scenes/SaveMenu.unity
-    fullPath: /Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/Assets/Scenes/SaveMenu.unity
-    projectPath: Assets/Scenes/SaveMenu.unity
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Source/Unity/ARFUROS/Assets/Scripts/ButtonManager.cs
-    fullPath: /Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/Assets/Scripts/ButtonManager.cs
-    projectPath: Assets/Scripts/ButtonManager.cs
+  - path: Source/Unity/ARFUROS/Assets/Scripts/PathProjector.cs
+    fullPath: /Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/Assets/Scripts/PathProjector.cs
+    projectPath: Assets/Scripts/PathProjector.cs
     originalPath: 
     status: 3
     staged: 0
@@ -76,15 +64,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Source/Unity/ARFUROS/Library/metadata/19/1924dc0482bd07946aac3c9244e390c8
-    fullPath: /Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/Library/metadata/19/1924dc0482bd07946aac3c9244e390c8
-    projectPath: Library/metadata/19/1924dc0482bd07946aac3c9244e390c8
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Source/Unity/ARFUROS/Library/SceneVisibilityState.asset
-    fullPath: /Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/Library/SceneVisibilityState.asset
-    projectPath: Library/SceneVisibilityState.asset
+  - path: Source/Unity/ARFUROS/Library/metadata/78/78e96d70e544e4496803008019a92f50
+    fullPath: /Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/Library/metadata/78/78e96d70e544e4496803008019a92f50
+    projectPath: Library/metadata/78/78e96d70e544e4496803008019a92f50
     originalPath: 
     status: 3
     staged: 0
@@ -100,75 +82,33 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Source/Unity/ARFUROS/Library/ShaderCache/EditorEncounteredVariants
-    fullPath: /Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/Library/ShaderCache/EditorEncounteredVariants
-    projectPath: Library/ShaderCache/EditorEncounteredVariants
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Source/Unity/ARFUROS/Library/shadercompiler-UnityShaderCompiler1.log
-    fullPath: /Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/Library/shadercompiler-UnityShaderCompiler1.log
-    projectPath: Library/shadercompiler-UnityShaderCompiler1.log
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Source/Unity/ARFUROS/Library/shadercompiler-UnityShaderCompiler2.log
-    fullPath: /Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/Library/shadercompiler-UnityShaderCompiler2.log
-    projectPath: Library/shadercompiler-UnityShaderCompiler2.log
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Source/Unity/ARFUROS/Library/StateCache/Hierarchy/373464-mainStage.json
     fullPath: /Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/Library/StateCache/Hierarchy/373464-mainStage.json
     projectPath: Library/StateCache/Hierarchy/373464-mainStage.json
     originalPath: 
     status: 3
     staged: 0
-  - path: Source/Unity/ARFUROS/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
-    fullPath: /Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
-    projectPath: obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+  - path: Source/Unity/ARFUROS/ProjectSettings/ProjectSettings.asset
+    fullPath: /Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/ProjectSettings/ProjectSettings.asset
+    projectPath: ProjectSettings/ProjectSettings.asset
     originalPath: 
     status: 3
     staged: 0
-  - path: Source/Unity/ARFUROS/ProjectSettings/QualitySettings.asset
-    fullPath: /Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/ProjectSettings/QualitySettings.asset
-    projectPath: ProjectSettings/QualitySettings.asset
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Source/Unity/ARFUROS/ProjectSettings/UnityConnectSettings.asset
-    fullPath: /Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/ProjectSettings/UnityConnectSettings.asset
-    projectPath: ProjectSettings/UnityConnectSettings.asset
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Source/Unity/ARFUROS/QCAR/somedata16
-    fullPath: /Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/QCAR/somedata16
-    projectPath: QCAR/somedata16
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Source/Unity/ARFUROS/Temp/__Backupscenes/2.backup
-    fullPath: /Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/Temp/__Backupscenes/2.backup
-    projectPath: Temp/__Backupscenes/2.backup
+  - path: Source/Unity/ARFUROS/Temp/__Backupscenes/1.backup
+    fullPath: /Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/Temp/__Backupscenes/1.backup
+    projectPath: Temp/__Backupscenes/1.backup
     originalPath: 
     status: 1
     staged: 0
-  - path: Source/Unity/ARFUROS/Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert
-    fullPath: /Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert
-    projectPath: Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-32a6c94d9f81446f39530e9de093e452
+    fullPath: /Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-32a6c94d9f81446f39530e9de093e452
+    projectPath: Temp/UnityTempFile-32a6c94d9f81446f39530e9de093e452
     originalPath: 
     status: 1
     staged: 0
-  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-99e43f8febc9745d88f7fbb146d7e7cf
-    fullPath: /Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-99e43f8febc9745d88f7fbb146d7e7cf
-    projectPath: Temp/UnityTempFile-99e43f8febc9745d88f7fbb146d7e7cf
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-ce2ac748f56ab4367a42e829077ce4c2
-    fullPath: /Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-ce2ac748f56ab4367a42e829077ce4c2
-    projectPath: Temp/UnityTempFile-ce2ac748f56ab4367a42e829077ce4c2
+  - path: Source/Unity/ARFUROS/Temp/UnityTempFile-fe4acb31c29cb4bcab4dd46f4f37be0e
+    fullPath: /Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/Temp/UnityTempFile-fe4acb31c29cb4bcab4dd46f4f37be0e
+    projectPath: Temp/UnityTempFile-fe4acb31c29cb4bcab4dd46f4f37be0e
     originalPath: 
     status: 1
     staged: 0

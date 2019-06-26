@@ -13,11 +13,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-06-26T15:44:00.278-04:00
+  lastUpdatedAtString: 2019-06-26T15:58:27.929-04:00
   initializedAtString: 2019-06-26T15:44:00.193-04:00
   localBranches:
-  - name: SaveConfig
-    tracking: 
   - name: SaveConfigPartTwo
     tracking: origin/SaveConfigPartTwo
   - name: master
@@ -43,15 +41,9 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
-    - SaveConfig
     - SaveConfigPartTwo
     - master
     values:
-    - name: SaveConfig
-      remote:
-        name: 
-        url: 
-      trackingBranch: 
     - name: SaveConfigPartTwo
       remote:
         name: origin
