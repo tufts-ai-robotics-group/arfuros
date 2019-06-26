@@ -1573,6 +1573,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fde77c3254b3f4e49971740a1d2e66cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  FileName: {fileID: 1996014055}
+  NewConfig: {fileID: 751875386}
+  LoadConfig: {fileID: 932899548}
+  popupWindow: {fileID: 187068900}
 --- !u!4 &1717573127
 Transform:
   m_ObjectHideFlags: 0

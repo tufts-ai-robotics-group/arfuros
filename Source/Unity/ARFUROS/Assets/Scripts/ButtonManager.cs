@@ -12,6 +12,6 @@ public class ButtonManager : MonoBehaviour {
 
     public void onQuit()
     {
-        Application.Quit();
+        SceneManager.LoadScene("SaveMenu");
     }
 }
