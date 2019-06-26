@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 61
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -12,6 +13,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2019-06-13T15:21:53.083-04:00
-  initializedAtString: 2019-06-13T15:21:53.083-04:00
+  lastUpdatedAtString: 2019-06-26T15:00:17.126-04:00
+  initializedAtString: 2019-06-26T15:00:17.126-04:00
   entries: []
