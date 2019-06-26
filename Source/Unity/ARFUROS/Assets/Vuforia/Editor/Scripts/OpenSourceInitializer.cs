@@ -62,6 +62,11 @@ public static class OpenSourceInitializer
 
     class DefaultBehaviourAttacher : IDefaultBehaviourAttacher
     {
+        public void AddDefaultModelRecoEventHandler(GameObject go)
+        {
+
+        }
+
         public void AddDefaultTrackableBehaviour(GameObject go)
         {
             go.AddComponent<DefaultTrackableEventHandler>();
@@ -75,8 +80,8 @@ public static class OpenSourceInitializer
         public void AddDefaultModelRecoEventHandler(GameObject modelReco, ModelTargetBehaviour modelTargetTemplate)
         {
             var mreh = modelReco.AddComponent<DefaultModelRecoEventHandler>();
-            mreh.ShowBoundingBox = true;
-            mreh.ModelTargetTemplate = modelTargetTemplate;
+           // mreh.ShowBoundingBox = true;
+           // mreh.ModelTargetTemplate = modelTargetTemplate;
         }
     }
 }
