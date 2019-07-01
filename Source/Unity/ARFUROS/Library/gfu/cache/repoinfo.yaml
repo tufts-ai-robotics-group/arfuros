@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-06-26T15:43:07.434-04:00
-  initializedAtString: 2019-06-26T15:43:07.434-04:00
+  lastUpdatedAtString: 2019-07-01T15:31:42.681-04:00
+  initializedAtString: 2019-07-01T15:31:42.681-04:00
   currentGitRemote:
     name: origin
     url: https://github.com/faizan-m/arfuros.git
@@ -24,10 +24,10 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: SaveConfigPartTwo
-    tracking: origin/SaveConfigPartTwo
+    name: Unity2019
+    tracking: origin/Unity2019
   currentConfigBranch:
-    name: SaveConfigPartTwo
+    name: Unity2019
     remote:
       name: origin
       url: https://github.com/faizan-m/arfuros.git

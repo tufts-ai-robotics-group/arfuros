@@ -377,9 +377,6 @@
     <Reference Include="Vuforia.UnityExtensions">
       <HintPath>/Applications/Unity/Hub/Editor/2019.1.1f1/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
     </Reference>
-    <Reference Include="System.Threading">
-      <HintPath>/Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/Assets/RosSharp/Plugins/System.Threading.dll</HintPath>
-    </Reference>
     <Reference Include="websocket-sharp">
       <HintPath>/Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/Assets/RosSharp/Plugins/websocket-sharp.dll</HintPath>
     </Reference>
@@ -388,6 +385,9 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>/Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/Assets/RosSharp/Plugins/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading3">
+      <HintPath>/Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/Assets/RosSharp/Plugins/System.Threading3.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>/Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>

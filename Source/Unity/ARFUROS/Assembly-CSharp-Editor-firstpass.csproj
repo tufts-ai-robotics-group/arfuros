@@ -324,9 +324,6 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="System.Threading">
-      <HintPath>/Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/Assets/RosSharp/Plugins/System.Threading.dll</HintPath>
-    </Reference>
     <Reference Include="websocket-sharp">
       <HintPath>/Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/Assets/RosSharp/Plugins/websocket-sharp.dll</HintPath>
     </Reference>
@@ -335,6 +332,9 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>/Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/Assets/RosSharp/Plugins/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading3">
+      <HintPath>/Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/Assets/RosSharp/Plugins/System.Threading3.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.Logging">
       <HintPath>/Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
