@@ -13,87 +13,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-06-26T15:58:27.929-04:00
-  initializedAtString: 2019-06-26T15:44:00.193-04:00
-  localBranches:
-  - name: SaveConfigPartTwo
-    tracking: origin/SaveConfigPartTwo
-  - name: master
-    tracking: origin/master
-  remoteBranches:
-  - name: origin/Hololens
-    tracking: '[None]'
-  - name: origin/SaveConfigPartTwo
-    tracking: '[None]'
-  - name: origin/latency_test
-    tracking: '[None]'
-  - name: origin/master
-    tracking: '[None]'
-  - name: origin/visualization_msgs
-    tracking: '[None]'
+  lastUpdatedAtString: 2019-08-19T11:33:16.341-04:00
+  initializedAtString: 2019-08-19T11:33:16.312-04:00
+  localBranches: []
+  remoteBranches: []
   remotes:
   - name: origin
-    url: https://github.com/faizan-m/arfuros.git
+    url: https://github.com/tufts-ai-robotics-group/arfuros.git
     login: 
     user: 
     host: 
     function: 0
     token: 
   localConfigBranches:
-    keys:
-    - SaveConfigPartTwo
-    - master
-    values:
-    - name: SaveConfigPartTwo
-      remote:
-        name: origin
-        url: https://github.com/faizan-m/arfuros.git
-      trackingBranch: SaveConfigPartTwo
-    - name: master
-      remote:
-        name: origin
-        url: https://github.com/faizan-m/arfuros.git
-      trackingBranch: master
+    keys: []
+    values: []
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
-    - Values:
-      - Hololens
-      - SaveConfigPartTwo
-      - latency_test
-      - master
-      - visualization_msgs
+    - Values: []
     subKeyValues:
-    - Values:
-      - name: Hololens
-        remote:
-          name: origin
-          url: https://github.com/faizan-m/arfuros.git
-        trackingBranch: 
-      - name: SaveConfigPartTwo
-        remote:
-          name: origin
-          url: https://github.com/faizan-m/arfuros.git
-        trackingBranch: 
-      - name: latency_test
-        remote:
-          name: origin
-          url: https://github.com/faizan-m/arfuros.git
-        trackingBranch: 
-      - name: master
-        remote:
-          name: origin
-          url: https://github.com/faizan-m/arfuros.git
-        trackingBranch: 
-      - name: visualization_msgs
-        remote:
-          name: origin
-          url: https://github.com/faizan-m/arfuros.git
-        trackingBranch: 
+    - Values: []
   configRemotes:
     keys:
     - origin
     values:
     - name: origin
-      url: https://github.com/faizan-m/arfuros.git
+      url: https://github.com/tufts-ai-robotics-group/arfuros.git

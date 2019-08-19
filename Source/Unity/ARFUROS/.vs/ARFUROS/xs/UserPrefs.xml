@@ -1,12 +1,16 @@
 ﻿<Properties StartupConfiguration="{86F92E7D-E906-15BC-CC9C-5B11A283356F}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PathProjector.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/RosSharp/Scripts/RosCommuncation/RosConnector.cs">
     <Files>
-      <File FileName="Assets/Scripts/StatusManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/StatusManager.cs" Line="42" Column="1" />
       <File FileName="Assets/Scripts/ButtonManager.cs" Line="16" Column="6" />
       <File FileName="Assets/Scripts/SettingsManager.cs" Line="69" Column="9" />
-      <File FileName="Assets/Scripts/CustomRosSharp/StringReceiver.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/CustomRosSharp/StringReceiver.cs" Line="17" Column="1" />
       <File FileName="Assets/Scripts/LoadMenuManager.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PathProjector.cs" Line="102" Column="1" />
+      <File FileName="Assets/Scripts/PathProjector.cs" Line="7" Column="45" />
+      <File FileName="Assets/Scripts/ExtrapolationManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/BlinkerController.cs" Line="1" Column="1" />
+      <File FileName="Assets/RosSharp/ROSBridgeClient/MessageTypes.cs" Line="1" Column="1" />
+      <File FileName="Assets/RosSharp/Scripts/RosCommuncation/RosConnector.cs" Line="18" Column="32" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

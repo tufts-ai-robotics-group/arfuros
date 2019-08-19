@@ -13,18 +13,48 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-07-01T15:35:42.610-04:00
-  initializedAtString: 2019-07-01T15:34:10.592-04:00
+  lastUpdatedAtString: 2019-08-19T11:33:56.041-04:00
+  initializedAtString: 2019-08-19T11:33:14.708-04:00
   entries:
+  - path: Source/Unity/ARFUROS/.vs/ARFUROS/xs/UserPrefs.xml
+    fullPath: /Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/.vs/ARFUROS/xs/UserPrefs.xml
+    projectPath: .vs/ARFUROS/xs/UserPrefs.xml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/assetDatabase3
+    fullPath: /Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/Library/assetDatabase3
+    projectPath: Library/assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/CurrentLayout.dwlt
+    fullPath: /Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/Library/CurrentLayout.dwlt
+    projectPath: Library/CurrentLayout.dwlt
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Source/Unity/ARFUROS/Library/EditorInstance.json
     fullPath: /Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/Library/EditorInstance.json
     projectPath: Library/EditorInstance.json
     originalPath: 
     status: 1
     staged: 0
+  - path: Source/Unity/ARFUROS/Library/gfu/cache/branches.yaml
+    fullPath: /Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/Library/gfu/cache/branches.yaml
+    projectPath: Library/gfu/cache/branches.yaml
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Source/Unity/ARFUROS/Library/gfu/cache/gitlocks.yaml
     fullPath: /Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/Library/gfu/cache/gitlocks.yaml
     projectPath: Library/gfu/cache/gitlocks.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source/Unity/ARFUROS/Library/gfu/cache/gitlog.yaml
+    fullPath: /Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/Library/gfu/cache/gitlog.yaml
+    projectPath: Library/gfu/cache/gitlog.yaml
     originalPath: 
     status: 3
     staged: 0
@@ -46,9 +76,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Source/Unity/ARFUROS/obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    fullPath: /Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    projectPath: obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+  - path: Source/Unity/ARFUROS/ProjectSettings/VFXManager.asset
+    fullPath: /Users/17dempsey/Desktop/SummerResearch2019/arfuros/Source/Unity/ARFUROS/ProjectSettings/VFXManager.asset
+    projectPath: ProjectSettings/VFXManager.asset
     originalPath: 
     status: 3
     staged: 0
