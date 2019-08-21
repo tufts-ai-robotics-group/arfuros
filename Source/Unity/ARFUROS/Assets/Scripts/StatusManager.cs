@@ -8,8 +8,6 @@ using Vuforia;
 
 public class StatusManager : MonoBehaviour {
 
-    public GameObject marker;
-
     public Text statusText;
     public HyperCubeTrackableEventHandler TrackerCube;
     public RosConnector rosConnection;
@@ -21,6 +19,7 @@ public class StatusManager : MonoBehaviour {
     public GameObject LocalizationParticles;
     public GameObject FullPath;
     public GameObject Blinker;
+    public GameObject Marker;
     private Subscriber[] scripts;
 
 	// Use this for initialization
@@ -66,13 +65,13 @@ public class StatusManager : MonoBehaviour {
         //addition of marker topic
         if (PlayerPrefs.GetInt("Marker", 1) == 1)
         {
-            marker.SetActive(true);
-            rosSubscriber("/visualization_marker", true); //the first parameter is either this, or "/visualization_msgs/Marker"
+            Marker.SetActive(true);
+            rosSubscriber("/marker_publish/visualization_marker", true); //the first parameter is either this, or "/visualization_msgs/Marker"
         }
         else
         {
-            marker.SetActive(false);
-            rosSubscriber("/visualization_marker", false);
+            Marker.SetActive(false);
+            rosSubscriber("/marker_publish/visualization_marker", false);
         }
 
 

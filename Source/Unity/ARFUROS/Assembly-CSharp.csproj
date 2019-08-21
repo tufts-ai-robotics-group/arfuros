@@ -103,6 +103,7 @@
      <Compile Include="Assets\Scripts\CustomRosSharp\BlinkerReceiver.cs" />
      <Compile Include="Assets\Scripts\CustomRosSharp\LaserScanReceiver.cs" />
      <Compile Include="Assets\Scripts\CustomRosSharp\MarkerReceiver.cs" />
+     <Compile Include="Assets\Scripts\CustomRosSharp\MarkerReceiver_P.cs" />
      <Compile Include="Assets\Scripts\CustomRosSharp\OccupancyGridReceiver.cs" />
      <Compile Include="Assets\Scripts\CustomRosSharp\PathReceiver.cs" />
      <Compile Include="Assets\Scripts\CustomRosSharp\PeopleReceiver.cs" />
@@ -115,6 +116,7 @@
      <Compile Include="Assets\Scripts\LocalizationProjector.cs" />
      <Compile Include="Assets\Scripts\LocalParticleRotation.cs" />
      <Compile Include="Assets\Scripts\MarkerProjector.cs" />
+     <Compile Include="Assets\Scripts\MarkerProjector_P.cs" />
      <Compile Include="Assets\Scripts\PathProjector.cs" />
      <Compile Include="Assets\Scripts\PeopleProjector.cs" />
      <Compile Include="Assets\Scripts\PrompterScript.cs" />
@@ -328,25 +330,25 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.2f1/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
  <Reference Include="MathNet.Numerics">
- <HintPath>C:/Users/AIRLAB/Downloads/arfuros-visualization_msgs/Source/Unity/ARFUROS/Assets/RosSharp/Plugins/MathNet.Numerics.dll</HintPath>
+ <HintPath>C:/Users/AIRLAB/Downloads/visualization_msgs/Source/Unity/ARFUROS/Assets/RosSharp/Plugins/MathNet.Numerics.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>C:/Users/AIRLAB/Downloads/arfuros-visualization_msgs/Source/Unity/ARFUROS/Assets/RosSharp/Plugins/Newtonsoft.Json.dll</HintPath>
+ <HintPath>C:/Users/AIRLAB/Downloads/visualization_msgs/Source/Unity/ARFUROS/Assets/RosSharp/Plugins/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="System.Threading">
- <HintPath>C:/Users/AIRLAB/Downloads/arfuros-visualization_msgs/Source/Unity/ARFUROS/Assets/RosSharp/Plugins/System.Threading.dll</HintPath>
+ <HintPath>C:/Users/AIRLAB/Downloads/visualization_msgs/Source/Unity/ARFUROS/Assets/RosSharp/Plugins/System.Threading.dll</HintPath>
  </Reference>
  <Reference Include="websocket-sharp">
- <HintPath>C:/Users/AIRLAB/Downloads/arfuros-visualization_msgs/Source/Unity/ARFUROS/Assets/RosSharp/Plugins/websocket-sharp.dll</HintPath>
+ <HintPath>C:/Users/AIRLAB/Downloads/visualization_msgs/Source/Unity/ARFUROS/Assets/RosSharp/Plugins/websocket-sharp.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>C:/Users/AIRLAB/Downloads/arfuros-visualization_msgs/Source/Unity/ARFUROS/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>C:/Users/AIRLAB/Downloads/visualization_msgs/Source/Unity/ARFUROS/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>C:/Users/AIRLAB/Downloads/arfuros-visualization_msgs/Source/Unity/ARFUROS/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/AIRLAB/Downloads/visualization_msgs/Source/Unity/ARFUROS/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>C:/Users/AIRLAB/Downloads/arfuros-visualization_msgs/Source/Unity/ARFUROS/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>C:/Users/AIRLAB/Downloads/visualization_msgs/Source/Unity/ARFUROS/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/2.0-api/mscorlib.dll</HintPath>

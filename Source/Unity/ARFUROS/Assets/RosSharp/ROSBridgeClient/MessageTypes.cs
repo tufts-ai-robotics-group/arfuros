@@ -16,6 +16,7 @@ limitations under the License.
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using UnityEngine; 
 
 namespace RosSharp.RosBridgeClient
 {
@@ -66,6 +67,7 @@ namespace RosSharp.RosBridgeClient
         public static Type MessageType(string rosMessageType)
         {
             Type messageType;
+            Debug.Log("Ros Message type is: " + rosMessageType);
             Dictionary.TryGetValue(rosMessageType, out messageType);
             return messageType;
         }

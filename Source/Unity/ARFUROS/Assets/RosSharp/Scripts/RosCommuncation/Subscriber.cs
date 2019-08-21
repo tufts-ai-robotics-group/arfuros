@@ -32,11 +32,13 @@ namespace RosSharp.RosBridgeClient
         private void Start()
         {
             rosSocket = GetComponent<RosConnector>().RosSocket;
+            //Debug.Log("Subscribing to " + Topic); 
             rosSocket.Subscribe(Topic, MessageTypes.RosMessageType(MessageReceiver.MessageType), Receive, timeStep);
         }
                
         private void Receive(Message message)
-        {            
+        {
+            Debug.Log("Receiving message from " + Topic); 
             MessageReceiver.RaiseMessageReception(new MessageEventArgs(message));
         }
     }

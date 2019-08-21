@@ -14,13 +14,12 @@ public class SettingsManager : MonoBehaviour {
     public Toggle LocalizationParticles;
     public Toggle FullPath;
     public Toggle Blinker;
-
     public Toggle Marker;
 
     public void updateMarker(bool newbool)
     {
         int val = newbool ? 1 : 0;
-        PlayerPrefs.SetInt("marker", val);
+        PlayerPrefs.SetInt("Marker", val);
     }
 
     public void updateIP(string newstring)

@@ -114,7 +114,6 @@ namespace RosSharp.RosBridgeClient
 
 
 
-
     public class BlinkerMsg : Message
     {
         public string path;

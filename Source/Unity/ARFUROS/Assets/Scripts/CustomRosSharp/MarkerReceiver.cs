@@ -38,6 +38,7 @@ namespace RosSharp.RosBridgeClient
 
         private void ReceiveMessage(object sender, MessageEventArgs e)
         {
+            Debug.Log("Received message for marker"); 
             rawMessage = (Marker)e.Message;
             UpdateValues();
         }

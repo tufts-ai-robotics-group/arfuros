@@ -71,7 +71,7 @@ public class MarkerProjector : MonoBehaviour
         // So what I want to do here is to take the marker data and create a GameObject
         // (or maybe a prefab??) and make it the passed marker, and place it correctly
 
-        Debug.Log("MarkerProjector Display");
+        //Debug.Log("MarkerProjector Display");
 
         //SetColor();
         //rend = GetComponent<Renderer>();
