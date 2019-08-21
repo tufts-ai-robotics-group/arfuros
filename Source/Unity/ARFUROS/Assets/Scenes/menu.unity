@@ -3307,7 +3307,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1154941218}
-        m_MethodName: updateBlinker
+        m_MethodName: updateMarker
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3981,7 +3981,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2093938685}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!124 &2093938687
 Behaviour:
   m_ObjectHideFlags: 0

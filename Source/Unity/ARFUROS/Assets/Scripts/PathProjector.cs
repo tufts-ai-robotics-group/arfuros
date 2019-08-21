@@ -92,28 +92,31 @@ public class PathProjector : MonoBehaviour {
 	// Changes colors of indvidual particles for loading effect 
 	void ColorChanger (){
 
-		if(colorCount > (message.numPoints - 1)) // Loop back over array 
-		{
-			colorCount = 0;
-		}
+        if (message.numPoints != 0)
+        {
+            if (colorCount > (message.numPoints - 1)) // Loop back over array 
+            {
+                colorCount = 0;
+            }
 
-		if (colorCount == 0)
-		{
-			particles[message.numPoints - 1].startColor = Color.yellow;
-			particles[message.numPoints - 1].startSize = 0.06f;
-		}
-		else 
-		{
-			particles[colorCount - 1].startColor = Color.yellow;
-			particles[colorCount - 1].startSize = 0.06f;
-		}
-		
-		particles[colorCount].startColor = Color.white;
-		particles[colorCount].startSize = 0.13f;
-		mySystem.SetParticles(particles, particles.Length);
-		colorCount++;
+            if (colorCount == 0)
+            {
+                particles[message.numPoints - 1].startColor = Color.yellow;
+                particles[message.numPoints - 1].startSize = 0.06f;
+            }
+            else
+            {
+                particles[colorCount - 1].startColor = Color.yellow;
+                particles[colorCount - 1].startSize = 0.06f;
+            }
 
-	}
+            particles[colorCount].startColor = Color.white;
+            particles[colorCount].startSize = 0.13f;
+            mySystem.SetParticles(particles, particles.Length);
+            colorCount++;
+        }
+
+    }
 
     
 }

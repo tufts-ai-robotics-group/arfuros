@@ -14,7 +14,9 @@ public class MarkerProjector : MonoBehaviour
    
     public MarkerReceiver message;
     //public Renderer rend;
-    public Material mat;
+
+        // Commented out the material to stop a NullReference error 
+    //public Material mat;
 
     public GameObject mkr;
 
@@ -83,12 +85,12 @@ public class MarkerProjector : MonoBehaviour
                           (byte)(message.color.a * 255));
                           */
 
-        mat.SetColor("_Color", (new Color32((byte)(message.color.r * 255),
-                          (byte)(message.color.g * 255),
-                          (byte)(message.color.b * 255),
-                          (byte)(message.color.a * 255))));
+        //mat.SetColor("_Color", (new Color32((byte)(message.color.r * 255),
+        //                  (byte)(message.color.g * 255),
+        //                  (byte)(message.color.b * 255),
+        //                  (byte)(message.color.a * 255))));
 
-        mkr.GetComponent<Renderer>().material = mat;
+        //mkr.GetComponent<Renderer>().material = mat;
 
 
         //set pose
