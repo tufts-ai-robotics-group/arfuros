@@ -21,7 +21,7 @@ namespace RosSharp.RosBridgeClient
         public Vector3 pose; //I'm not sure which values I have to update/change in this file
         public Vector3 scale;
         public ColorRGBA color;
-        public int lifetime; 
+        public Duration lifetime; 
         public bool frame_locked;
         public GeometryPoint[] points;
         public ColorRGBA[] colors;
@@ -40,7 +40,7 @@ namespace RosSharp.RosBridgeClient
         {
             Debug.Log("Received message for marker"); 
             rawMessage = (Marker)e.Message;
-            UpdateValues();
+            //UpdateValues();
         }
 
 
@@ -50,22 +50,22 @@ namespace RosSharp.RosBridgeClient
             //not sure what to do about all the uints
             Debug.Log("Received marker message");
 
-            arrow = rawMessage.ARROW;
-            cube = rawMessage.CUBE;
-            sphere = rawMessage.SPHERE;
-            cylinder = rawMessage.CYLINDER;
-            linestrip = rawMessage.LINE_STRIP;
-            linelist = rawMessage.LINE_LIST;
-            cubelist = rawMessage.CUBE_LIST;
-            spherelist = rawMessage.SPHERE_LIST;
-            points_int = rawMessage.POINTS;
-            textviewfacing = rawMessage.TEXT_VIEW_FACING;
-            meshresource = rawMessage.MESH_RESOURCE;
-            trianglelist = rawMessage.TRIANGLE_LIST;
-            add = rawMessage.ADD;
-            modify = rawMessage.MODIFY;
-            delete = rawMessage.DELETE;
-            deleteall = rawMessage.DELETE_ALL;
+            //arrow = rawMessage.ARROW;
+            //cube = rawMessage.CUBE;
+            //sphere = rawMessage.SPHERE;
+            //cylinder = rawMessage.CYLINDER;
+            //linestrip = rawMessage.LINE_STRIP;
+            //linelist = rawMessage.LINE_LIST;
+            //cubelist = rawMessage.CUBE_LIST;
+            //spherelist = rawMessage.SPHERE_LIST;
+            //points_int = rawMessage.POINTS;
+            //textviewfacing = rawMessage.TEXT_VIEW_FACING;
+            //meshresource = rawMessage.MESH_RESOURCE;
+            //trianglelist = rawMessage.TRIANGLE_LIST;
+            //add = rawMessage.ADD;
+            //modify = rawMessage.MODIFY;
+            //delete = rawMessage.DELETE;
+            //deleteall = rawMessage.DELETE_ALL;
 
             ns = rawMessage.ns;
             id = rawMessage.id;
@@ -73,13 +73,13 @@ namespace RosSharp.RosBridgeClient
             action = rawMessage.action;
 
             //set pose of marker (xyz location)
-            pose = new Vector3(rawMessage.pose.pose.position.x,
-            rawMessage.pose.pose.position.y, rawMessage.pose.pose.position.z);
+            pose = new Vector3(rawMessage.pose.position.x,
+            rawMessage.pose.position.y, rawMessage.pose.position.z);
 
             //set orientation of marker
-            orientation = new Quaternion(rawMessage.pose.pose.orientation.x,
-                rawMessage.pose.pose.orientation.y, rawMessage.pose.pose.orientation.z,
-                rawMessage.pose.pose.orientation.w);
+            orientation = new Quaternion(rawMessage.pose.orientation.x,
+                rawMessage.pose.orientation.y, rawMessage.pose.orientation.z,
+                rawMessage.pose.orientation.w);
 
             //set scale of marker
             scale = new Vector3(rawMessage.scale.x, rawMessage.scale.y, rawMessage.scale.z); 

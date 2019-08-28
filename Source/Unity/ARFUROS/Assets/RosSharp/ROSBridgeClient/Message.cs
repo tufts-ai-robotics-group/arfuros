@@ -26,10 +26,17 @@ namespace RosSharp.RosBridgeClient
         }
     }
 
+    public class Duration
+    {
+        public int sec;
+        public int nsec;
+
+    }
+
     //added to visualize markers
     public class Marker : Message
     {
-        public uint ARROW;
+        /*public uint ARROW;
         public uint CUBE;
         public uint SPHERE;
         public uint CYLINDER;
@@ -44,16 +51,16 @@ namespace RosSharp.RosBridgeClient
         public uint ADD;
         public uint MODIFY;
         public uint DELETE;
-        public uint DELETE_ALL;
+        public uint DELETE_ALL;*/
         public StandardHeader header;
         public string ns;
         public int id;
         public int type;
         public int action;
-        public GeometryPoseWithCovariance pose;
+        public GeometryPose pose;
         public GeometryVector3 scale;
         public ColorRGBA color;
-        public int lifetime; //according to the ros wiki, this variable type is a signed 32-bit int
+        public Duration lifetime; //according to the ros wiki, this variable type is a signed 32-bit int
         public bool frame_locked;
         public GeometryPoint[] points;
         public ColorRGBA[] colors;
@@ -63,7 +70,7 @@ namespace RosSharp.RosBridgeClient
          
         public Marker()
         {
-            ARROW = 0;
+            /*ARROW = 0;
             CUBE = 1;
             SPHERE = 2;
             CYLINDER = 3;
@@ -78,16 +85,16 @@ namespace RosSharp.RosBridgeClient
             ADD = 0;
             MODIFY = 0;
             DELETE = 2;
-            DELETE_ALL = 3;
+            DELETE_ALL = 3;*/
             header = new StandardHeader();
             ns = "";
             id = 0;
             type = 0;
             action = 0;
-            pose = new GeometryPoseWithCovariance();
+            pose = new GeometryPose();
             scale = new GeometryVector3();
             color = new ColorRGBA();
-            lifetime = 0; //0 means forever
+            lifetime = new Duration(); //0 means forever
             frame_locked = false;
             points = new GeometryPoint[0]; //I think this may be wrong
             colors = new ColorRGBA[0]; //I don't know what the arrays should be init to

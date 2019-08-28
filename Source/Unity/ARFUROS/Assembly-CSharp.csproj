@@ -103,7 +103,6 @@
      <Compile Include="Assets\Scripts\CustomRosSharp\BlinkerReceiver.cs" />
      <Compile Include="Assets\Scripts\CustomRosSharp\LaserScanReceiver.cs" />
      <Compile Include="Assets\Scripts\CustomRosSharp\MarkerReceiver.cs" />
-     <Compile Include="Assets\Scripts\CustomRosSharp\MarkerReceiver_P.cs" />
      <Compile Include="Assets\Scripts\CustomRosSharp\OccupancyGridReceiver.cs" />
      <Compile Include="Assets\Scripts\CustomRosSharp\PathReceiver.cs" />
      <Compile Include="Assets\Scripts\CustomRosSharp\PeopleReceiver.cs" />
