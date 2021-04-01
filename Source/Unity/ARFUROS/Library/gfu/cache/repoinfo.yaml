@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 61
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -12,11 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-06-13T15:21:49.367-04:00
-  initializedAtString: 2019-06-13T15:21:49.367-04:00
+  lastUpdatedAtString: 2021-03-31T19:11:26.988-04:00
+  initializedAtString: 2021-03-31T19:11:26.988-04:00
   currentGitRemote:
     name: origin
-    url: https://github.com/faizan-m/arfuros.git
+    url: https://github.com/tufts-ai-robotics-group/arfuros.git
     login: 
     user: 
     host: 
@@ -29,9 +30,9 @@ MonoBehaviour:
     name: master
     remote:
       name: origin
-      url: https://github.com/faizan-m/arfuros.git
+      url: https://github.com/tufts-ai-robotics-group/arfuros.git
     trackingBranch: master
   currentConfigRemote:
     name: origin
-    url: https://github.com/faizan-m/arfuros.git
+    url: https://github.com/tufts-ai-robotics-group/arfuros.git
   currentHead: 
