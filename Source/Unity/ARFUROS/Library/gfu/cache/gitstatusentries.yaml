@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 61
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -12,6 +13,282 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2019-06-13T15:21:53.083-04:00
-  initializedAtString: 2019-06-13T15:21:53.083-04:00
-  entries: []
+  lastUpdatedAtString: 2021-04-07T22:38:28.792-04:00
+  initializedAtString: 2021-04-07T22:38:28.792-04:00
+  entries:
+  - path: Source\Unity\ARFUROS\Assets\Graphics\backgrounds\geometric.jpeg.meta
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Assets\Graphics\backgrounds\geometric.jpeg.meta
+    projectPath: Assets\Graphics\backgrounds\geometric.jpeg.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Graphics\backgrounds\graphy.png.meta
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Assets\Graphics\backgrounds\graphy.png.meta
+    projectPath: Assets\Graphics\backgrounds\graphy.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Graphics\backgrounds\graphy_@2X.png.meta
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Assets\Graphics\backgrounds\graphy_@2X.png.meta
+    projectPath: Assets\Graphics\backgrounds\graphy_@2X.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Graphics\backgrounds\stars.jpg.meta
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Assets\Graphics\backgrounds\stars.jpg.meta
+    projectPath: Assets\Graphics\backgrounds\stars.jpg.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Graphics\icons\LogoIcon.png.meta
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Assets\Graphics\icons\LogoIcon.png.meta
+    projectPath: Assets\Graphics\icons\LogoIcon.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Graphics\illustrations\cross.png.meta
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Assets\Graphics\illustrations\cross.png.meta
+    projectPath: Assets\Graphics\illustrations\cross.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Graphics\illustrations\gears.png.meta
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Assets\Graphics\illustrations\gears.png.meta
+    projectPath: Assets\Graphics\illustrations\gears.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Images\ask-question.png.meta
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Assets\Images\ask-question.png.meta
+    projectPath: Assets\Images\ask-question.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Images\coloredQuestion.gif.meta
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Assets\Images\coloredQuestion.gif.meta
+    projectPath: Assets\Images\coloredQuestion.gif.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Images\DarkRed.png.meta
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Assets\Images\DarkRed.png.meta
+    projectPath: Assets\Images\DarkRed.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Images\downArrow.png.meta
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Assets\Images\downArrow.png.meta
+    projectPath: Assets\Images\downArrow.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Images\grayBackground.jpg.meta
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Assets\Images\grayBackground.jpg.meta
+    projectPath: Assets\Images\grayBackground.jpg.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Images\info.png.meta
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Assets\Images\info.png.meta
+    projectPath: Assets\Images\info.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Images\left.png.meta
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Assets\Images\left.png.meta
+    projectPath: Assets\Images\left.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Images\questionmark.png.meta
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Assets\Images\questionmark.png.meta
+    projectPath: Assets\Images\questionmark.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Images\red_background.jpg.meta
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Assets\Images\red_background.jpg.meta
+    projectPath: Assets\Images\red_background.jpg.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Images\right.png.meta
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Assets\Images\right.png.meta
+    projectPath: Assets\Images\right.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Images\upArrow.png.meta
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Assets\Images\upArrow.png.meta
+    projectPath: Assets\Images\upArrow.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Images\WarningSign.png.meta
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Assets\Images\WarningSign.png.meta
+    projectPath: Assets\Images\WarningSign.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Images\xmark.png.meta
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Assets\Images\xmark.png.meta
+    projectPath: Assets\Images\xmark.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Resources\VuforiaModels.meta
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Assets\Resources\VuforiaModels.meta
+    projectPath: Assets\Resources\VuforiaModels.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Resources\VuforiaModels\VuforiaMars_ModelTarget.meta
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Assets\Resources\VuforiaModels\VuforiaMars_ModelTarget.meta
+    projectPath: Assets\Resources\VuforiaModels\VuforiaMars_ModelTarget.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Resources\VuforiaModels\VuforiaMars_ModelTarget\VuforiaMars_ModelTarget.meta
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Assets\Resources\VuforiaModels\VuforiaMars_ModelTarget\VuforiaMars_ModelTarget.meta
+    projectPath: Assets\Resources\VuforiaModels\VuforiaMars_ModelTarget\VuforiaMars_ModelTarget.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Resources\VuforiaModels\VuforiaMars_ModelTarget\VuforiaMars_ModelTarget\Materials.meta
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Assets\Resources\VuforiaModels\VuforiaMars_ModelTarget\VuforiaMars_ModelTarget\Materials.meta
+    projectPath: Assets\Resources\VuforiaModels\VuforiaMars_ModelTarget\VuforiaMars_ModelTarget\Materials.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Resources\VuforiaModels\VuforiaMars_ModelTarget\VuforiaMars_ModelTarget\Meshes.meta
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Assets\Resources\VuforiaModels\VuforiaMars_ModelTarget\VuforiaMars_ModelTarget\Meshes.meta
+    projectPath: Assets\Resources\VuforiaModels\VuforiaMars_ModelTarget\VuforiaMars_ModelTarget\Meshes.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Scripts\CustomRosSharp\PointCloudReceiver.cs.meta
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Assets\Scripts\CustomRosSharp\PointCloudReceiver.cs.meta
+    projectPath: Assets\Scripts\CustomRosSharp\PointCloudReceiver.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Scripts\PointCloud_Projector.cs.meta
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Assets\Scripts\PointCloud_Projector.cs.meta
+    projectPath: Assets\Scripts\PointCloud_Projector.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Assets\Vuforia\Scripts\Internal.meta
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Assets\Vuforia\Scripts\Internal.meta
+    projectPath: Assets\Vuforia\Scripts\Internal.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\AssetImportState
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Library\AssetImportState
+    projectPath: Library\AssetImportState
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\EditorUserBuildSettings.asset
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Library\EditorUserBuildSettings.asset
+    projectPath: Library\EditorUserBuildSettings.asset
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll.mdb
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll.mdb
+    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll.mdb
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\ScriptAssemblies\Unity.TextMeshPro.dll.mdb
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Library\ScriptAssemblies\Unity.TextMeshPro.dll.mdb
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll.mdb
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll.mdb
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll.mdb
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll.mdb
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\ScriptAssemblies\UnityEditor.StandardEvents.dll
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Library\ScriptAssemblies\UnityEditor.StandardEvents.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.StandardEvents.dll
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\ScriptAssemblies\UnityEditor.StandardEvents.dll.mdb
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Library\ScriptAssemblies\UnityEditor.StandardEvents.dll.mdb
+    projectPath: Library\ScriptAssemblies\UnityEditor.StandardEvents.dll.mdb
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\ScriptMapper
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Library\ScriptMapper
+    projectPath: Library\ScriptMapper
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Packages\manifest.json
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Packages\manifest.json
+    projectPath: Packages\manifest.json
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\Packages\packages-lock.json
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\Packages\packages-lock.json
+    projectPath: Packages\packages-lock.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\ProjectSettings\PackageManagerSettings.asset
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\ProjectSettings\PackageManagerSettings.asset
+    projectPath: ProjectSettings\PackageManagerSettings.asset
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\ProjectSettings\ProjectVersion.txt
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\ProjectSettings\ProjectVersion.txt
+    projectPath: ProjectSettings\ProjectVersion.txt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Source\Unity\ARFUROS\ProjectSettings\VFXManager.asset
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\ProjectSettings\VFXManager.asset
+    projectPath: ProjectSettings\VFXManager.asset
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Source\Unity\ARFUROS\ProjectSettings\XRSettings.asset
+    fullPath: C:\Users\AClea\Documents\GitHub\arfuros\Source\Unity\ARFUROS\ProjectSettings\XRSettings.asset
+    projectPath: ProjectSettings\XRSettings.asset
+    originalPath: 
+    status: 1
+    staged: 0

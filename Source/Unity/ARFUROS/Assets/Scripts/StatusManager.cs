@@ -3,13 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using Vuforia;
+//using Vuforia;
 
 
 public class StatusManager : MonoBehaviour {
 
     public Text statusText;
-    public HyperCubeTrackableEventHandler TrackerCube;
+    //public HyperCubeTrackableEventHandler TrackerCube;
     public RosConnector rosConnection;
     public GameObject laserScan;
     public GameObject globalPlan;
@@ -24,7 +24,8 @@ public class StatusManager : MonoBehaviour {
 	// Use this for initialization
 	void Awake () {
         statusText.text = "Initializing...";
-        rosConnection.RosBridgeServerUrl = "ws://" + PlayerPrefs.GetString("IP", "192.168.1.1") + ":9090";
+     //   rosConnection.RosBridgeServerUrl = "ws://" + PlayerPrefs.GetString("IP", "192.168.1.1") + ":9090";
+        rosConnection.RosBridgeServerUrl = "ws://" + PlayerPrefs.GetString("IP", "10.0.0.50") + ":9090";
 
         // Initialize array for rosconnections
         scripts = new Subscriber[0];
@@ -35,7 +36,7 @@ public class StatusManager : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-        checkTracker();
+        //checkTracker();
         //controlExtendedTracking();
         implementPreferences();
 	}
@@ -45,6 +46,7 @@ public class StatusManager : MonoBehaviour {
         statusText.text = message;
     }
 
+    /*
     void checkTracker()
     {
         if (TrackerCube.isTracked) {
@@ -58,6 +60,8 @@ public class StatusManager : MonoBehaviour {
             displayStatus("HyperCube Not Found");
         }
     }
+
+    */
 
     void implementPreferences()
     {

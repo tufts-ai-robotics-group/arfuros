@@ -65,8 +65,10 @@ public class SettingsManager : MonoBehaviour {
     {
         // Load in the values
         // if keys in player pref are not present, set default values
-        IPAddress.text = PlayerPrefs.GetString("IP", "192.168.1.1");
-        
+        //IPAddress.text = PlayerPrefs.GetString("IP", "192.168.1.1");
+
+        IPAddress.text = PlayerPrefs.GetString("IP", "10.0.0.50");
+
         if (PlayerPrefs.GetInt("LaserScan", 1) == 1)
             LaserScan.isOn = true ;
         else 
