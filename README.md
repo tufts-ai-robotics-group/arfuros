@@ -1,5 +1,21 @@
 # Augmented Reality Framework in Unity for ROS
 
+## Installing to the Hololens 2 Notes
+1. This project first was upgraded to Unity 2019.4, then following HoloLens 2 Marker Tracking with Vuforia Engine and MRTK [guide](https://arvrjourney.com/hololens-2-marker-tracking-with-vuforia-engine-and-mrtk-fb582c8f8ac0) from Madhawa Perera.
+2. Install the Vuforia Engine Package from Git URL, git+https://git-packages.developer.vuforia.com#9.7.4
+3. Install the MRTK foundation package, [MRTK Foundation](https://github.com/microsoft/MixedRealityToolkit-Unity/releases/download/v2.5.4/Microsoft.MixedReality.Toolkit.Unity.Foundation.2.5.4.unitypackage).
+4. May have to delete the plugins folder containing subfolders Android and Github.
+5. Deleteed the System.Threading.dll file found within ROSConnector
+6. Deleted the Vuforia Folder and commented out vuforia lines within c sharp scripts.
+7. User Interface has to change to work with the HoloLens2 MRTK (Could not interact with current UI)
+8. Hardcoded the IP address to test if connection is possible, need to also change the inputfield on the new UI
+9. Deleted the AR Camera and used the main camera within the MRTK scene and added the Vuforia Behavior script.
+10. Updated the Vuforia Licence
+
+
+
+
+
 ## Introduction
 
 This package contains the Unity project and other materials associated with the Augmented Reality framework being developed at Autonomous Intelligent Robotics Lab at Tufts University. This repository has 2 branches; master contains code for 2D devices (iPads, Android phones etc.) and hololens contains code for Microsoft Hololens that implements the interface in 3d. The ROS code for the robot end can be found [here](https://github.com/faizan-m/arfuros_ros).
