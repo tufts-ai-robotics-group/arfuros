@@ -3,8 +3,9 @@
 --- !u!114 &1
 MonoBehaviour:
   m_ObjectHideFlags: 61
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -12,63 +13,39 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2018-07-26T18:06:48.085-04:00
-  initializedAtString: 2018-07-26T18:06:48.064-04:00
-  localBranches:
-  - name: Hololens
-    tracking: origin/Hololens
-  - name: master
-    tracking: origin/master
+  lastUpdatedAtString: 2021-09-23T18:30:45.920-04:00
+  initializedAtString: 2021-09-23T18:30:45.865-04:00
+  localBranches: []
   remoteBranches:
-  - name: origin/Hololens
-    tracking: '[None]'
-  - name: origin/master
+  - name: origin/HEAD
     tracking: '[None]'
   remotes:
   - name: origin
-    url: https://github.com/faizan-m/arfuros.git
+    url: https://github.com/tufts-ai-robotics-group/arfuros.git
     login: 
     user: 
     host: 
     function: 0
     token: 
   localConfigBranches:
-    keys:
-    - Hololens
-    - master
-    values:
-    - name: Hololens
-      remote:
-        name: origin
-        url: https://github.com/faizan-m/arfuros.git
-      trackingBranch: Hololens
-    - name: master
-      remote:
-        name: origin
-        url: https://github.com/faizan-m/arfuros.git
-      trackingBranch: master
+    keys: []
+    values: []
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
-      - Hololens
-      - master
+      - HEAD
     subKeyValues:
     - Values:
-      - name: Hololens
+      - name: HEAD
         remote:
           name: origin
-          url: https://github.com/faizan-m/arfuros.git
-        trackingBranch: 
-      - name: master
-        remote:
-          name: origin
-          url: https://github.com/faizan-m/arfuros.git
+          url: https://github.com/tufts-ai-robotics-group/arfuros.git
         trackingBranch: 
   configRemotes:
     keys:
     - origin
     values:
     - name: origin
-      url: https://github.com/faizan-m/arfuros.git
+      url: https://github.com/tufts-ai-robotics-group/arfuros.git

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2021-09-23T16:35:55.047-04:00
-  initializedAtString: 2021-09-23T16:35:55.047-04:00
+  lastUpdatedAtString: 2021-09-23T18:36:36.747-04:00
+  initializedAtString: 2021-09-23T18:36:36.747-04:00
   currentGitRemote:
     name: origin
     url: https://github.com/tufts-ai-robotics-group/arfuros.git
@@ -24,14 +24,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: master
-    tracking: origin/master
+    name: Android
+    tracking: origin/Android
   currentConfigBranch:
-    name: master
+    name: Android
     remote:
       name: origin
       url: https://github.com/tufts-ai-robotics-group/arfuros.git
-    trackingBranch: master
+    trackingBranch: Android
   currentConfigRemote:
     name: origin
     url: https://github.com/tufts-ai-robotics-group/arfuros.git
